@@ -1,8 +1,7 @@
 const DB = require('../../common/inMemoryDB.js');
 
-const getAll = async () => {
-  // TODO: mock implementation. should be replaced during task development
-  return DB;
-};
+const getAll = async () => DB;
 
-module.exports = { getAll };
+const get = async id => DB.filter(el => el.id === id)[0];
+
+module.exports = { getAll, get };

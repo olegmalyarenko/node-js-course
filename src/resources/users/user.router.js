@@ -9,9 +9,13 @@ router.route('/').get(async (req, res) => {
 });
 
 router.route('/:id').get(async (req, res) => {
-  const user = await usersService.get(req.params.id);
-  // map user fields to exclude secret fields like "password"
-  res.json(User.toResponse(user));
+  try {
+    const user = await usersService.get(req.params.id);
+
+    res.json(User.toResponse(user));
+  } catch (e) {
+    res.status(404).send(e.message);
+  }
 });
 
 router.route('/').post(async (req, res) => {
@@ -24,6 +28,16 @@ router.route('/').post(async (req, res) => {
   );
 
   res.json(User.toResponse(user));
+});
+
+router.route('/:id').put(async (req, res) => {
+  try {
+    const user = await usersService.update(req.body, req.params.id);
+    console.log('Нью юзерс', user);
+    res.json(User.toResponse(user));
+  } catch (e) {
+    res.status(404).send(e.message);
+  }
 });
 
 module.exports = router;

@@ -15,10 +15,6 @@ const createUser = async user => {
 
 const updateUser = async (user, id) => {
   const currentIndex = DB.findIndex(el => el.id === id);
-  console.log(` currentIndex: ${currentIndex}`);
-  // let currerntUser = DB.filter(el => el.id === id)[0];
-  // console.log(` User: ${user.name}, ${user.login}, ${user.password}`);
-  // console.log(` User: ${currerntUser}`);
   const newUser = new User({
     id,
     login: user.login,
@@ -29,4 +25,10 @@ const updateUser = async (user, id) => {
 
   return newUser;
 };
-module.exports = { getAllUsers, getUser, createUser, updateUser };
+
+const removeUser = async id => {
+  const currentIndex = DB.findIndex(el => el.id === id);
+  return DB.splice(currentIndex, 1);
+};
+
+module.exports = { getAllUsers, getUser, createUser, updateUser, removeUser };

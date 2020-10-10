@@ -17,7 +17,7 @@ for (let i = 0; i < DB.users.length; i++) {
   DB.tasks[i].userId = DB.users[i].id;
   DB.tasks[i].boardId = DB.boards[i].id;
 }
-console.log('DB', DB.tasks);
+// console.log('DB', DB.tasks);
 
 const getAll = async val => {
   if (val === 'users') {
@@ -29,6 +29,11 @@ const getAll = async val => {
   if (val === 'tasks') {
     return DB.tasks.slice(0);
   }
+};
+
+const getAllTasks = async id => {
+  console.log('TASK ID', id);
+  return DB.tasks.filter(el => el.boardId === id);
 };
 // const getAllBoards = async () => DB.boards.slice(0);
 
@@ -126,6 +131,7 @@ const remove = async (id, val) => {
 
 module.exports = {
   getAll,
+  getAllTasks,
   get,
   create,
   update,

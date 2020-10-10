@@ -22,7 +22,7 @@ app.use('/', (req, res, next) => {
 
 app.use('/users', userRouter);
 app.use('/boards', boardRouter);
-app.use('/tasks', taskRouter);
+boardRouter.use('/:id/tasks', taskRouter);
 
 app.use((err, req, res, next) => {
   console.err(err.stack);

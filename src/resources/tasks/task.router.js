@@ -1,15 +1,14 @@
-const router = require('express').Router();
+const router = require('express').Router({ mergeParams: true });
 const Task = require('./task.model.js');
 const tasksService = require('./task.service.js');
 
-const val = 'tasks';
-
 router.route('/').get(async (req, res) => {
-  const tasks = await tasksService.getAll(val);
+  console.log(req.params.id);
+  const tasks = await tasksService.getAll(req.params.id);
   res.json(tasks.map(Task.toResponse));
 });
 
-router.route('/:id').get(async (req, res) => {
+/* router.route('/:id').get(async (req, res) => {
   try {
     const task = await tasksService.get(req.params.id, val);
 
@@ -44,5 +43,5 @@ router.route('/:id').delete(async (req, res) => {
   } catch (e) {
     res.status(404).send(e.message);
   }
-});
+});*/
 module.exports = router;

@@ -1,8 +1,8 @@
 const DB = require('../../common/inMemoryDB.js');
 
-const getAll = async val => DB.getAll(val);
+const getAll = async id => DB.getAllTasks(id);
 
-const get = async (id, val) => {
+/* const get = async (id, val) => {
   const task = await DB.get(id, val);
 
   if (!task) {
@@ -16,6 +16,6 @@ const create = async (item, val) => DB.create(item, val);
 
 const update = async (item, id, val) => DB.update(item, id, val);
 
-const remove = async (id, val) => DB.remove(id, val);
+const remove = async (id, val) => DB.remove(id, val);*/
 
-module.exports = { getAll, get, create, update, remove };
+module.exports = { getAll };

@@ -13,9 +13,26 @@ for (let i = 0; i < 6; i++) {
 
 console.log('DB', DB);
 
-const getAllUsers = async () => DB.users.slice(0);
-const getAllBoards = async () => DB.boards.slice(0);
-const getUser = async id => DB.users.filter(el => el.id === id)[0];
+const getAll = async val => {
+  if (val === 'users') {
+    return DB.users.slice(0);
+  }
+  if (val === 'boards') {
+    return DB.boards.slice(0);
+  }
+};
+// const getAllBoards = async () => DB.boards.slice(0);
+
+const get = async (id, val) => {
+  if (val === 'users') {
+    return DB.users.filter(el => el.id === id)[0];
+  }
+
+  if (val === 'boards') {
+    return DB.boards.filter(el => el.id === id)[0];
+  }
+};
+// const getBoard = async id => DB.boards.filter(el => el.id === id)[0];
 
 const createUser = async user => {
   DB.users.push(user);
@@ -41,10 +58,9 @@ const removeUser = async id => {
 };
 
 module.exports = {
-  getAllUsers,
-  getUser,
+  getAll,
+  get,
   createUser,
   updateUser,
-  removeUser,
-  getAllBoards
+  removeUser
 };

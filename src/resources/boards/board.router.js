@@ -2,23 +2,25 @@ const router = require('express').Router();
 const Board = require('./board.model.js');
 const boardsService = require('./board.service.js');
 
+const val = 'boards';
+
 router.route('/').get(async (req, res) => {
-  const boards = await boardsService.getAll();
+  const boards = await boardsService.getAll(val);
   console.log('BOARDS', boards);
   // map user fields to exclude secret fields like "password"
   res.json(boards.map(Board.toResponse));
 });
 
-/* router.route('/:id').get(async (req, res) => {
+router.route('/:id').get(async (req, res) => {
   try {
-    const user = await usersService.get(req.params.id);
+    const board = await boardsService.get(req.params.id, val);
 
-    res.status(200).json(User.toResponse(user));
+    res.status(200).json(Board.toResponse(board));
   } catch (e) {
     res.status(404).send(e.message);
   }
 });
-
+/*
 router.route('/').post(async (req, res) => {
   const user = await usersService.create(
     new User({

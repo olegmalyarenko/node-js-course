@@ -1,9 +1,9 @@
 const DB = require('../../common/inMemoryDB.js');
 
-const getAll = async () => DB.getAllUsers();
+const getAll = async val => DB.getAll(val);
 
-const get = async id => {
-  const user = await DB.getUser(id);
+const get = async (id, val) => {
+  const user = await DB.get(id, val);
 
   if (!user) {
     throw new Error(`The user with id: ${id} was not found`);

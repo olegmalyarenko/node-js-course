@@ -1,13 +1,13 @@
 const boardsRepo = require('./board.memory.repository');
 
-const getAll = () => boardsRepo.getAll();
+const getAll = val => boardsRepo.getAll(val);
 
-/* const get = id => usersRepo.get(id);
+const get = (id, val) => boardsRepo.get(id, val);
 
-const create = user => usersRepo.create(user);
+/* const create = user => usersRepo.create(user);
 
 const update = (user, id) => usersRepo.update(user, id);
 
 const remove = id => usersRepo.remove(id);*/
 
-module.exports = { getAll };
+module.exports = { getAll, get };

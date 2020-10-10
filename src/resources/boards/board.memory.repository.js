@@ -13,9 +13,9 @@ const get = async (id, val) => {
 };
 
 const create = async (item, val) => DB.create(item, val);
-/*
-const update = async (user, id) => DB.updateUser(user, id);
 
+const update = async (item, id, val) => DB.update(item, id, val);
+/*
 const remove = async id => DB.removeUser(id);*/
 
-module.exports = { getAll, get, create };
+module.exports = { getAll, get, create, update };

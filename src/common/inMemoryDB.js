@@ -46,17 +46,31 @@ const create = async (item, val) => {
   }
 };
 
-const updateUser = async (user, id) => {
-  const currentIndex = DB.users.findIndex(el => el.id === id);
-  const newUser = new User({
-    id,
-    login: user.login,
-    password: user.password,
-    name: user.name
-  });
-  DB.users.splice(currentIndex, 1, newUser);
+const update = async (item, id, val) => {
+  if (val === 'users') {
+    const currentIndex = DB.users.findIndex(el => el.id === id);
+    const newUser = new User({
+      id,
+      login: item.login,
+      password: item.password,
+      name: item.name
+    });
+    DB.users.splice(currentIndex, 1, newUser);
 
-  return newUser;
+    return newUser;
+  }
+
+  if (val === 'boards') {
+    const currentIndex = DB.boards.findIndex(el => el.id === id);
+    const newBoard = new Board({
+      id,
+      title: item.title,
+      columns: [...item.columns]
+    });
+    DB.boards.splice(currentIndex, 1, newBoard);
+
+    return newBoard;
+  }
 };
 
 const removeUser = async id => {
@@ -68,6 +82,6 @@ module.exports = {
   getAll,
   get,
   create,
-  updateUser,
+  update,
   removeUser
 };

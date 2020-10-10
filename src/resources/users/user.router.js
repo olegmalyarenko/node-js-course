@@ -35,7 +35,7 @@ router.route('/').post(async (req, res) => {
 
 router.route('/:id').put(async (req, res) => {
   try {
-    const user = await usersService.update(req.body, req.params.id);
+    const user = await usersService.update(req.body, req.params.id, val);
     console.log('Нью юзерс', user);
     res.status(200).json(User.toResponse(user));
   } catch (e) {

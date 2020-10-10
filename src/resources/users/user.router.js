@@ -26,7 +26,8 @@ router.route('/').post(async (req, res) => {
       login: req.body.login,
       password: req.body.password,
       name: req.body.name
-    })
+    }),
+    val
   );
 
   res.json(User.toResponse(user));
@@ -50,4 +51,5 @@ router.route('/:id').delete(async (req, res) => {
     res.status(404).send(e.message);
   }
 });
+
 module.exports = router;

@@ -12,9 +12,9 @@ const get = async (id, val) => {
   return user;
 };
 
-const create = async user => DB.createUser(user);
+const create = async (item, val) => DB.create(item, val);
 
-const update = async (user, id) => DB.updateUser(user, id);
+const update = async (item, id) => DB.updateUser(item, id);
 
 const remove = async id => DB.removeUser(id);
 

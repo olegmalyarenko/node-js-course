@@ -11,11 +11,11 @@ const get = async (id, val) => {
 
   return board;
 };
-/*
-const create = async user => DB.createUser(user);
 
+const create = async (item, val) => DB.create(item, val);
+/*
 const update = async (user, id) => DB.updateUser(user, id);
 
 const remove = async id => DB.removeUser(id);*/
 
-module.exports = { getAll, get };
+module.exports = { getAll, get, create };

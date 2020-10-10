@@ -11,7 +11,7 @@ for (let i = 0; i < 6; i++) {
   DB.boards.push(new Board());
 }
 
-console.log('DB', DB);
+// console.log('DB', DB);
 
 const getAll = async val => {
   if (val === 'users') {
@@ -34,9 +34,16 @@ const get = async (id, val) => {
 };
 // const getBoard = async id => DB.boards.filter(el => el.id === id)[0];
 
-const createUser = async user => {
-  DB.users.push(user);
-  return user;
+const create = async (item, val) => {
+  if (val === 'boards') {
+    DB.boards.push(item);
+    return item;
+  }
+
+  if (val === 'users') {
+    DB.users.push(item);
+    return item;
+  }
 };
 
 const updateUser = async (user, id) => {
@@ -60,7 +67,7 @@ const removeUser = async id => {
 module.exports = {
   getAll,
   get,
-  createUser,
+  create,
   updateUser,
   removeUser
 };

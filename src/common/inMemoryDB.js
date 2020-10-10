@@ -1,5 +1,6 @@
 const User = require('../resources/users/user.model.js');
 const Board = require('../resources/boards/board.model.js');
+const Task = require('../resources/tasks/task.model.js');
 const DB = {
   users: [],
   boards: [],
@@ -9,9 +10,14 @@ const DB = {
 for (let i = 0; i < 6; i++) {
   DB.users.push(new User());
   DB.boards.push(new Board());
+  DB.tasks.push(new Task());
 }
 
-// console.log('DB', DB);
+for (let i = 0; i < DB.users.length; i++) {
+  DB.tasks[i].userId = DB.users[i].id;
+  DB.tasks[i].boardId = DB.boards[i].id;
+}
+console.log('DB', DB.tasks);
 
 const getAll = async val => {
   if (val === 'users') {
@@ -19,6 +25,9 @@ const getAll = async val => {
   }
   if (val === 'boards') {
     return DB.boards.slice(0);
+  }
+  if (val === 'tasks') {
+    return DB.tasks.slice(0);
   }
 };
 // const getAllBoards = async () => DB.boards.slice(0);
@@ -31,6 +40,10 @@ const get = async (id, val) => {
   if (val === 'boards') {
     return DB.boards.filter(el => el.id === id)[0];
   }
+
+  if (val === 'tasks') {
+    return DB.tasks.filter(el => el.id === id)[0];
+  }
 };
 // const getBoard = async id => DB.boards.filter(el => el.id === id)[0];
 
@@ -42,6 +55,11 @@ const create = async (item, val) => {
 
   if (val === 'users') {
     DB.users.push(item);
+    return item;
+  }
+
+  if (val === 'tasks') {
+    DB.tasks.push(item);
     return item;
   }
 };
@@ -71,6 +89,22 @@ const update = async (item, id, val) => {
 
     return newBoard;
   }
+
+  if (val === 'tasks') {
+    const currentIndex = DB.tasks.findIndex(el => el.id === id);
+    const newTask = new Task({
+      id,
+      title: item.title,
+      order: item.order,
+      description: item.description,
+      userId: id,
+      boardId: id,
+      columnId: item.columnId
+    });
+    DB.tasks.splice(currentIndex, 1, newTask);
+
+    return newTask;
+  }
 };
 
 const remove = async (id, val) => {
@@ -82,6 +116,11 @@ const remove = async (id, val) => {
   if (val === 'boards') {
     const currentIndex = DB.boards.findIndex(el => el.id === id);
     return DB.boards.splice(currentIndex, 1);
+  }
+
+  if (val === 'tasks') {
+    const currentIndex = DB.tasks.findIndex(el => el.id === id);
+    return DB.tasks.splice(currentIndex, 1);
   }
 };
 

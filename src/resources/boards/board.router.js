@@ -36,13 +36,13 @@ router.route('/:id').put(async (req, res) => {
   console.log('New board', board);
   res.status(200).json(Board.toResponse(board));
 });
-/*
+
 router.route('/:id').delete(async (req, res) => {
   try {
-    const users = await usersService.remove(req.params.id);
-    res.status(200).json(users.map(User.toResponse));
+    const boards = await boardsService.remove(req.params.id, val);
+    res.status(200).json(boards.map(Board.toResponse));
   } catch (e) {
     res.status(404).send(e.message);
   }
-});*/
+});
 module.exports = router;

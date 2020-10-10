@@ -73,9 +73,16 @@ const update = async (item, id, val) => {
   }
 };
 
-const removeUser = async id => {
-  const currentIndex = DB.users.findIndex(el => el.id === id);
-  return DB.users.splice(currentIndex, 1);
+const remove = async (id, val) => {
+  if (val === 'users') {
+    const currentIndex = DB.users.findIndex(el => el.id === id);
+    return DB.users.splice(currentIndex, 1);
+  }
+
+  if (val === 'boards') {
+    const currentIndex = DB.boards.findIndex(el => el.id === id);
+    return DB.boards.splice(currentIndex, 1);
+  }
 };
 
 module.exports = {
@@ -83,5 +90,5 @@ module.exports = {
   get,
   create,
   update,
-  removeUser
+  remove
 };

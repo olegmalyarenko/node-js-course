@@ -21,21 +21,18 @@ for (let i = 0; i < DB.users.length; i++) {
 
 const getAll = async val => {
   if (val === 'users') {
-    return DB.users.slice(0);
+    return DB.users;
   }
   if (val === 'boards') {
-    return DB.boards.slice(0);
-  }
-  if (val === 'tasks') {
-    return DB.tasks.slice(0);
+    return DB.boards;
   }
 };
 
 const getAllTasks = async id => {
   console.log('TASK ID', id);
+  console.log('TASK DB', DB.tasks);
   return DB.tasks.filter(el => el.boardId === id);
 };
-// const getAllBoards = async () => DB.boards.slice(0);
 
 const get = async (id, val) => {
   if (val === 'users') {
@@ -45,12 +42,18 @@ const get = async (id, val) => {
   if (val === 'boards') {
     return DB.boards.filter(el => el.id === id)[0];
   }
-
-  if (val === 'tasks') {
-    return DB.tasks.filter(el => el.id === id)[0];
-  }
 };
-// const getBoard = async id => DB.boards.filter(el => el.id === id)[0];
+
+const getTask = async (boardId, id) => {
+  // console.log('TASKS', DB.tasks);
+  const currentTask = DB.tasks.find(
+    el => el.id === id && el.boardId === boardId
+  );
+  if (currentTask === undefined) {
+    throw new Error('Task id undefined');
+  }
+  return currentTask;
+};
 
 const create = async (item, val) => {
   if (val === 'boards') {
@@ -115,11 +118,20 @@ const update = async (item, id, val) => {
 const remove = async (id, val) => {
   if (val === 'users') {
     const currentIndex = DB.users.findIndex(el => el.id === id);
+
+    DB.tasks = DB.tasks.map(task => {
+      if (task.userId === id) {
+        return { ...task, userId: null };
+      }
+      return task;
+    });
+    console.log('DB TASKS', DB.tasks);
     return DB.users.splice(currentIndex, 1);
   }
 
   if (val === 'boards') {
     const currentIndex = DB.boards.findIndex(el => el.id === id);
+    DB.tasks = DB.tasks.filter(task => task.boardId !== id);
     return DB.boards.splice(currentIndex, 1);
   }
 
@@ -133,6 +145,7 @@ module.exports = {
   getAll,
   getAllTasks,
   get,
+  getTask,
   create,
   update,
   remove

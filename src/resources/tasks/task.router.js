@@ -2,34 +2,35 @@ const router = require('express').Router({ mergeParams: true });
 const Task = require('./task.model.js');
 const tasksService = require('./task.service.js');
 
+const val = 'tasks';
+
 router.route('/').get(async (req, res) => {
-  console.log(req.params.id);
+  // console.log(req.params.id);
   const tasks = await tasksService.getAll(req.params.id);
   res.json(tasks.map(Task.toResponse));
 });
 
-/* router.route('/:id').get(async (req, res) => {
+router.route('/:id2').get(async (req, res) => {
+  console.log('boardID', req.params.id);
+  console.log('taskID', req.params.id2);
   try {
-    const task = await tasksService.get(req.params.id, val);
+    const task = await tasksService.get(req.params.id, req.params.id2);
 
     res.status(200).json(Task.toResponse(task));
-  } catch (e) {
-    res.status(404).send(e.message);
+  } catch (err) {
+    res.status(404).send(err.message);
   }
 });
 
 router.route('/').post(async (req, res) => {
   const task = await tasksService.create(
-    new Task({
-      title: req.body.title,
-      columns: [...req.body.columns]
-    }),
+    new Task({ ...req.body, boardId: req.params.id }),
     val
   );
 
   res.json(Task.toResponse(task));
 });
-
+/*
 router.route('/:id').put(async (req, res) => {
   const task = await tasksService.update(req.body, req.params.id, val);
   console.log('New task', task);

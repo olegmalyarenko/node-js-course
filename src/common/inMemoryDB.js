@@ -44,10 +44,10 @@ const get = async (id, val) => {
   }
 };
 
-const getTask = async (boardId, id) => {
+const getTask = async (boardId, taskId) => {
   // console.log('TASKS', DB.tasks);
   const currentTask = DB.tasks.find(
-    el => el.id === id && el.boardId === boardId
+    el => el.id === taskId && el.boardId === boardId
   );
   if (currentTask === undefined) {
     throw new Error('Task id undefined');
@@ -106,29 +106,26 @@ const updateTask = async (item, id, taskId) => {
 
   return newTask;
 };
+
 const remove = async (id, val) => {
   if (val === 'users') {
-    const currentIndex = DB.users.findIndex(el => el.id === id);
-
     DB.tasks = DB.tasks.map(task => {
       if (task.userId === id) {
         return { ...task, userId: null };
       }
       return task;
     });
-    console.log('DB TASKS', DB.tasks);
-    return DB.users.splice(currentIndex, 1);
+    // console.log('DB TASKS', DB.tasks);
+    return (DB.users = DB.users.filter(user => user.id !== id));
   }
 
   if (val === 'boards') {
-    const currentIndex = DB.boards.findIndex(el => el.id === id);
     DB.tasks = DB.tasks.filter(task => task.boardId !== id);
-    return DB.boards.splice(currentIndex, 1);
+    return (DB.boards = DB.boards.filter(board => board.id !== id));
   }
 
   if (val === 'tasks') {
-    const currentIndex = DB.tasks.findIndex(el => el.id === id);
-    return DB.tasks.splice(currentIndex, 1);
+    return (DB.tasks = DB.tasks.filter(task => task.id !== id));
   }
 };
 

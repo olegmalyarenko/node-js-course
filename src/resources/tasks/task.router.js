@@ -10,11 +10,9 @@ router.route('/').get(async (req, res) => {
   res.json(tasks.map(Task.toResponse));
 });
 
-router.route('/:id2').get(async (req, res) => {
-  console.log('boardID', req.params.id);
-  console.log('taskID', req.params.id2);
+router.route('/:taskId').get(async (req, res) => {
   try {
-    const task = await tasksService.get(req.params.id, req.params.id2);
+    const task = await tasksService.get(req.params.id, req.params.taskId);
 
     res.status(200).json(Task.toResponse(task));
   } catch (err) {

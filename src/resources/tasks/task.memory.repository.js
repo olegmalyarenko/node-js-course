@@ -7,9 +7,9 @@ const get = async (boardId, id) => {
 };
 
 const create = async (item, val) => DB.create(item, val);
-/*
-const update = async (item, id, val) => DB.update(item, id, val);
 
+const update = async (item, id, taskId) => DB.updateTask(item, id, taskId);
+/*
 const remove = async (id, val) => DB.remove(id, val);*/
 
-module.exports = { getAll, get, create };
+module.exports = { getAll, get, create, update };

@@ -30,13 +30,18 @@ router.route('/').post(async (req, res) => {
 
   res.json(Task.toResponse(task));
 });
-/*
-router.route('/:id').put(async (req, res) => {
-  const task = await tasksService.update(req.body, req.params.id, val);
+
+router.route('/:taskId').put(async (req, res) => {
+  console.log('taskID', req.params.taskId);
+  const task = await tasksService.update(
+    req.body,
+    req.params.id,
+    req.params.taskId
+  );
   console.log('New task', task);
   res.status(200).json(Task.toResponse(task));
 });
-
+/*
 router.route('/:id').delete(async (req, res) => {
   try {
     const tasks = await tasksService.remove(req.params.id, val);

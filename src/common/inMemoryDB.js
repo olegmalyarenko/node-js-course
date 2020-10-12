@@ -97,24 +97,15 @@ const update = async (item, id, val) => {
 
     return newBoard;
   }
-
-  if (val === 'tasks') {
-    const currentIndex = DB.tasks.findIndex(el => el.id === id);
-    const newTask = new Task({
-      id,
-      title: item.title,
-      order: item.order,
-      description: item.description,
-      userId: id,
-      boardId: id,
-      columnId: item.columnId
-    });
-    DB.tasks.splice(currentIndex, 1, newTask);
-
-    return newTask;
-  }
 };
+const updateTask = async (item, id, taskId) => {
+  const newTask = new Task({ ...item, id: taskId, boardId: id });
 
+  DB.tasks = DB.tasks.filter(task => task.id !== taskId);
+  DB.tasks.push(newTask);
+
+  return newTask;
+};
 const remove = async (id, val) => {
   if (val === 'users') {
     const currentIndex = DB.users.findIndex(el => el.id === id);
@@ -148,5 +139,6 @@ module.exports = {
   getTask,
   create,
   update,
+  updateTask,
   remove
 };

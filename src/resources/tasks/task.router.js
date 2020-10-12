@@ -41,13 +41,13 @@ router.route('/:taskId').put(async (req, res) => {
   console.log('New task', task);
   res.status(200).json(Task.toResponse(task));
 });
-/*
-router.route('/:id').delete(async (req, res) => {
+
+router.route('/:taskId').delete(async (req, res) => {
   try {
-    const tasks = await tasksService.remove(req.params.id, val);
+    const tasks = await tasksService.remove(req.params.taskId, val);
     res.status(200).json(tasks.map(Task.toResponse));
   } catch (e) {
     res.status(404).send(e.message);
   }
-});*/
+});
 module.exports = router;

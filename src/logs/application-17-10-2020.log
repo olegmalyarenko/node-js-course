@@ -1,0 +1,67 @@
+[10/18/2020, 1:30:43 AM] info: "POST"  URL : "http://localhost/boards" req.body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} req.query = {}
+[10/18/2020, 1:30:43 AM] info: "GET"  URL : "http://localhost/users" req.body = {} req.query = {}
+[10/18/2020, 1:30:43 AM] info: "POST"  URL : "http://localhost/boards" req.body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} req.query = {}
+[10/18/2020, 1:30:43 AM] info: "POST"  URL : "http://localhost/boards/c3c4d7c3-e3bb-42dd-bc76-483399632687/tasks" req.body = {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} req.query = {}
+[10/18/2020, 1:30:43 AM] info: "GET"  URL : "http://localhost/boards/c3c4d7c3-e3bb-42dd-bc76-483399632687/tasks" req.body = {} req.query = {}
+[10/18/2020, 1:30:43 AM] info: "POST"  URL : "http://localhost/users" req.body = {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} req.query = {}
+[10/18/2020, 1:30:43 AM] info: "GET"  URL : "http://localhost/boards" req.body = {} req.query = {}
+[10/18/2020, 1:30:43 AM] info: "GET"  URL : "http://localhost/users/4a3f8f42-5d56-4b64-bf37-e6d77bbceb9d" req.body = {} req.query = {}
+[10/18/2020, 1:30:43 AM] info: "GET"  URL : "http://localhost/boards/c3c4d7c3-e3bb-42dd-bc76-483399632687/tasks" req.body = {} req.query = {}
+[10/18/2020, 1:30:43 AM] info: "DELETE"  URL : "http://localhost/users/4a3f8f42-5d56-4b64-bf37-e6d77bbceb9d" req.body = {} req.query = {}
+[10/18/2020, 1:30:43 AM] info: "GET"  URL : "http://localhost/boards/c3c4d7c3-e3bb-42dd-bc76-483399632687/tasks/cba4e50f-70e2-488f-8ef4-948b77508866" req.body = {} req.query = {}
+[10/18/2020, 1:30:43 AM] info: "GET"  URL : "http://localhost/boards" req.body = {} req.query = {}
+[10/18/2020, 1:30:43 AM] info: "POST"  URL : "http://localhost/users" req.body = {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} req.query = {}
+[10/18/2020, 1:30:43 AM] info: "POST"  URL : "http://localhost/boards/c3c4d7c3-e3bb-42dd-bc76-483399632687/tasks" req.body = {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} req.query = {}
+[10/18/2020, 1:30:43 AM] info: "GET"  URL : "http://localhost/boards/cba18313-3517-43cd-b183-703857122591" req.body = {} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "DELETE"  URL : "http://localhost/users/98570ffb-90c1-46b8-933c-5678ae90ec17" req.body = {} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "DELETE"  URL : "http://localhost/boards/c3c4d7c3-e3bb-42dd-bc76-483399632687/tasks/1f59b5c0-802b-4138-bc3c-420955e81174" req.body = {} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "POST"  URL : "http://localhost/boards" req.body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "POST"  URL : "http://localhost/users" req.body = {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "POST"  URL : "http://localhost/boards/c3c4d7c3-e3bb-42dd-bc76-483399632687/tasks" req.body = {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "DELETE"  URL : "http://localhost/boards/31d50f8a-4880-414a-914c-6f43a14ea5ed" req.body = {} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "PUT"  URL : "http://localhost/users/939f7ad3-4f42-410f-be43-d18873ac9b2d" req.body = {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"939f7ad3-4f42-410f-be43-d18873ac9b2d"} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "PUT"  URL : "http://localhost/boards/c3c4d7c3-e3bb-42dd-bc76-483399632687/tasks/47eac934-55e3-4c26-90a0-7f7057bb8ce0" req.body = {"id":"47eac934-55e3-4c26-90a0-7f7057bb8ce0","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"c3c4d7c3-e3bb-42dd-bc76-483399632687","columnId":null} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "POST"  URL : "http://localhost/boards" req.body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "GET"  URL : "http://localhost/users/939f7ad3-4f42-410f-be43-d18873ac9b2d" req.body = {} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "GET"  URL : "http://localhost/boards/c3c4d7c3-e3bb-42dd-bc76-483399632687/tasks/47eac934-55e3-4c26-90a0-7f7057bb8ce0" req.body = {} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "PUT"  URL : "http://localhost/boards/743a9057-b23f-4467-ac65-e3e029c32a9e" req.body = {"id":"743a9057-b23f-4467-ac65-e3e029c32a9e","title":"Autotest updated board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "DELETE"  URL : "http://localhost/users/939f7ad3-4f42-410f-be43-d18873ac9b2d" req.body = {} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "GET"  URL : "http://localhost/boards/c3c4d7c3-e3bb-42dd-bc76-483399632687/tasks/cba4e50f-70e2-488f-8ef4-948b77508866" req.body = {} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "GET"  URL : "http://localhost/boards/743a9057-b23f-4467-ac65-e3e029c32a9e" req.body = {} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "POST"  URL : "http://localhost/users" req.body = {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "DELETE"  URL : "http://localhost/boards/c3c4d7c3-e3bb-42dd-bc76-483399632687/tasks/cba4e50f-70e2-488f-8ef4-948b77508866" req.body = {} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "DELETE"  URL : "http://localhost/boards/743a9057-b23f-4467-ac65-e3e029c32a9e" req.body = {} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "DELETE"  URL : "http://localhost/users/b6c03722-a6fc-46b1-b9d1-d5e70864d8cf" req.body = {} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "GET"  URL : "http://localhost/boards/c3c4d7c3-e3bb-42dd-bc76-483399632687/tasks/cba4e50f-70e2-488f-8ef4-948b77508866" req.body = {} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "POST"  URL : "http://localhost/boards" req.body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "POST"  URL : "http://localhost/users" req.body = {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "DELETE"  URL : "http://localhost/boards/c3c4d7c3-e3bb-42dd-bc76-483399632687" req.body = {} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "DELETE"  URL : "http://localhost/boards/c2aec2e4-6858-4ad1-8076-0570afcbc3ee" req.body = {} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "POST"  URL : "http://localhost/boards" req.body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "GET"  URL : "http://localhost/boards/c2aec2e4-6858-4ad1-8076-0570afcbc3ee" req.body = {} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "POST"  URL : "http://localhost/boards/f2215cb9-3234-4f5b-956c-f5f5086af58d/tasks" req.body = {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"53869302-0fc8-40c4-83d3-b345c70347ea","boardId":"f2215cb9-3234-4f5b-956c-f5f5086af58d"} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "POST"  URL : "http://localhost/boards/f2215cb9-3234-4f5b-956c-f5f5086af58d/tasks" req.body = {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"53869302-0fc8-40c4-83d3-b345c70347ea","boardId":"f2215cb9-3234-4f5b-956c-f5f5086af58d"} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "POST"  URL : "http://localhost/boards" req.body = {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "DELETE"  URL : "http://localhost/users/53869302-0fc8-40c4-83d3-b345c70347ea" req.body = {} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "POST"  URL : "http://localhost/boards/deb8db0c-fed6-4409-8915-51ff800e82bf/tasks" req.body = {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"deb8db0c-fed6-4409-8915-51ff800e82bf","userId":null,"columnId":null} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "POST"  URL : "http://localhost/boards/deb8db0c-fed6-4409-8915-51ff800e82bf/tasks" req.body = {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"deb8db0c-fed6-4409-8915-51ff800e82bf","userId":null,"columnId":null} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "POST"  URL : "http://localhost/boards/deb8db0c-fed6-4409-8915-51ff800e82bf/tasks" req.body = {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"deb8db0c-fed6-4409-8915-51ff800e82bf","userId":null,"columnId":null} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "POST"  URL : "http://localhost/boards/deb8db0c-fed6-4409-8915-51ff800e82bf/tasks" req.body = {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"deb8db0c-fed6-4409-8915-51ff800e82bf","userId":null,"columnId":null} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "POST"  URL : "http://localhost/boards/deb8db0c-fed6-4409-8915-51ff800e82bf/tasks" req.body = {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"deb8db0c-fed6-4409-8915-51ff800e82bf","userId":null,"columnId":null} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "GET"  URL : "http://localhost/boards/f2215cb9-3234-4f5b-956c-f5f5086af58d/tasks/5f1f3ecd-c7b0-4451-a4b2-1d5073a7ce10" req.body = {} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "GET"  URL : "http://localhost/boards/deb8db0c-fed6-4409-8915-51ff800e82bf/tasks/a13ea151-a6c8-4340-b7f5-a87c42427b41" req.body = {} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "GET"  URL : "http://localhost/boards/deb8db0c-fed6-4409-8915-51ff800e82bf/tasks/ca27aab6-640a-4909-9605-53bbb5705b0c" req.body = {} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "GET"  URL : "http://localhost/boards/deb8db0c-fed6-4409-8915-51ff800e82bf/tasks/bd789ace-9b51-40df-bfb8-d682b6ba1009" req.body = {} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "GET"  URL : "http://localhost/boards/deb8db0c-fed6-4409-8915-51ff800e82bf/tasks/add72538-75e5-4d79-84b5-76d3842c1246" req.body = {} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "GET"  URL : "http://localhost/boards/deb8db0c-fed6-4409-8915-51ff800e82bf/tasks/72666294-0f77-4eea-8c13-458ac8370a88" req.body = {} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "GET"  URL : "http://localhost/boards/f2215cb9-3234-4f5b-956c-f5f5086af58d/tasks/41317beb-5828-4ac5-831a-720a1774e399" req.body = {} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "DELETE"  URL : "http://localhost/boards/deb8db0c-fed6-4409-8915-51ff800e82bf" req.body = {} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "DELETE"  URL : "http://localhost/boards/f2215cb9-3234-4f5b-956c-f5f5086af58d/tasks/5f1f3ecd-c7b0-4451-a4b2-1d5073a7ce10" req.body = {} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "DELETE"  URL : "http://localhost/boards/f2215cb9-3234-4f5b-956c-f5f5086af58d/tasks/41317beb-5828-4ac5-831a-720a1774e399" req.body = {} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "GET"  URL : "http://localhost/boards/deb8db0c-fed6-4409-8915-51ff800e82bf/tasks/a13ea151-a6c8-4340-b7f5-a87c42427b41" req.body = {} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "GET"  URL : "http://localhost/boards/deb8db0c-fed6-4409-8915-51ff800e82bf/tasks/ca27aab6-640a-4909-9605-53bbb5705b0c" req.body = {} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "GET"  URL : "http://localhost/boards/deb8db0c-fed6-4409-8915-51ff800e82bf/tasks/bd789ace-9b51-40df-bfb8-d682b6ba1009" req.body = {} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "GET"  URL : "http://localhost/boards/deb8db0c-fed6-4409-8915-51ff800e82bf/tasks/add72538-75e5-4d79-84b5-76d3842c1246" req.body = {} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "GET"  URL : "http://localhost/boards/deb8db0c-fed6-4409-8915-51ff800e82bf/tasks/72666294-0f77-4eea-8c13-458ac8370a88" req.body = {} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "DELETE"  URL : "http://localhost/boards/f2215cb9-3234-4f5b-956c-f5f5086af58d" req.body = {} req.query = {}
+[10/18/2020, 1:30:44 AM] info: "DELETE"  URL : "http://localhost/boards/9f1f68dd-b4b1-4e44-9526-1065fdafd263" req.body = {} req.query = {}

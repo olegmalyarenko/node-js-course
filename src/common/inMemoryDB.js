@@ -17,7 +17,6 @@ for (let i = 0; i < DB.users.length; i++) {
   DB.tasks[i].userId = DB.users[i].id;
   DB.tasks[i].boardId = DB.boards[i].id;
 }
-// console.log('DB', DB.tasks);
 
 const getAll = async val => {
   if (val === 'users') {
@@ -29,8 +28,6 @@ const getAll = async val => {
 };
 
 const getAllTasks = async id => {
-  console.log('TASK ID', id);
-  console.log('TASK DB', DB.tasks);
   return DB.tasks.filter(el => el.boardId === id);
 };
 
@@ -45,7 +42,6 @@ const get = async (id, val) => {
 };
 
 const getTask = async (boardId, taskId) => {
-  // console.log('TASKS', DB.tasks);
   const currentTask = DB.tasks.find(
     el => el.id === taskId && el.boardId === boardId
   );
@@ -115,7 +111,6 @@ const remove = async (id, val) => {
       }
       return task;
     });
-    // console.log('DB TASKS', DB.tasks);
     return (DB.users = DB.users.filter(user => user.id !== id));
   }
 

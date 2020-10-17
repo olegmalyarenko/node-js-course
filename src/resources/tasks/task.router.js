@@ -5,7 +5,6 @@ const tasksService = require('./task.service.js');
 const val = 'tasks';
 
 router.route('/').get(async (req, res) => {
-  // console.log(req.params.id);
   const tasks = await tasksService.getAll(req.params.id);
   res.json(tasks.map(Task.toResponse));
 });
@@ -36,7 +35,6 @@ router.route('/:taskId').put(async (req, res) => {
     req.params.id,
     req.params.taskId
   );
-  console.log('New task', task);
   res.status(200).json(Task.toResponse(task));
 });
 

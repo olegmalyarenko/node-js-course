@@ -16,6 +16,12 @@ const create = async (item, val) => DB.create(item, val);
 
 const update = async (item, id, val) => DB.update(item, id, val);
 
-const remove = async (id, val) => DB.remove(id, val);
+const remove = async (id, val) => {
+  const checkboard = get(id, val);
+  if (!checkboard) {
+    throw new Error(`The board with id: ${id} was not found`);
+  }
 
+  return await DB.remove(id, val);
+};
 module.exports = { getAll, get, create, update, remove };

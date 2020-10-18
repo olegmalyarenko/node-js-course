@@ -49,9 +49,17 @@ app.use('/boards', boardRouter);
 boardRouter.use('/:id/tasks', taskRouter);
 
 app.use((err, req, res, next) => {
-  console.err(err.stack);
-  res.status(500).send('Something broke!');
+  res.status(500).send(`500. Internal Server Error ${err.message}`);
+  winston.error(`500. Internal Server Error${err.message}`);
   next();
+});
+
+process.on('unhandledRejection', (reason, promise) => {
+  winston.error(`Unhandled rejection detected: ${reason.message}, ${promise}`);
+});
+
+process.on('uncaughtExceptionMonitor', (error, origin) => {
+  winston.error(`Captured error: ${error.message} , ${origin}`);
 });
 
 module.exports = app;

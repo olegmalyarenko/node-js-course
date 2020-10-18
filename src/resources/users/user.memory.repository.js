@@ -12,10 +12,21 @@ const get = async (id, val) => {
   return user;
 };
 
-const create = async (item, val) => DB.create(item, val);
+const create = async (item, val) => {
+  return DB.create(item, val);
+};
 
 const update = async (item, id, val) => DB.update(item, id, val);
 
-const remove = async (id, val) => DB.remove(id, val);
+const remove = async (id, val) => {
+  const checkUser = get(id, val);
+  if (!checkUser) {
+    throw new Error(`The user with id: ${id} was not found`);
+  }
+
+  const user = await DB.remove(id, val);
+
+  return user;
+};
 
 module.exports = { getAll, get, create, update, remove };

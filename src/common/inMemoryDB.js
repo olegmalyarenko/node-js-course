@@ -28,7 +28,11 @@ const getAll = async val => {
 };
 
 const getAllTasks = async id => {
-  return DB.tasks.filter(el => el.boardId === id);
+  const tasks = DB.tasks.filter(el => el.boardId === id);
+  if (tasks === undefined) {
+    throw new Error('Board id undefined');
+  }
+  return tasks;
 };
 
 const get = async (id, val) => {
@@ -120,6 +124,10 @@ const remove = async (id, val) => {
   }
 
   if (val === 'tasks') {
+    const findTask = DB.tasks.find(el => el.id === id);
+    if (!findTask) {
+      throw new Error('Task is undefined');
+    }
     return (DB.tasks = DB.tasks.filter(task => task.id !== id));
   }
 };

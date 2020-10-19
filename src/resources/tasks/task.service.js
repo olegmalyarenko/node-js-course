@@ -1,9 +1,7 @@
 const tasksRepo = require('./task.memory.repository');
-const { schemaId, schemaTask } = require('./task.validation.js');
 
 const getAll = id => {
   try {
-    schemaId.validateAsync(id);
     return tasksRepo.getAll(id);
   } catch (err) {
     throw new Error('Task list are invalid');
@@ -11,29 +9,20 @@ const getAll = id => {
 };
 
 const get = (boardId, taskId) => {
-  try {
-    schemaId.validateAsync(boardId);
-    schemaId.validateAsync(taskId);
-    return tasksRepo.get(boardId, taskId);
-  } catch (err) {
-    throw new Error('Task is invalid');
-  }
+  return tasksRepo.get(boardId, taskId);
 };
 
 const create = (item, val) => {
   try {
-    schemaTask.validateAsync(item);
     return tasksRepo.create(item, val);
   } catch (err) {
     throw new Error('Task is invalid');
   }
 };
 
-const update = (item, id, taskId) => {
+const update = (item, taskId) => {
   try {
-    schemaTask.validateAsync(item);
-    schemaId.validateAsync(id);
-    return tasksRepo.update(item, id, taskId);
+    return tasksRepo.update(item, taskId);
   } catch (err) {
     throw new Error('Task is invalid');
   }
@@ -41,7 +30,6 @@ const update = (item, id, taskId) => {
 
 const remove = (id, val) => {
   try {
-    schemaId.validateAsync(id);
     return tasksRepo.remove(id, val);
   } catch (err) {
     throw new Error('Task is invalid');

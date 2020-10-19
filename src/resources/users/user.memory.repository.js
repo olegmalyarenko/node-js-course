@@ -19,14 +19,8 @@ const create = async (item, val) => {
 const update = async (item, id, val) => DB.update(item, id, val);
 
 const remove = async (id, val) => {
-  const checkUser = get(id, val);
-  if (!checkUser) {
-    throw new Error(`The user with id: ${id} was not found`);
-  }
-
-  const user = await DB.remove(id, val);
-
-  return user;
+  get(id, val);
+  return await DB.remove(id, val);
 };
 
 module.exports = { getAll, get, create, update, remove };

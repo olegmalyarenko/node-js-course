@@ -14,15 +14,10 @@ const get = async (boardId, taskId) => {
 
 const create = async (item, val) => DB.create(item, val);
 
-const update = async (item, id, taskId) => DB.updateTask(item, id, taskId);
+const update = async (item, taskId) => DB.updateTask(item, taskId);
 
 const remove = async (id, val) => {
-  const removeTask = DB.remove(id, val);
-
-  if (!removeTask) {
-    throw new Error(`The task with id: ${id} was not found`);
-  }
-  return removeTask;
+  return DB.remove(id, val);
 };
 
 module.exports = { getAll, get, create, update, remove };

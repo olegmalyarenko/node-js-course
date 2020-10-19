@@ -91,13 +91,9 @@ const update = async (item, id, val) => {
     return newBoard;
   }
 };
-const updateTask = async (item, id, taskId) => {
-  const newTask = new Task({ ...item, id: taskId, boardId: id });
-
+const updateTask = async (item, taskId) => {
   DB.tasks = DB.tasks.filter(task => task.id !== taskId);
-  DB.tasks.push(newTask);
-
-  return newTask;
+  return DB.tasks.push(item);
 };
 
 const remove = async (id, val) => {

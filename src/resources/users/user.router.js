@@ -1,6 +1,7 @@
 const router = require('express').Router();
 const User = require('./user.model');
 const usersService = require('./user.service');
+const { schemaId, schemaUser } = require('./user.validation');
 
 const val = 'users';
 
@@ -17,6 +18,7 @@ router.route('/').get(async (req, res, next) => {
 
 router.route('/:id').get(async (req, res, next) => {
   try {
+    schemaId.validateAsync(req.params.id);
     const user = await usersService.get(req.params.id, val);
     res.status(200).json(User.toResponse(user));
   } catch (err) {
@@ -26,7 +28,9 @@ router.route('/:id').get(async (req, res, next) => {
 
 router.route('/').post(async (req, res, next) => {
   try {
-    const user = await usersService.create(new User({ ...req.body }), val);
+    const item = new User({ ...req.body });
+    schemaUser.validateAsync(item);
+    const user = await usersService.create(item, val);
 
     res.json(User.toResponse(user));
   } catch (err) {
@@ -37,7 +41,10 @@ router.route('/').post(async (req, res, next) => {
 
 router.route('/:id').put(async (req, res, next) => {
   try {
-    const user = await usersService.update(req.body, req.params.id, val);
+    const item = req.body;
+    schemaUser.validateAsync(item);
+    schemaId.validateAsync(req.params.id);
+    const user = await usersService.update(item, req.params.id, val);
     res.status(200).json(User.toResponse(user));
   } catch (err) {
     res.status(404).send(err.message);
@@ -47,6 +54,7 @@ router.route('/:id').put(async (req, res, next) => {
 
 router.route('/:id').delete(async (req, res, next) => {
   try {
+    schemaId.validateAsync(req.params.id);
     const users = await usersService.remove(req.params.id, val);
     res.status(200).json(users.map(User.toResponse));
   } catch (err) {

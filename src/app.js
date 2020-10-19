@@ -10,6 +10,7 @@ const app = express();
 const swaggerDocument = YAML.load(path.join(__dirname, '../doc/api.yaml'));
 // const morgan = require('morgan');
 const winston = require('./common/winston.js');
+const exit = process.exit;
 
 app.use(express.json());
 
@@ -54,12 +55,15 @@ app.use((err, req, res, next) => {
   next();
 });
 
-process.on('unhandledRejection', (reason, promise) => {
-  winston.error(`Unhandled rejection detected: ${reason.message}, ${promise}`);
+process.on('unhandledRejection', reason => {
+  winston.error(`Unhandled rejection detected: ${reason.message}`);
 });
 
-process.on('uncaughtExceptionMonitor', (error, origin) => {
-  winston.error(`Captured error: ${error.message} , ${origin}`);
+process.on('uncaughtException', error => {
+  winston.error(`Captured uncaughtException: ${error.message}`);
+  return exit;
 });
+// throw Error('Oops!');
+// Promise.reject(Error('Oops!'));
 
 module.exports = app;

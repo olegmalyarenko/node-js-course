@@ -319,3 +319,58 @@
 {"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters, [object Promise]","level":"error"}
 {"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters, [object Promise]","level":"error"}
 {"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters, [object Promise]","level":"error"}
+{"message":"   Unhandled rejection detected: Oops!","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"name\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"name\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" length must be less than or equal to 20 characters long","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"name\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" length must be less than or equal to 20 characters long","level":"error"}
+{"message":"   Unhandled rejection detected: \"name\" length must be less than or equal to 20 characters long","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"name\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"name\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: Oops!","level":"error"}
+{"message":"   Captured uncaughtException: Oops!","level":"error"}
+{"message":"   Unhandled rejection detected: Oops!","level":"error"}
+{"message":"   Captured uncaughtException: Oops!","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" length must be less than or equal to 20 characters long","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" length must be less than or equal to 20 characters long","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"name\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"name\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"name\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"name\" length must be less than or equal to 20 characters long","level":"error"}
+{"message":"   Unhandled rejection detected: \"name\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"name\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}

@@ -14,18 +14,23 @@ const schemaBoard = Joi.object({
     .max(20)
     .alphanum()
     .required(),
-  columns: Joi.object({
-    id: Joi.string()
-      .min(3)
-      .max(40)
-      .required(),
-    title: Joi.string()
-      .min(3)
-      .max(20)
-      .alphanum()
-      .required(),
-    order: Joi.number()
-  })
+  columns: Joi.array()
+    .items(
+      Joi.object({
+        id: Joi.string()
+          .min(3)
+          .max(40),
+        title: Joi.string()
+          .min(3)
+          .max(20)
+          .alphanum()
+          .required(),
+        order: Joi.number()
+      })
+    )
+    .has(
+      Joi.object({ id: Joi.string(), title: Joi.string(), order: Joi.number() })
+    )
 });
 
 module.exports = {

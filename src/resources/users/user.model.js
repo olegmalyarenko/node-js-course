@@ -1,5 +1,6 @@
 const uuid = require('uuid');
 const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
 
 /* class User {
   constructor({
@@ -20,7 +21,7 @@ const mongoose = require('mongoose');
   }
 }*/
 
-const usersSchema = new mongoose.Schema(
+const usersSchema = new Schema(
   {
     name: String,
     login: String,

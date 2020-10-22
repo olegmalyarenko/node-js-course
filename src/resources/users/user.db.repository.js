@@ -13,4 +13,13 @@ const create = async item => {
   return User.create(item);
 };
 
-module.exports = { getAll, get, create };
+const update = async item => {
+  return User.findOneAndUpdate({ _id: item._id }, item);
+  // User.updateMany()
+};
+
+const remove = async id => {
+  return (await User.deleteOne({ _id: id })).deletedCount;
+};
+
+module.exports = { getAll, get, create, update, remove };

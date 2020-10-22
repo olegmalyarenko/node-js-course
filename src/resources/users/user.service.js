@@ -13,17 +13,11 @@ const create = item => {
   return usersDBRepo.create(item);
 };
 
-/* const update = (item, id, val) => {
-  throw new Error('Users list are invalid');
-  /* try {
-    return usersRepo.update(item, id, val);
-  } catch (err) {
-    throw new Error('User is invalid');
-  }
+const update = item => {
+  return usersDBRepo.update(item);
 };
-const remove = (id, val) => {
-  throw new Error('Users list are invalid');
-  // return usersRepo.remove(id, val);
-};*/
+const remove = id => {
+  return usersDBRepo.remove(id);
+};
 
-module.exports = { getAll, get, create };
+module.exports = { getAll, get, create, update, remove };

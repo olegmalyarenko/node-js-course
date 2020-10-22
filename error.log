@@ -766,3 +766,31 @@
 {"message":"   Unhandled rejection detected: DB is not defined","level":"error"}
 {"message":"   Unhandled rejection detected: DB is not defined","level":"error"}
 {"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" length must be less than or equal to 20 characters long","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" length must be less than or equal to 20 characters long","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: DB.get is not a function","level":"error"}
+{"message":"   Unhandled rejection detected: DB.get is not a function","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" length must be less than or equal to 20 characters long","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" length must be less than or equal to 20 characters long","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Unhandled rejection detected: DB.get is not a function","level":"error"}
+{"message":"   Unhandled rejection detected: DB.get is not a function","level":"error"}
+{"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}

@@ -1,7 +1,10 @@
+const mongoose = require('mongoose');
+const { MONGO_CONNECTION_STRING } = require('./config.js');
+
 const User = require('../resources/users/user.model.js');
-const Board = require('../resources/boards/board.model.js');
-const Task = require('../resources/tasks/task.model.js');
-const DB = {
+// const Board = require('../resources/boards/board.model.js');
+// const Task = require('../resources/tasks/task.model.js');
+/* const DB = {
   users: [],
   boards: [],
   tasks: []
@@ -19,30 +22,30 @@ for (let i = 0; i < DB.users.length; i++) {
 }
 
 const getAll = async val => {
-  if (val === 'users') {
+ /* if (val === 'users') {
     return DB.users;
   }
   if (val === 'boards') {
     return DB.boards;
-  }
-};
-
+  }*/
+// };
+/*
 const getAllTasks = async id => {
-  return DB.tasks.filter(el => el.boardId === id);
+  //return DB.tasks.filter(el => el.boardId === id);
 };
-
+/*
 const get = async (id, val) => {
-  if (val === 'users') {
+ /* if (val === 'users') {
     return DB.users.filter(el => el.id === id)[0];
   }
 
   if (val === 'boards') {
     return DB.boards.filter(el => el.id === id)[0];
-  }
+
 };
 
 const getTask = async (boardId, taskId) => {
-  const currentTask = DB.tasks.find(
+  /*const currentTask = DB.tasks.find(
     el => el.id === taskId && el.boardId === boardId
   );
   return currentTask;
@@ -62,9 +65,9 @@ const create = async (item, val) => {
   if (val === 'tasks') {
     DB.tasks.push(item);
     return item;
-  }
-};
-
+  }*/
+// };
+/*
 const update = async (item, id, val) => {
   if (val === 'users') {
     const currentIndex = DB.users.findIndex(el => el.id === id);
@@ -115,15 +118,38 @@ const remove = async (id, val) => {
   if (val === 'tasks') {
     return (DB.tasks = DB.tasks.filter(task => task.id !== id));
   }
+};*/
+// ///////////////////////////////////////////////////
+const users = [
+  new User({ name: 'user1', login: 'user', password: 'P@55w0rd' }),
+  new User({ name: 'user2', login: 'user', password: 'P@55w0rd' }),
+  new User({ name: 'user3', login: 'user', password: 'P@55w0rd' })
+];
+
+const connectToDB = cb => {
+  mongoose.connect(MONGO_CONNECTION_STRING, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+  });
+
+  const db = mongoose.connection;
+  db.on('error', console.error.bind(console, 'connection error:'));
+  db.once('open', () => {
+    console.log("we're connected!");
+    db.dropDatabase();
+    users.forEach(user => user.save());
+    cb();
+  });
 };
 
 module.exports = {
-  getAll,
+  /* getAll,
   getAllTasks,
   get,
   getTask,
   create,
   update,
   updateTask,
-  remove
+  remove,*/
+  connectToDB
 };

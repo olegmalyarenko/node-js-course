@@ -19,7 +19,13 @@ const update = async item => {
 };
 
 const remove = async id => {
-  return (await User.deleteOne({ _id: id })).deletedCount;
+  const user = (await User.deleteOne({ _id: id })).deletedCount;
+  console.info('User', user);
+
+  if (user === 1) {
+    return getAll();
+  }
+  throw new Error('User is not fined');
 };
 
 module.exports = { getAll, get, create, update, remove };

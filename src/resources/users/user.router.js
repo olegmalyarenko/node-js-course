@@ -59,7 +59,6 @@ router.route('/:id').delete(async (req, res, next) => {
   try {
     // schemaId.validateAsync(req.params.id);
     const users = await usersService.remove(req.params.id);
-    console.warn(users);
     res.status(200).json(users);
   } catch (err) {
     res.status(404).send(err.message);

@@ -1,4 +1,5 @@
 const User = require('./user.model.js');
+const Task = require('../tasks/task.model.js');
 
 const getAll = async () => {
   return await User.find({});
@@ -19,6 +20,7 @@ const update = async item => {
 };
 
 const remove = async id => {
+  await Task.updateMany({ userId: id }, { $set: { userId: null } });
   const user = (await User.deleteOne({ _id: id })).deletedCount;
   console.info('User', user);
 

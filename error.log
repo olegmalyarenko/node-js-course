@@ -849,3 +849,4 @@
 {"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
 {"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
 {"message":"   Unhandled rejection detected: \"title\" must only contain alpha-numeric characters","level":"error"}
+{"message":"   Captured uncaughtException: taskss is not defined","level":"error"}

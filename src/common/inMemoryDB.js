@@ -2,6 +2,7 @@ const mongoose = require('mongoose');
 const { MONGO_CONNECTION_STRING } = require('./config.js');
 
 const User = require('../resources/users/user.model.js');
+const Board = require('../resources/boards/board.model.js');
 // const Board = require('../resources/boards/board.model.js');
 // const Task = require('../resources/tasks/task.model.js');
 /* const DB = {
@@ -125,6 +126,20 @@ const users = [
   new User({ name: 'user2', login: 'user', password: 'P@55w0rd' }),
   new User({ name: 'user3', login: 'user', password: 'P@55w0rd' })
 ];
+const boards = [
+  new Board({
+    title: 'TITLE',
+    columns: [{ id: 'string', title: 'string', order: 0 }]
+  }),
+  new Board({
+    title: 'TITLE',
+    columns: [{ id: 'string', title: 'string', order: 0 }]
+  }),
+  new Board({
+    title: 'TITLE',
+    columns: [{ id: 'string', title: 'string', order: 0 }]
+  })
+];
 
 const connectToDB = cb => {
   mongoose.connect(MONGO_CONNECTION_STRING, {
@@ -138,6 +153,7 @@ const connectToDB = cb => {
     console.log("we're connected!");
     db.dropDatabase();
     users.forEach(user => user.save());
+    boards.forEach(board => board.save());
     cb();
   });
 };

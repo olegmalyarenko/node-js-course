@@ -25,7 +25,7 @@ const remove = async id => {
   if (user === 1) {
     return getAll();
   }
-  throw new Error('User is not fined');
+  throw new Error('User is not found');
 };
 
 module.exports = { getAll, get, create, update, remove };

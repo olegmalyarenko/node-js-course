@@ -2730,3 +2730,1869 @@ error:
     at runNextTicks (internal/process/task_queues.js:62:3)
     at processImmediate (internal/timers.js:431:9)
     
+error: 
+    TYPE: GET
+    URL: /users
+    BODY: no body for GET
+    ERROR STATUS: 500
+    ERROR MESSAGE: userService is not defined
+    ERROR DETAILS:
+    ReferenceError: userService is not defined
+    at D:\js\node-js-course\src\resources\users\user.router.js:13:19
+    at D:\js\node-js-course\src\utils\wrapAsync.js:3:7
+    at Layer.handle [as handle_request] (D:\js\node-js-course\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\js\node-js-course\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\js\node-js-course\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\js\node-js-course\node_modules\express\lib\router\layer.js:95:5)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\js\node-js-course\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\js\node-js-course\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\js\node-js-course\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:317:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    
+error: 
+    TYPE: GET
+    URL: /boards/1ce6f878-074c-4f7e-8f98-9f6ad9980d76/tasks/d15a168d-3d0d-426d-a0fc-34e3d627b6c4
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/4490f1b3-e1fa-430e-9235-ffcc26dc7e36
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\boards\board.router.js:22:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/bf6f2d4b-2153-400a-a8d3-897a1fbe8ccb/tasks/e52d5890-1e57-4875-a0a1-f1525887f005
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/bf6f2d4b-2153-400a-a8d3-897a1fbe8ccb/tasks/346baf56-3af6-4c5c-9362-5fcdbd12ec53
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/bf6f2d4b-2153-400a-a8d3-897a1fbe8ccb/tasks/d5c8d290-a8fe-4a84-854d-66d2398ab6f6
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/bf6f2d4b-2153-400a-a8d3-897a1fbe8ccb/tasks/0a0d2362-9355-4e1d-ae01-a62ae3884529
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/bf6f2d4b-2153-400a-a8d3-897a1fbe8ccb/tasks/def6c27d-913f-44bb-98dc-c9145b980546
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/f4a6363c-23c0-42ef-b9e6-63d2935564fc/tasks/58a40f89-cff7-447d-96cf-bbc5b15c4921
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/a6032866-3c83-4cdc-90bc-a6d975459f8c
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\boards\board.router.js:22:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/feb56162-a035-4ea2-86d3-4905c4047b12/tasks/85543496-dcc7-4191-be9f-21998e427536
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/feb56162-a035-4ea2-86d3-4905c4047b12/tasks/8c173c82-4df1-4682-9bf0-425318f34f62
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/feb56162-a035-4ea2-86d3-4905c4047b12/tasks/7678c8ba-3d34-4933-bcce-57fec517f3d2
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/feb56162-a035-4ea2-86d3-4905c4047b12/tasks/2dc4b96b-6784-4009-a267-6199a84f3337
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/feb56162-a035-4ea2-86d3-4905c4047b12/tasks/d2c69dac-6d65-4903-b5d2-600770a67327
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /users/3cbd8eee-70a6-440e-9993-ec6f61f491f1
+    BODY: no body for GET
+    ERROR STATUS: 500
+    ERROR MESSAGE: validator is not a function
+    ERROR DETAILS:
+    TypeError: validator is not a function
+    at D:\js\node-js-course\src\resources\users\user.router.js:21:5
+    at D:\js\node-js-course\src\utils\wrapAsync.js:3:7
+    at Layer.handle [as handle_request] (D:\js\node-js-course\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\js\node-js-course\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\js\node-js-course\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\js\node-js-course\node_modules\express\lib\router\layer.js:95:5)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:281:22
+    at param (D:\js\node-js-course\node_modules\express\lib\router\index.js:354:14)
+    at param (D:\js\node-js-course\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:410:3)
+    at next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\js\node-js-course\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\js\node-js-course\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\js\node-js-course\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:317:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    
+error: 
+    TYPE: GET
+    URL: /users/502e2aa6-8e6c-47c3-8bac-b03a08d34a0b
+    BODY: no body for GET
+    ERROR STATUS: 500
+    ERROR MESSAGE: validator is not a function
+    ERROR DETAILS:
+    TypeError: validator is not a function
+    at D:\js\node-js-course\src\resources\users\user.router.js:21:5
+    at D:\js\node-js-course\src\utils\wrapAsync.js:3:7
+    at Layer.handle [as handle_request] (D:\js\node-js-course\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\js\node-js-course\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\js\node-js-course\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\js\node-js-course\node_modules\express\lib\router\layer.js:95:5)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:281:22
+    at param (D:\js\node-js-course\node_modules\express\lib\router\index.js:354:14)
+    at param (D:\js\node-js-course\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:410:3)
+    at next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\js\node-js-course\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\js\node-js-course\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\js\node-js-course\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:317:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    
+error: 
+    TYPE: GET
+    URL: /boards/f624a98a-f1da-4c8e-b2dd-e9cf283ec512/tasks/6b95b311-8394-49db-a612-8947590d341c
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/505a744c-1e4e-4258-983a-1866a8d3b5aa
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\boards\board.router.js:22:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/db0657fa-4933-4826-893d-aadbb1bdee9b/tasks/28bd9378-3956-4ee2-af12-72ec8bafc464
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/db0657fa-4933-4826-893d-aadbb1bdee9b/tasks/c03bdcea-c78c-4311-b9ce-68c4dee2db42
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/db0657fa-4933-4826-893d-aadbb1bdee9b/tasks/0da960b0-50aa-4204-a793-fd26ae8ca8c8
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/db0657fa-4933-4826-893d-aadbb1bdee9b/tasks/44d083f1-1181-4813-bf6d-32d5da676a0d
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/db0657fa-4933-4826-893d-aadbb1bdee9b/tasks/b2d787bc-e387-4e4d-95a2-c12e6b1c4d57
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" length must be less than or equal to 20 characters long
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" length must be less than or equal to 20 characters long
+error: 
+    TYPE: GET
+    URL: /boards/5e7bd043-c085-4803-9c92-f9058e7b69e8/tasks/64cfd049-dc54-4d40-8775-3a965a5bf275
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+    TYPE: GET
+    URL: /boards/62a930c5-8ffb-4f18-9fa6-6dfd64accaaa
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\boards\board.router.js:22:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/669fc958-0de7-45c6-9ec0-78eb593b485b/tasks/394a425b-b2ec-41d1-975c-35418f85694f
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/669fc958-0de7-45c6-9ec0-78eb593b485b/tasks/b494f0ab-67ea-4ce7-9fbb-db04d5086e6d
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/669fc958-0de7-45c6-9ec0-78eb593b485b/tasks/335f54ef-01c0-4a58-9678-f372eede52b5
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/669fc958-0de7-45c6-9ec0-78eb593b485b/tasks/2c048e8a-c89f-467e-ab8c-1e9a6cf343d2
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/669fc958-0de7-45c6-9ec0-78eb593b485b/tasks/642dfa01-908d-40d8-b72a-59a0a035f97c
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" length must be less than or equal to 20 characters long
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" length must be less than or equal to 20 characters long
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+    TYPE: GET
+    URL: /boards/f616065e-a492-4a31-b331-d4c52fbfabcb/tasks/f218c2af-daf6-471e-8849-81cd2c823540
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/79fc792e-7215-4d79-856d-d7b7c97991d3
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\boards\board.router.js:22:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+    TYPE: GET
+    URL: /boards/471c6ba7-7590-4761-8f37-6f8c22ff5f1d/tasks/d22724f0-67ad-4545-bd4c-3d429394634d
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/471c6ba7-7590-4761-8f37-6f8c22ff5f1d/tasks/0100f927-2164-41ce-bd38-70336751bdaa
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/471c6ba7-7590-4761-8f37-6f8c22ff5f1d/tasks/ace13bf0-1b7e-43f4-8410-94776cc842ed
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/471c6ba7-7590-4761-8f37-6f8c22ff5f1d/tasks/090267fe-8406-42ac-bf8d-cfa011097bcd
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/471c6ba7-7590-4761-8f37-6f8c22ff5f1d/tasks/c685fa91-cde6-4532-b016-330468f304ce
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" length must be less than or equal to 20 characters long
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" length must be less than or equal to 20 characters long
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+    TYPE: GET
+    URL: /boards/fc09159b-438a-4dc7-9c54-7fe8c5584568/tasks/5f8549d0-cb2e-47ff-a415-8a966edf8f5a
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+    TYPE: GET
+    URL: /boards/1112e49c-349d-455f-9c4d-05d70f51f111
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\boards\board.router.js:22:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/40001d2d-d076-4f38-9768-0148211675ca/tasks/f62df4bb-442c-485d-b125-211b66ffa8a9
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/40001d2d-d076-4f38-9768-0148211675ca/tasks/39b156a8-33d1-4b5d-9417-4582b33d7524
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/40001d2d-d076-4f38-9768-0148211675ca/tasks/dc1739c6-df64-4197-8192-02360c09aab2
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/40001d2d-d076-4f38-9768-0148211675ca/tasks/ead48453-0094-4243-acb3-f67c5c81b3ac
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/40001d2d-d076-4f38-9768-0148211675ca/tasks/44fa02cc-e001-4c6a-8c41-8f3ad014477c
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" length must be less than or equal to 20 characters long
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" length must be less than or equal to 20 characters long
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+    TYPE: GET
+    URL: /boards/70d9da84-8bcd-4829-ad8c-5162f2d40653/tasks/3a217a79-fc2e-4c00-a4ac-ba5f873b13fe
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/5c49d46a-599c-4838-a9da-dae17deb926c
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\boards\board.router.js:22:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+    TYPE: GET
+    URL: /boards/7ab48f61-cd1e-4cab-b9c7-5c79f77c3fa9/tasks/1560c977-5e69-42f8-97b0-94a69a88702a
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/7ab48f61-cd1e-4cab-b9c7-5c79f77c3fa9/tasks/90c6ef69-6a79-4020-b1ea-c946d47a942d
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/7ab48f61-cd1e-4cab-b9c7-5c79f77c3fa9/tasks/531890d2-3fda-4c98-9f86-25b9db956b74
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/7ab48f61-cd1e-4cab-b9c7-5c79f77c3fa9/tasks/acc6db52-b48e-4f3e-ace2-947961a96c04
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/7ab48f61-cd1e-4cab-b9c7-5c79f77c3fa9/tasks/341ba1e5-6afa-42d5-b9b7-547a726dfd71
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" length must be less than or equal to 20 characters long
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" length must be less than or equal to 20 characters long
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+    TYPE: GET
+    URL: /boards/83936ab0-7851-4924-af22-78d8dddddbcf/tasks/17762e86-40d3-4efc-b980-5fc7f5973e30
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/a3e63da4-5149-4bb8-a608-2b022c0958f9
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\boards\board.router.js:22:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+    TYPE: GET
+    URL: /boards/5d7058b4-97d9-4376-8b23-558a499061cb/tasks/54e5164f-a226-44df-9079-d2a07251bf46
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/5d7058b4-97d9-4376-8b23-558a499061cb/tasks/aaf70262-5f98-4773-b232-d6096860c708
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/5d7058b4-97d9-4376-8b23-558a499061cb/tasks/83c686da-d47f-4e55-bc49-11a10ad6f474
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/5d7058b4-97d9-4376-8b23-558a499061cb/tasks/132eea01-2f0b-499a-817c-d861e2d06e94
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/5d7058b4-97d9-4376-8b23-558a499061cb/tasks/7997ad60-3ca7-486c-a277-6204886e694f
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" length must be less than or equal to 20 characters long
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" length must be less than or equal to 20 characters long
+error: 
+  ERROR: ValidationError: "name" length must be less than or equal to 20 characters long
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" length must be less than or equal to 20 characters long
+error: 
+    TYPE: GET
+    URL: /boards/192e2094-1a7f-4ecc-83ba-e5e2778785e3/tasks/e53b2c27-6235-459b-a4f2-66581a594033
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+    TYPE: GET
+    URL: /boards/928680b3-3c9e-44de-961a-3a1d8bae63ba
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\boards\board.router.js:22:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+    TYPE: GET
+    URL: /boards/c805edfe-0443-4a1c-be21-33e9856ec3bb/tasks/3351c12c-1fc5-47aa-95af-131390508322
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/c805edfe-0443-4a1c-be21-33e9856ec3bb/tasks/727d7a87-8cf1-4c4f-adf9-b9df9c320fce
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/c805edfe-0443-4a1c-be21-33e9856ec3bb/tasks/3d4f1077-45c5-47c1-962d-c72c4c55cd8b
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/c805edfe-0443-4a1c-be21-33e9856ec3bb/tasks/b774330c-bc6a-4dcc-af33-bbf861b49bf3
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/c805edfe-0443-4a1c-be21-33e9856ec3bb/tasks/b861ceac-48c0-4bd0-a3e9-af5afe6b4b28
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" length must be less than or equal to 20 characters long
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" length must be less than or equal to 20 characters long
+error: 
+  ERROR: ValidationError: "name" length must be less than or equal to 20 characters long
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" length must be less than or equal to 20 characters long
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+    TYPE: GET
+    URL: /boards/b0e29c75-0f16-4488-bb48-24b4e8d845a6/tasks/ce905cb4-69f1-48db-aeff-53d1195d3df0
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+    TYPE: GET
+    URL: /boards/e7d43f9e-8482-4908-85aa-2e5e6ca29f22
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\boards\board.router.js:22:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+    TYPE: GET
+    URL: /boards/74c865ef-3bad-45fe-ab3e-2d4dc30a66d2/tasks/fe1d3d97-35b3-4967-ae40-b1c1bc34b3d8
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/74c865ef-3bad-45fe-ab3e-2d4dc30a66d2/tasks/264a30a9-190d-4387-9bbe-7ca2cd01d7cf
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/74c865ef-3bad-45fe-ab3e-2d4dc30a66d2/tasks/452e8300-9420-4df3-a5a2-2464b704f658
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/74c865ef-3bad-45fe-ab3e-2d4dc30a66d2/tasks/5df338ee-c50e-4395-9623-fd558989cdc2
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/74c865ef-3bad-45fe-ab3e-2d4dc30a66d2/tasks/ebb65fee-158a-4821-a101-d64cfe0ddc48
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" length must be less than or equal to 20 characters long
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" length must be less than or equal to 20 characters long
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" length must be less than or equal to 20 characters long
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" length must be less than or equal to 20 characters long
+error: 
+    TYPE: GET
+    URL: /boards/90d3ab2b-e8d8-45a5-9e2a-9f0ed6fb0e4d/tasks/99c50095-b5ba-433c-b32d-6ccab1b6d4ed
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+    TYPE: GET
+    URL: /boards/260f3765-a3ba-408c-9a56-ef4b245b0f9d
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\boards\board.router.js:22:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+    TYPE: GET
+    URL: /boards/32b532e0-ce64-4cd8-9a03-cb6a2b72825d/tasks/214d0618-8917-4095-ae1f-ab6e21089f57
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/32b532e0-ce64-4cd8-9a03-cb6a2b72825d/tasks/a38f6571-c653-42bd-bd73-2a90987bf49b
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/32b532e0-ce64-4cd8-9a03-cb6a2b72825d/tasks/73ce7dbb-c9d6-49a0-b395-40ba69cab054
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/32b532e0-ce64-4cd8-9a03-cb6a2b72825d/tasks/5135ef5c-bd44-44a4-89ef-384e1ce586d0
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/32b532e0-ce64-4cd8-9a03-cb6a2b72825d/tasks/529a7e74-84fb-43c6-a33e-f9c59c42f008
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" length must be less than or equal to 20 characters long
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" length must be less than or equal to 20 characters long
+error: 
+  ERROR: ValidationError: "title" length must be less than or equal to 20 characters long
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" length must be less than or equal to 20 characters long
+error: 
+  ERROR: ValidationError: "name" length must be less than or equal to 20 characters long
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" length must be less than or equal to 20 characters long
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+    TYPE: GET
+    URL: /boards/3975eb10-bd51-4830-8fcc-b1bdaa05b188/tasks/6d56a678-4c48-4244-aa38-ba16ea58ebde
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+    TYPE: GET
+    URL: /boards/d92beef7-7623-4bc2-8d63-e123b21b55c2
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\boards\board.router.js:22:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+    TYPE: GET
+    URL: /boards/ed632a21-49b7-47b6-b900-c613ca587c32/tasks/ccf26f09-fa8e-44a9-97da-45422ce8391f
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/ed632a21-49b7-47b6-b900-c613ca587c32/tasks/c105c78b-352f-4d60-8bc3-5f0d457fbc99
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/ed632a21-49b7-47b6-b900-c613ca587c32/tasks/63ccde20-6e1e-40c4-ad15-6b134570fb20
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/ed632a21-49b7-47b6-b900-c613ca587c32/tasks/5f4ec790-351f-4a2d-bcc9-9817ad9150bb
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/ed632a21-49b7-47b6-b900-c613ca587c32/tasks/61b96f7a-d7b3-47a3-bf3e-ac86d7e40648
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" length must be less than or equal to 20 characters long
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" length must be less than or equal to 20 characters long
+error: 
+  ERROR: ValidationError: "title" length must be less than or equal to 20 characters long
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" length must be less than or equal to 20 characters long
+error: 
+  ERROR: ValidationError: "name" length must be less than or equal to 20 characters long
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" length must be less than or equal to 20 characters long
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+    TYPE: GET
+    URL: /boards/65fa2c59-deb6-4051-b979-6f1f29c2c250/tasks/3b5cd10e-b636-43c1-92f0-3dd5de17f6c8
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+    TYPE: GET
+    URL: /boards/2ab759c8-a0ae-486a-bb1d-a066355cfa18
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\boards\board.router.js:22:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+    TYPE: GET
+    URL: /boards/aaca5340-2d01-4053-b75c-f912807d17a2/tasks/0fa23e93-bcd2-4e8e-90c0-034158d98fb2
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/aaca5340-2d01-4053-b75c-f912807d17a2/tasks/35770baa-d1bc-4a48-bb41-fdbb9fa6994e
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/aaca5340-2d01-4053-b75c-f912807d17a2/tasks/5df361b4-4b95-436b-a155-e899f912eae3
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/aaca5340-2d01-4053-b75c-f912807d17a2/tasks/c350fdad-4909-46db-96a8-b941c39a4005
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/aaca5340-2d01-4053-b75c-f912807d17a2/tasks/bdabec46-e115-431e-a10f-c3d0b0b53ea4
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" length must be less than or equal to 20 characters long
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" length must be less than or equal to 20 characters long
+error: 
+  ERROR: ValidationError: "title" length must be less than or equal to 20 characters long
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" length must be less than or equal to 20 characters long
+error: 
+  ERROR: ValidationError: "name" length must be less than or equal to 20 characters long
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" length must be less than or equal to 20 characters long
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+    TYPE: GET
+    URL: /boards/f68b0ec4-0009-4fe3-b320-ce89070b3e50/tasks/4d4c2a37-445e-4c76-a483-f7b36b46598d
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+    TYPE: GET
+    URL: /boards/55fe2322-46ce-4c9e-b841-5bb92ff3b4b5
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\boards\board.router.js:22:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+    TYPE: GET
+    URL: /boards/e962041c-4577-433c-a8d9-9adefb322eda/tasks/e9cd43be-8ee3-4667-8278-0dc20189bc69
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/e962041c-4577-433c-a8d9-9adefb322eda/tasks/ebb29c14-c2d2-4296-ac36-1ee7d65fb608
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/e962041c-4577-433c-a8d9-9adefb322eda/tasks/85bfb60a-ed17-4628-a0f7-6c3713037aef
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/e962041c-4577-433c-a8d9-9adefb322eda/tasks/76bbb7db-bce1-485c-921d-b27e54965fb0
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/e962041c-4577-433c-a8d9-9adefb322eda/tasks/818d971f-dcfb-49ef-bfe8-ced191892cc4
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    

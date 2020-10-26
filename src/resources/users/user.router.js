@@ -11,7 +11,7 @@ router.route('/').get(async (req, res, next) => {
     // map user fields to exclude secret fields like "password"
     res.json(users.map(User.toResponse));
   } catch (err) {
-    res.status(404).send(err.message);
+    // res.status(404).send(err.message);
     return next(err);
   }
 });
@@ -20,7 +20,12 @@ router.route('/:id').get(async (req, res, next) => {
   try {
     // schemaId.validateAsync(req.params.id);
     const user = await usersService.get(req.params.id);
-    res.status(200).json(User.toResponse(user));
+    if (user) res.status(200).send(User.toResponse(user));
+    else {
+      const err = new Error('Not Found');
+      err.status = 404;
+      return next(err);
+    }
   } catch (err) {
     return next(err);
   }
@@ -47,8 +52,12 @@ router.route('/:id').put(async (req, res, next) => {
     // schemaUser.validateAsync(item);
     // schemaId.validateAsync(req.params.id);
     const user = await usersService.update(item);
-    console.log(res);
-    res.status(200).json(User.toResponse(user));
+    if (user) res.status(200).send(User.toResponse(user));
+    else {
+      const err = new Error('Not Found');
+      err.status = 404;
+      return next(err);
+    }
   } catch (err) {
     res.status(404).send(err.message);
     return next(err);
@@ -59,9 +68,13 @@ router.route('/:id').delete(async (req, res, next) => {
   try {
     // schemaId.validateAsync(req.params.id);
     const users = await usersService.remove(req.params.id);
-    res.status(200).json(users);
+    if (users) res.status(204).send(users);
+    else {
+      const err = new Error('Not Found');
+      err.status = 404;
+      return next(err);
+    }
   } catch (err) {
-    res.status(404).send(err.message);
     return next(err);
   }
 });

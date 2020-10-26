@@ -1,4 +1,4 @@
-const { connectToDB } = require('./common/inMemoryDB.js');
+const { connectToDB } = require('./common/db.js');
 const { PORT } = require('./common/config');
 const app = require('./app');
 

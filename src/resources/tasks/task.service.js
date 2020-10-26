@@ -1,39 +1,24 @@
-const tasksRepo = require('./task.memory.repository');
+// const tasksRepo = require('./task.memory.repository');
+const tasksDBRepo = require('./task.db.repository');
 
 const getAll = id => {
-  try {
-    return tasksRepo.getAll(id);
-  } catch (err) {
-    throw new Error('Task list are invalid');
-  }
+  return tasksDBRepo.getAll(id);
 };
 
 const get = (boardId, taskId) => {
-  return tasksRepo.get(boardId, taskId);
+  return tasksDBRepo.get(boardId, taskId);
 };
 
-const create = (item, val) => {
-  try {
-    return tasksRepo.create(item, val);
-  } catch (err) {
-    throw new Error('Task is invalid');
-  }
+const create = item => {
+  return tasksDBRepo.create(item);
 };
 
-const update = (item, taskId) => {
-  try {
-    return tasksRepo.update(item, taskId);
-  } catch (err) {
-    throw new Error('Task is invalid');
-  }
+const update = (item, taskId, boardId) => {
+  return tasksDBRepo.update(item, taskId, boardId);
 };
 
-const remove = (id, val) => {
-  try {
-    return tasksRepo.remove(id, val);
-  } catch (err) {
-    throw new Error('Task is invalid');
-  }
+const remove = (taskId, boardId) => {
+  return tasksDBRepo.remove(taskId, boardId);
 };
 
 module.exports = { getAll, get, create, update, remove };

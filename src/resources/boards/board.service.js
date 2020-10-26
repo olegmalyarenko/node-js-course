@@ -1,33 +1,23 @@
-const boardsRepo = require('./board.memory.repository');
+// const boardsRepo = require('./board.memory.repository');
+const boardsDBRepo = require('./board.db.repository.js');
 
-const getAll = val => {
-  try {
-    return boardsRepo.getAll(val);
-  } catch (err) {
-    throw new Error('Boards list are invalid');
-  }
+const getAll = () => {
+  return boardsDBRepo.getAll();
 };
 
-const get = (id, val) => {
-  return boardsRepo.get(id, val);
+const get = id => {
+  return boardsDBRepo.get(id);
 };
 
-const create = (item, val) => {
-  try {
-    return boardsRepo.create(item, val);
-  } catch (err) {
-    throw new Error('Board is invalid');
-  }
+const create = item => {
+  return boardsDBRepo.create(item);
 };
-const update = (item, id, val) => {
-  try {
-    return boardsRepo.update(item, id, val);
-  } catch (err) {
-    throw new Error('Board is invalid');
-  }
+
+const update = item => {
+  return boardsDBRepo.update(item);
 };
-const remove = (id, val) => {
-  return boardsRepo.remove(id, val);
+const remove = id => {
+  return boardsDBRepo.remove(id);
 };
 
 module.exports = { getAll, get, create, update, remove };

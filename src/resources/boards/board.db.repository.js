@@ -18,13 +18,10 @@ const update = async item => {
 };
 
 const remove = async id => {
-  const board = (await Board.deleteOne({ _id: id })).deletedCount;
-  if (board === 1) {
-    // eslint-disable-next-line no-unused-expressions
-    (await Task.deleteMany({ boardId: id })).deletedCount;
-    return getAll();
-  }
-  throw new Error('Board is not found');
+  await Task.deleteMany({ boardId: id });
+  await Board.findByIdAndDelete(id);
+
+  return 'Board has been successfully deleted';
 };
 
 module.exports = { getAll, get, create, update, remove };

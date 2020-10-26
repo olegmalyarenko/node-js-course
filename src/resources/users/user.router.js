@@ -67,8 +67,8 @@ router.route('/:id').put(async (req, res, next) => {
 router.route('/:id').delete(async (req, res, next) => {
   try {
     // schemaId.validateAsync(req.params.id);
-    const users = await usersService.remove(req.params.id);
-    if (users) res.status(204).send(users);
+    const result = await usersService.remove(req.params.id);
+    if (result) res.status(204).send(result);
     else {
       const err = new Error('Not Found');
       err.status = 404;

@@ -17,11 +17,8 @@ const update = async (item, taskId, boardId) => {
 };
 
 const remove = async (taskId, boardId) => {
-  const task = (await Task.deleteOne({ _id: taskId, boardId })).deletedCount;
-  if (task === 1) {
-    return getAll();
-  }
-  throw new Error('Task is not found');
+  await Task.findOneAndDelete({ _id: taskId, boardId });
+  return 'Task has been successfully deleted';
 };
 
 module.exports = { getAll, get, create, update, remove };

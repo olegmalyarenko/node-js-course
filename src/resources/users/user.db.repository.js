@@ -16,14 +16,13 @@ const create = async item => {
 
 const update = async item => {
   return User.findOneAndUpdate({ _id: item._id }, item);
-  // User.updateMany()
 };
 
 const remove = async id => {
   await Task.updateMany({ userId: id }, { $set: { userId: null } });
   await User.findByIdAndDelete(id);
 
-  return 'User successfully deleted';
+  return 'User has been successfully deleted';
 };
 
 module.exports = { getAll, get, create, update, remove };

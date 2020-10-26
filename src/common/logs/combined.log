@@ -5407,3 +5407,4311 @@ info:
     QUERY PARAMS: {}
     BODY: no body for DELETE
 
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: GET
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+error: 
+    TYPE: GET
+    URL: /users
+    BODY: no body for GET
+    ERROR STATUS: 500
+    ERROR MESSAGE: user is not defined
+    ERROR DETAILS:
+    ReferenceError: user is not defined
+    at D:\js\node-js-course\src\resources\users\user.router.js:12:40
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    
+info: 
+    TYPE: POST
+    URL: /boards/fa25df37-10d7-4b65-963f-adc6163f54d8/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TYPE: GET
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+error: 
+    TYPE: GET
+    URL: /boards
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15
+    at next (D:\js\node-js-course\node_modules\express\lib\router\index.js:260:14)
+    at next (D:\js\node-js-course\node_modules\express\lib\router\route.js:127:14)
+    at D:\js\node-js-course\src\resources\boards\board.router.js:12:12
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    
+info: 
+    TYPE: GET
+    URL: /users/96c6f428-04e3-476f-884c-9e8370e40cf0
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/fa25df37-10d7-4b65-963f-adc6163f54d8/tasks
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+error: 
+    TYPE: GET
+    URL: /boards
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15
+    at next (D:\js\node-js-course\node_modules\express\lib\router\index.js:260:14)
+    at next (D:\js\node-js-course\node_modules\express\lib\router\route.js:127:14)
+    at D:\js\node-js-course\src\resources\boards\board.router.js:12:12
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: GET
+    URL: /boards/fa25df37-10d7-4b65-963f-adc6163f54d8/tasks
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /users/96c6f428-04e3-476f-884c-9e8370e40cf0
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/fa25df37-10d7-4b65-963f-adc6163f54d8/tasks/799b12a6-d561-466d-a92e-2c55772dd0c9
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /boards/354a20a4-573b-45e0-b809-ce7261c7c356
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: POST
+    URL: /boards/fa25df37-10d7-4b65-963f-adc6163f54d8/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: DELETE
+    URL: /boards/fa25df37-10d7-4b65-963f-adc6163f54d8/tasks/bc379ef0-7b91-4c9b-82cc-04d0b8eb33cb
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /users/27b284b2-213f-4544-ae0c-cad0f012b66b
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: PUT
+    URL: /boards/cabe3ca9-9e90-4994-b2de-87f3596ba909
+    QUERY PARAMS: {}
+    BODY: {"id":"cabe3ca9-9e90-4994-b2de-87f3596ba909","title":"Autotest updated board","columns":[{"_id":"5f9719e4dfaee20d008d19d4","title":"Backlog","order":1},{"_id":"5f9719e4dfaee20d008d19d5","title":"Sprint","order":2}]}
+
+info: 
+    TYPE: POST
+    URL: /boards/fa25df37-10d7-4b65-963f-adc6163f54d8/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TYPE: GET
+    URL: /boards/cabe3ca9-9e90-4994-b2de-87f3596ba909
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: PUT
+    URL: /users/0e582d35-9192-4398-af24-f40f889b3016
+    QUERY PARAMS: {}
+    BODY: {"name":"Autotest updated TEST_USER","login":"test_user","id":"0e582d35-9192-4398-af24-f40f889b3016"}
+
+info: 
+    TYPE: DELETE
+    URL: /boards/cabe3ca9-9e90-4994-b2de-87f3596ba909
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: PUT
+    URL: /boards/fa25df37-10d7-4b65-963f-adc6163f54d8/tasks/3a759caf-b1fa-41a7-82c0-8fde3e12949e
+    QUERY PARAMS: {}
+    BODY: {"id":"3a759caf-b1fa-41a7-82c0-8fde3e12949e","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"fa25df37-10d7-4b65-963f-adc6163f54d8","columnId":null}
+
+info: 
+    TYPE: GET
+    URL: /boards/fa25df37-10d7-4b65-963f-adc6163f54d8/tasks/3a759caf-b1fa-41a7-82c0-8fde3e12949e
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /users/0e582d35-9192-4398-af24-f40f889b3016
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: GET
+    URL: /boards/fa25df37-10d7-4b65-963f-adc6163f54d8/tasks/799b12a6-d561-466d-a92e-2c55772dd0c9
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /users/0e582d35-9192-4398-af24-f40f889b3016
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/fa25df37-10d7-4b65-963f-adc6163f54d8/tasks/799b12a6-d561-466d-a92e-2c55772dd0c9
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/47beac81-028d-482d-9608-ff0c113813f5
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: GET
+    URL: /boards/fa25df37-10d7-4b65-963f-adc6163f54d8/tasks/799b12a6-d561-466d-a92e-2c55772dd0c9
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /users/3d78eb81-f60b-451a-a8a8-399220b2f338
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/47beac81-028d-482d-9608-ff0c113813f5
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+error: 
+    TYPE: GET
+    URL: /boards/fa25df37-10d7-4b65-963f-adc6163f54d8/tasks/799b12a6-d561-466d-a92e-2c55772dd0c9
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+info: 
+    TYPE: DELETE
+    URL: /boards/fa25df37-10d7-4b65-963f-adc6163f54d8
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+error: 
+    TYPE: GET
+    URL: /boards/47beac81-028d-482d-9608-ff0c113813f5
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\boards\board.router.js:22:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: POST
+    URL: /boards/441274de-15b9-46ff-b2e4-e766d7b06ebf/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"441274de-15b9-46ff-b2e4-e766d7b06ebf","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards/441274de-15b9-46ff-b2e4-e766d7b06ebf/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"441274de-15b9-46ff-b2e4-e766d7b06ebf","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards/441274de-15b9-46ff-b2e4-e766d7b06ebf/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"441274de-15b9-46ff-b2e4-e766d7b06ebf","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards/441274de-15b9-46ff-b2e4-e766d7b06ebf/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"441274de-15b9-46ff-b2e4-e766d7b06ebf","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards/441274de-15b9-46ff-b2e4-e766d7b06ebf/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"441274de-15b9-46ff-b2e4-e766d7b06ebf","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: GET
+    URL: /boards/441274de-15b9-46ff-b2e4-e766d7b06ebf/tasks/2ceaceda-8c61-4696-9a92-1c78bd353d3b
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/441274de-15b9-46ff-b2e4-e766d7b06ebf/tasks/2496cdf2-c09d-4718-b516-609429475cd9
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/441274de-15b9-46ff-b2e4-e766d7b06ebf/tasks/ffa561eb-be9d-4631-a937-4280bb60c759
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/441274de-15b9-46ff-b2e4-e766d7b06ebf/tasks/a9e2b205-310a-4cb1-9526-9f2bdb2ff908
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/441274de-15b9-46ff-b2e4-e766d7b06ebf/tasks/9120fd7d-9216-434f-be45-233db9000148
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /boards/191e58ea-729f-4b2d-8d00-c92ad0dbc383/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"7b8c32a7-594f-4c67-b7d0-0bfc2e73789b","boardId":"191e58ea-729f-4b2d-8d00-c92ad0dbc383"}
+
+info: 
+    TYPE: POST
+    URL: /boards/191e58ea-729f-4b2d-8d00-c92ad0dbc383/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"7b8c32a7-594f-4c67-b7d0-0bfc2e73789b","boardId":"191e58ea-729f-4b2d-8d00-c92ad0dbc383"}
+
+info: 
+    TYPE: DELETE
+    URL: /boards/441274de-15b9-46ff-b2e4-e766d7b06ebf
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /users/7b8c32a7-594f-4c67-b7d0-0bfc2e73789b
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/441274de-15b9-46ff-b2e4-e766d7b06ebf/tasks/2ceaceda-8c61-4696-9a92-1c78bd353d3b
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/441274de-15b9-46ff-b2e4-e766d7b06ebf/tasks/2496cdf2-c09d-4718-b516-609429475cd9
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/441274de-15b9-46ff-b2e4-e766d7b06ebf/tasks/ffa561eb-be9d-4631-a937-4280bb60c759
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/441274de-15b9-46ff-b2e4-e766d7b06ebf/tasks/a9e2b205-310a-4cb1-9526-9f2bdb2ff908
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/441274de-15b9-46ff-b2e4-e766d7b06ebf/tasks/9120fd7d-9216-434f-be45-233db9000148
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/191e58ea-729f-4b2d-8d00-c92ad0dbc383/tasks/a868fa84-6fab-4f28-ab3d-efc71ac74197
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+error: 
+    TYPE: GET
+    URL: /boards/441274de-15b9-46ff-b2e4-e766d7b06ebf/tasks/2ceaceda-8c61-4696-9a92-1c78bd353d3b
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/441274de-15b9-46ff-b2e4-e766d7b06ebf/tasks/2496cdf2-c09d-4718-b516-609429475cd9
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/441274de-15b9-46ff-b2e4-e766d7b06ebf/tasks/ffa561eb-be9d-4631-a937-4280bb60c759
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/441274de-15b9-46ff-b2e4-e766d7b06ebf/tasks/a9e2b205-310a-4cb1-9526-9f2bdb2ff908
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/441274de-15b9-46ff-b2e4-e766d7b06ebf/tasks/9120fd7d-9216-434f-be45-233db9000148
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+info: 
+    TYPE: DELETE
+    URL: /boards/36295ea9-0031-4294-8b18-4130d02e2f33
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/191e58ea-729f-4b2d-8d00-c92ad0dbc383/tasks/d9df399a-a0b0-47d3-820b-a57b7fbc13b6
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /boards/191e58ea-729f-4b2d-8d00-c92ad0dbc383/tasks/a868fa84-6fab-4f28-ab3d-efc71ac74197
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/191e58ea-729f-4b2d-8d00-c92ad0dbc383/tasks/d9df399a-a0b0-47d3-820b-a57b7fbc13b6
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/191e58ea-729f-4b2d-8d00-c92ad0dbc383
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: GET
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: GET
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: GET
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /users/3df3dcf7-a62c-427d-bda5-7d7983ef43c2
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/a4c0f2cd-3276-41f0-93ba-65f13ff3d62d
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /users/3df3dcf7-a62c-427d-bda5-7d7983ef43c2
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+error: 
+    TYPE: GET
+    URL: /boards/a4c0f2cd-3276-41f0-93ba-65f13ff3d62d
+    BODY: no body for GET
+    ERROR STATUS: 500
+    ERROR MESSAGE: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received type function ([Function (anonymous)])
+    ERROR DETAILS:
+    TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received type function ([Function (anonymous)])
+    at Function.from (buffer.js:329:9)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:189:22)
+    at D:\js\node-js-course\src\resources\boards\board.router.js:20:32
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: 
+    TYPE: POST
+    URL: /boards/a7cf4182-3f1e-4c2d-ad24-a2968fd2d408/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: GET
+    URL: /boards/a7cf4182-3f1e-4c2d-ad24-a2968fd2d408/tasks
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /boards/439b4be7-c7c0-4360-a158-f18166a5a84d
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /users/de27ebc4-1f82-4ff8-8d60-4c2aaeac0182
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/a7cf4182-3f1e-4c2d-ad24-a2968fd2d408/tasks
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: GET
+    URL: /boards/a7cf4182-3f1e-4c2d-ad24-a2968fd2d408/tasks/a1167fcb-cfe0-4730-99b7-4b7ead38b392
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: PUT
+    URL: /boards/654be06d-4080-45c1-a042-69978bee479d
+    QUERY PARAMS: {}
+    BODY: {"id":"654be06d-4080-45c1-a042-69978bee479d","title":"Autotest updated board","columns":[{"_id":"5f971a818d89994bbc99c4cf","title":"Backlog","order":1},{"_id":"5f971a818d89994bbc99c4d0","title":"Sprint","order":2}]}
+
+info: 
+    TYPE: POST
+    URL: /boards/a7cf4182-3f1e-4c2d-ad24-a2968fd2d408/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: GET
+    URL: /boards/654be06d-4080-45c1-a042-69978bee479d
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: PUT
+    URL: /users/892b8a55-7b89-4f07-98e9-83cd269a1614
+    QUERY PARAMS: {}
+    BODY: {"name":"Autotest updated TEST_USER","login":"test_user","id":"892b8a55-7b89-4f07-98e9-83cd269a1614"}
+
+info: 
+    TYPE: DELETE
+    URL: /boards/a7cf4182-3f1e-4c2d-ad24-a2968fd2d408/tasks/8a78f875-f382-404c-8647-b54f80576d47
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /users/892b8a55-7b89-4f07-98e9-83cd269a1614
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+error: 
+    TYPE: GET
+    URL: /boards/654be06d-4080-45c1-a042-69978bee479d
+    BODY: no body for GET
+    ERROR STATUS: 500
+    ERROR MESSAGE: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received type function ([Function (anonymous)])
+    ERROR DETAILS:
+    TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received type function ([Function (anonymous)])
+    at Function.from (buffer.js:329:9)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:189:22)
+    at D:\js\node-js-course\src\resources\boards\board.router.js:20:32
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: POST
+    URL: /boards/a7cf4182-3f1e-4c2d-ad24-a2968fd2d408/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TYPE: DELETE
+    URL: /boards/854e5f12-be13-4481-8f10-dc060f2a029c
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /users/892b8a55-7b89-4f07-98e9-83cd269a1614
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: PUT
+    URL: /boards/a7cf4182-3f1e-4c2d-ad24-a2968fd2d408/tasks/11deb562-aea4-4a2b-99de-87b7fdfbd4c2
+    QUERY PARAMS: {}
+    BODY: {"id":"11deb562-aea4-4a2b-99de-87b7fdfbd4c2","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"a7cf4182-3f1e-4c2d-ad24-a2968fd2d408","columnId":null}
+
+info: 
+    TYPE: GET
+    URL: /boards/854e5f12-be13-4481-8f10-dc060f2a029c
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/a7cf4182-3f1e-4c2d-ad24-a2968fd2d408/tasks/11deb562-aea4-4a2b-99de-87b7fdfbd4c2
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: DELETE
+    URL: /users/fa1fe1ba-9067-45da-92f8-e6461dd4c38e
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/a7cf4182-3f1e-4c2d-ad24-a2968fd2d408/tasks/a1167fcb-cfe0-4730-99b7-4b7ead38b392
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+error: 
+    TYPE: GET
+    URL: /boards/854e5f12-be13-4481-8f10-dc060f2a029c
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\boards\board.router.js:22:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: DELETE
+    URL: /boards/a7cf4182-3f1e-4c2d-ad24-a2968fd2d408/tasks/a1167fcb-cfe0-4730-99b7-4b7ead38b392
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: POST
+    URL: /boards/c97cd811-3b2c-4fef-845c-2d6f80bbc06e/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"c97cd811-3b2c-4fef-845c-2d6f80bbc06e","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards/c97cd811-3b2c-4fef-845c-2d6f80bbc06e/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"c97cd811-3b2c-4fef-845c-2d6f80bbc06e","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards/c97cd811-3b2c-4fef-845c-2d6f80bbc06e/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"c97cd811-3b2c-4fef-845c-2d6f80bbc06e","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards/c97cd811-3b2c-4fef-845c-2d6f80bbc06e/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"c97cd811-3b2c-4fef-845c-2d6f80bbc06e","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards/c97cd811-3b2c-4fef-845c-2d6f80bbc06e/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"c97cd811-3b2c-4fef-845c-2d6f80bbc06e","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: GET
+    URL: /boards/c97cd811-3b2c-4fef-845c-2d6f80bbc06e/tasks/aba5a6ba-5c04-470b-a4d0-a68ea811583b
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/c97cd811-3b2c-4fef-845c-2d6f80bbc06e/tasks/99f58c35-6374-43da-b5ee-aac4098d05a1
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/c97cd811-3b2c-4fef-845c-2d6f80bbc06e/tasks/4cbaeddf-35e2-4501-a210-ac8ffcc28b60
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/c97cd811-3b2c-4fef-845c-2d6f80bbc06e/tasks/5072e3e1-63b9-44fe-988a-20507ecceb6b
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/c97cd811-3b2c-4fef-845c-2d6f80bbc06e/tasks/627ce433-c3b5-4eff-91ef-3fc900871013
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/a7cf4182-3f1e-4c2d-ad24-a2968fd2d408/tasks/a1167fcb-cfe0-4730-99b7-4b7ead38b392
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: DELETE
+    URL: /boards/c97cd811-3b2c-4fef-845c-2d6f80bbc06e
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+error: 
+    TYPE: GET
+    URL: /boards/a7cf4182-3f1e-4c2d-ad24-a2968fd2d408/tasks/a1167fcb-cfe0-4730-99b7-4b7ead38b392
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+info: 
+    TYPE: DELETE
+    URL: /boards/a7cf4182-3f1e-4c2d-ad24-a2968fd2d408
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: POST
+    URL: /boards/e03dafed-f82d-4111-8f98-c1df4d793ae6/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"df6bdde0-2395-4649-830c-1b8d41194d07","boardId":"e03dafed-f82d-4111-8f98-c1df4d793ae6"}
+
+info: 
+    TYPE: POST
+    URL: /boards/e03dafed-f82d-4111-8f98-c1df4d793ae6/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"df6bdde0-2395-4649-830c-1b8d41194d07","boardId":"e03dafed-f82d-4111-8f98-c1df4d793ae6"}
+
+info: 
+    TYPE: GET
+    URL: /boards/c97cd811-3b2c-4fef-845c-2d6f80bbc06e/tasks/aba5a6ba-5c04-470b-a4d0-a68ea811583b
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/c97cd811-3b2c-4fef-845c-2d6f80bbc06e/tasks/99f58c35-6374-43da-b5ee-aac4098d05a1
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/c97cd811-3b2c-4fef-845c-2d6f80bbc06e/tasks/4cbaeddf-35e2-4501-a210-ac8ffcc28b60
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/c97cd811-3b2c-4fef-845c-2d6f80bbc06e/tasks/5072e3e1-63b9-44fe-988a-20507ecceb6b
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/c97cd811-3b2c-4fef-845c-2d6f80bbc06e/tasks/627ce433-c3b5-4eff-91ef-3fc900871013
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /users/df6bdde0-2395-4649-830c-1b8d41194d07
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+error: 
+    TYPE: GET
+    URL: /boards/c97cd811-3b2c-4fef-845c-2d6f80bbc06e/tasks/99f58c35-6374-43da-b5ee-aac4098d05a1
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/c97cd811-3b2c-4fef-845c-2d6f80bbc06e/tasks/aba5a6ba-5c04-470b-a4d0-a68ea811583b
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/c97cd811-3b2c-4fef-845c-2d6f80bbc06e/tasks/4cbaeddf-35e2-4501-a210-ac8ffcc28b60
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/c97cd811-3b2c-4fef-845c-2d6f80bbc06e/tasks/5072e3e1-63b9-44fe-988a-20507ecceb6b
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/c97cd811-3b2c-4fef-845c-2d6f80bbc06e/tasks/627ce433-c3b5-4eff-91ef-3fc900871013
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+info: 
+    TYPE: DELETE
+    URL: /boards/5d6684c4-3a55-48d7-b810-637a0854d11c
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/e03dafed-f82d-4111-8f98-c1df4d793ae6/tasks/5f16ca20-4b23-4822-bd53-32ac5a7fdfd5
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/e03dafed-f82d-4111-8f98-c1df4d793ae6/tasks/734dae9c-dfaa-4e34-a625-cb0f2809b2df
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /boards/e03dafed-f82d-4111-8f98-c1df4d793ae6/tasks/5f16ca20-4b23-4822-bd53-32ac5a7fdfd5
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/e03dafed-f82d-4111-8f98-c1df4d793ae6/tasks/734dae9c-dfaa-4e34-a625-cb0f2809b2df
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/e03dafed-f82d-4111-8f98-c1df4d793ae6
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: GET
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: GET
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /boards/42baa5ae-502b-4ca6-9005-e4b7d14fa6d2/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: GET
+    URL: /boards/42baa5ae-502b-4ca6-9005-e4b7d14fa6d2/tasks
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /users/6d09c7ef-f562-4171-b46c-dac12beedc05
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/e87729fe-b4ac-432b-9a57-faf7416514b2
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/42baa5ae-502b-4ca6-9005-e4b7d14fa6d2/tasks
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /users/6d09c7ef-f562-4171-b46c-dac12beedc05
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/42baa5ae-502b-4ca6-9005-e4b7d14fa6d2/tasks/35883481-0f7f-4509-bc4b-3cc9bdd3e6ea
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: POST
+    URL: /boards/42baa5ae-502b-4ca6-9005-e4b7d14fa6d2/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: DELETE
+    URL: /boards/7421147d-f3ae-4a7c-bdf4-672f00c4b137
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /users/f4375c55-5008-4edc-ad73-ff993aa74f27
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/42baa5ae-502b-4ca6-9005-e4b7d14fa6d2/tasks/400b1989-7097-450e-afc4-e2c15a0a1a73
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: POST
+    URL: /boards/42baa5ae-502b-4ca6-9005-e4b7d14fa6d2/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: PUT
+    URL: /boards/af0042b5-5cd8-4ecd-be7c-2b44c0838600
+    QUERY PARAMS: {}
+    BODY: {"id":"af0042b5-5cd8-4ecd-be7c-2b44c0838600","title":"Autotest updated board","columns":[{"_id":"5f971aeaf3e1f928f4ffc854","title":"Backlog","order":1},{"_id":"5f971aeaf3e1f928f4ffc855","title":"Sprint","order":2}]}
+
+info: 
+    TYPE: PUT
+    URL: /users/66707e3c-0f67-4663-9413-8041663d9cb5
+    QUERY PARAMS: {}
+    BODY: {"name":"Autotest updated TEST_USER","login":"test_user","id":"66707e3c-0f67-4663-9413-8041663d9cb5"}
+
+info: 
+    TYPE: GET
+    URL: /boards/af0042b5-5cd8-4ecd-be7c-2b44c0838600
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: PUT
+    URL: /boards/42baa5ae-502b-4ca6-9005-e4b7d14fa6d2/tasks/4b515c63-e41a-4c45-a1aa-f9f6a7e404dc
+    QUERY PARAMS: {}
+    BODY: {"id":"4b515c63-e41a-4c45-a1aa-f9f6a7e404dc","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"42baa5ae-502b-4ca6-9005-e4b7d14fa6d2","columnId":null}
+
+info: 
+    TYPE: DELETE
+    URL: /boards/af0042b5-5cd8-4ecd-be7c-2b44c0838600
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /users/66707e3c-0f67-4663-9413-8041663d9cb5
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/42baa5ae-502b-4ca6-9005-e4b7d14fa6d2/tasks/4b515c63-e41a-4c45-a1aa-f9f6a7e404dc
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /users/66707e3c-0f67-4663-9413-8041663d9cb5
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/42baa5ae-502b-4ca6-9005-e4b7d14fa6d2/tasks/35883481-0f7f-4509-bc4b-3cc9bdd3e6ea
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: DELETE
+    URL: /boards/42baa5ae-502b-4ca6-9005-e4b7d14fa6d2/tasks/35883481-0f7f-4509-bc4b-3cc9bdd3e6ea
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/31c95d41-fb6c-4faf-b2d9-61b206e42f68
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: GET
+    URL: /boards/42baa5ae-502b-4ca6-9005-e4b7d14fa6d2/tasks/35883481-0f7f-4509-bc4b-3cc9bdd3e6ea
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /users/3dea384f-24e4-4a4c-a4d4-588d769d9f88
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/31c95d41-fb6c-4faf-b2d9-61b206e42f68
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+error: 
+    TYPE: GET
+    URL: /boards/42baa5ae-502b-4ca6-9005-e4b7d14fa6d2/tasks/35883481-0f7f-4509-bc4b-3cc9bdd3e6ea
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+info: 
+    TYPE: DELETE
+    URL: /boards/42baa5ae-502b-4ca6-9005-e4b7d14fa6d2
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+error: 
+    TYPE: GET
+    URL: /boards/31c95d41-fb6c-4faf-b2d9-61b206e42f68
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\boards\board.router.js:22:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: POST
+    URL: /boards/be26da6f-c3e6-411e-bcbd-e2821f812aef/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"be26da6f-c3e6-411e-bcbd-e2821f812aef","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards/be26da6f-c3e6-411e-bcbd-e2821f812aef/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"be26da6f-c3e6-411e-bcbd-e2821f812aef","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards/be26da6f-c3e6-411e-bcbd-e2821f812aef/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"be26da6f-c3e6-411e-bcbd-e2821f812aef","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards/be26da6f-c3e6-411e-bcbd-e2821f812aef/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"be26da6f-c3e6-411e-bcbd-e2821f812aef","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards/be26da6f-c3e6-411e-bcbd-e2821f812aef/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"be26da6f-c3e6-411e-bcbd-e2821f812aef","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: POST
+    URL: /boards/b702edb9-8bac-4644-82bb-47e89ae5c69e/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"b97b3b11-761a-44f0-ad20-52414c4d4296","boardId":"b702edb9-8bac-4644-82bb-47e89ae5c69e"}
+
+info: 
+    TYPE: POST
+    URL: /boards/b702edb9-8bac-4644-82bb-47e89ae5c69e/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"b97b3b11-761a-44f0-ad20-52414c4d4296","boardId":"b702edb9-8bac-4644-82bb-47e89ae5c69e"}
+
+info: 
+    TYPE: GET
+    URL: /boards/be26da6f-c3e6-411e-bcbd-e2821f812aef/tasks/6bb9616b-6025-4baa-951e-556dd7137b32
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/be26da6f-c3e6-411e-bcbd-e2821f812aef/tasks/bd2fd08f-7a8d-4fd1-b270-58a513cd954a
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/be26da6f-c3e6-411e-bcbd-e2821f812aef/tasks/1b3b1011-702a-488e-b202-5ac83abc80c6
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/be26da6f-c3e6-411e-bcbd-e2821f812aef/tasks/cdc3a429-84a1-4d85-9c0a-7de0671db6c4
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/be26da6f-c3e6-411e-bcbd-e2821f812aef/tasks/70370bff-174d-4c3a-b6d2-b5cc4224847b
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /users/b97b3b11-761a-44f0-ad20-52414c4d4296
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/be26da6f-c3e6-411e-bcbd-e2821f812aef
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/b702edb9-8bac-4644-82bb-47e89ae5c69e/tasks/1c2fbce0-0ac8-4e1b-9702-e7885890781e
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/be26da6f-c3e6-411e-bcbd-e2821f812aef/tasks/6bb9616b-6025-4baa-951e-556dd7137b32
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/be26da6f-c3e6-411e-bcbd-e2821f812aef/tasks/bd2fd08f-7a8d-4fd1-b270-58a513cd954a
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/be26da6f-c3e6-411e-bcbd-e2821f812aef/tasks/1b3b1011-702a-488e-b202-5ac83abc80c6
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/be26da6f-c3e6-411e-bcbd-e2821f812aef/tasks/cdc3a429-84a1-4d85-9c0a-7de0671db6c4
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/be26da6f-c3e6-411e-bcbd-e2821f812aef/tasks/70370bff-174d-4c3a-b6d2-b5cc4224847b
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/b702edb9-8bac-4644-82bb-47e89ae5c69e/tasks/8349c655-9931-448f-87a8-b7418934b97c
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+error: 
+    TYPE: GET
+    URL: /boards/be26da6f-c3e6-411e-bcbd-e2821f812aef/tasks/bd2fd08f-7a8d-4fd1-b270-58a513cd954a
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/be26da6f-c3e6-411e-bcbd-e2821f812aef/tasks/6bb9616b-6025-4baa-951e-556dd7137b32
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/be26da6f-c3e6-411e-bcbd-e2821f812aef/tasks/cdc3a429-84a1-4d85-9c0a-7de0671db6c4
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/be26da6f-c3e6-411e-bcbd-e2821f812aef/tasks/70370bff-174d-4c3a-b6d2-b5cc4224847b
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/be26da6f-c3e6-411e-bcbd-e2821f812aef/tasks/1b3b1011-702a-488e-b202-5ac83abc80c6
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+info: 
+    TYPE: DELETE
+    URL: /boards/6a234889-2322-4f80-8b2e-7c5f092e7cb8
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/b702edb9-8bac-4644-82bb-47e89ae5c69e/tasks/1c2fbce0-0ac8-4e1b-9702-e7885890781e
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/b702edb9-8bac-4644-82bb-47e89ae5c69e/tasks/8349c655-9931-448f-87a8-b7418934b97c
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/b702edb9-8bac-4644-82bb-47e89ae5c69e
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: GET
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: POST
+    URL: /boards/863288c3-2f86-4908-894a-cec42a3167aa/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TYPE: GET
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/863288c3-2f86-4908-894a-cec42a3167aa/tasks
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /users/fe258d48-be68-490c-8087-df94c1e117c1
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /users/fe258d48-be68-490c-8087-df94c1e117c1
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/863288c3-2f86-4908-894a-cec42a3167aa/tasks
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/e87729fe-b4ac-432b-9a57-faf7416514b2
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/863288c3-2f86-4908-894a-cec42a3167aa/tasks/1ddd0f70-3d0a-4261-8aa5-83a4f729438b
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: DELETE
+    URL: /boards/becc20e4-28e9-47e7-9acd-4f39e1c38a89
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: POST
+    URL: /boards/863288c3-2f86-4908-894a-cec42a3167aa/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TYPE: DELETE
+    URL: /boards/863288c3-2f86-4908-894a-cec42a3167aa/tasks/1be5da92-18ab-4b7e-8294-0a1420b7b578
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /users/e187e04a-0e6a-4df3-88e7-c7053452dd21
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: POST
+    URL: /boards/863288c3-2f86-4908-894a-cec42a3167aa/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: PUT
+    URL: /boards/c9cd79b3-9f09-4321-b04c-ef786b06455f
+    QUERY PARAMS: {}
+    BODY: {"id":"c9cd79b3-9f09-4321-b04c-ef786b06455f","title":"Autotest updated board","columns":[{"_id":"5f971afcf3e1f928f4ffc866","title":"Backlog","order":1},{"_id":"5f971afcf3e1f928f4ffc867","title":"Sprint","order":2}]}
+
+info: 
+    TYPE: PUT
+    URL: /users/e7b16282-87a2-4c54-b5e2-8dd711220f5d
+    QUERY PARAMS: {}
+    BODY: {"name":"Autotest updated TEST_USER","login":"test_user","id":"e7b16282-87a2-4c54-b5e2-8dd711220f5d"}
+
+info: 
+    TYPE: PUT
+    URL: /boards/863288c3-2f86-4908-894a-cec42a3167aa/tasks/a9982b13-3eac-4ea1-91fc-a421ee163770
+    QUERY PARAMS: {}
+    BODY: {"id":"a9982b13-3eac-4ea1-91fc-a421ee163770","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"863288c3-2f86-4908-894a-cec42a3167aa","columnId":null}
+
+info: 
+    TYPE: GET
+    URL: /boards/c9cd79b3-9f09-4321-b04c-ef786b06455f
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/863288c3-2f86-4908-894a-cec42a3167aa/tasks/a9982b13-3eac-4ea1-91fc-a421ee163770
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /users/e7b16282-87a2-4c54-b5e2-8dd711220f5d
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /boards/c9cd79b3-9f09-4321-b04c-ef786b06455f
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /users/e7b16282-87a2-4c54-b5e2-8dd711220f5d
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/863288c3-2f86-4908-894a-cec42a3167aa/tasks/1ddd0f70-3d0a-4261-8aa5-83a4f729438b
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: DELETE
+    URL: /boards/863288c3-2f86-4908-894a-cec42a3167aa/tasks/1ddd0f70-3d0a-4261-8aa5-83a4f729438b
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/b3f47966-5650-4089-bb0f-dfa8da8e7ba8
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: GET
+    URL: /boards/863288c3-2f86-4908-894a-cec42a3167aa/tasks/1ddd0f70-3d0a-4261-8aa5-83a4f729438b
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /users/bc50653c-b0b3-4e8e-b324-929b46228a2b
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+error: 
+    TYPE: GET
+    URL: /boards/863288c3-2f86-4908-894a-cec42a3167aa/tasks/1ddd0f70-3d0a-4261-8aa5-83a4f729438b
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+info: 
+    TYPE: DELETE
+    URL: /boards/863288c3-2f86-4908-894a-cec42a3167aa
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/b3f47966-5650-4089-bb0f-dfa8da8e7ba8
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+error: 
+    TYPE: GET
+    URL: /boards/b3f47966-5650-4089-bb0f-dfa8da8e7ba8
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\boards\board.router.js:22:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: POST
+    URL: /boards/a7ac9abf-5398-4bab-af4a-167324789230/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"a7ac9abf-5398-4bab-af4a-167324789230","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards/a7ac9abf-5398-4bab-af4a-167324789230/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"a7ac9abf-5398-4bab-af4a-167324789230","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards/a7ac9abf-5398-4bab-af4a-167324789230/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"a7ac9abf-5398-4bab-af4a-167324789230","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards/a7ac9abf-5398-4bab-af4a-167324789230/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"a7ac9abf-5398-4bab-af4a-167324789230","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards/a7ac9abf-5398-4bab-af4a-167324789230/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"a7ac9abf-5398-4bab-af4a-167324789230","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards/d86626f1-d825-41f2-99dc-b1db07ef7435/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"587169e4-bc97-4cb5-8ff3-c05bc87db64b","boardId":"d86626f1-d825-41f2-99dc-b1db07ef7435"}
+
+info: 
+    TYPE: POST
+    URL: /boards/d86626f1-d825-41f2-99dc-b1db07ef7435/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"587169e4-bc97-4cb5-8ff3-c05bc87db64b","boardId":"d86626f1-d825-41f2-99dc-b1db07ef7435"}
+
+info: 
+    TYPE: GET
+    URL: /boards/a7ac9abf-5398-4bab-af4a-167324789230/tasks/50fd4a1b-2cc1-484f-9e76-40b49abefc97
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/a7ac9abf-5398-4bab-af4a-167324789230/tasks/3dcfc035-793f-4851-a0d4-1687eb38ae03
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/a7ac9abf-5398-4bab-af4a-167324789230/tasks/e3f701ce-04f9-4a6a-9ce0-537b796d50d3
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/a7ac9abf-5398-4bab-af4a-167324789230/tasks/3ca217ab-b2da-421c-aa6c-a91009aa0237
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/a7ac9abf-5398-4bab-af4a-167324789230/tasks/441e132f-8c1e-4151-915d-229ca5574431
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /users/587169e4-bc97-4cb5-8ff3-c05bc87db64b
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/a7ac9abf-5398-4bab-af4a-167324789230
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/d86626f1-d825-41f2-99dc-b1db07ef7435/tasks/4636dbb5-1f87-4a97-8752-5bf0b127dbb8
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/a7ac9abf-5398-4bab-af4a-167324789230/tasks/50fd4a1b-2cc1-484f-9e76-40b49abefc97
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/a7ac9abf-5398-4bab-af4a-167324789230/tasks/3dcfc035-793f-4851-a0d4-1687eb38ae03
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/a7ac9abf-5398-4bab-af4a-167324789230/tasks/e3f701ce-04f9-4a6a-9ce0-537b796d50d3
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/a7ac9abf-5398-4bab-af4a-167324789230/tasks/3ca217ab-b2da-421c-aa6c-a91009aa0237
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/a7ac9abf-5398-4bab-af4a-167324789230/tasks/441e132f-8c1e-4151-915d-229ca5574431
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/d86626f1-d825-41f2-99dc-b1db07ef7435/tasks/eb4766da-30a7-4700-bb0b-f4df3dbfd317
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+error: 
+    TYPE: GET
+    URL: /boards/a7ac9abf-5398-4bab-af4a-167324789230/tasks/3dcfc035-793f-4851-a0d4-1687eb38ae03
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/a7ac9abf-5398-4bab-af4a-167324789230/tasks/50fd4a1b-2cc1-484f-9e76-40b49abefc97
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/a7ac9abf-5398-4bab-af4a-167324789230/tasks/e3f701ce-04f9-4a6a-9ce0-537b796d50d3
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/a7ac9abf-5398-4bab-af4a-167324789230/tasks/441e132f-8c1e-4151-915d-229ca5574431
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/a7ac9abf-5398-4bab-af4a-167324789230/tasks/3ca217ab-b2da-421c-aa6c-a91009aa0237
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+info: 
+    TYPE: DELETE
+    URL: /boards/2bf219ea-1582-4ae3-a96a-ca8d41236c4d
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/d86626f1-d825-41f2-99dc-b1db07ef7435/tasks/eb4766da-30a7-4700-bb0b-f4df3dbfd317
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/d86626f1-d825-41f2-99dc-b1db07ef7435/tasks/4636dbb5-1f87-4a97-8752-5bf0b127dbb8
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/d86626f1-d825-41f2-99dc-b1db07ef7435
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: GET
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /boards/b347dbde-718b-4844-a75d-34d1c61bd344/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: GET
+    URL: /boards/b347dbde-718b-4844-a75d-34d1c61bd344/tasks
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /users/1fae783c-c67b-4a8b-96f3-d8c830fd0314
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /users/1fae783c-c67b-4a8b-96f3-d8c830fd0314
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/b347dbde-718b-4844-a75d-34d1c61bd344/tasks
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/2c01d1db-ad4f-417d-89f3-69ba82f7e40e
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/b347dbde-718b-4844-a75d-34d1c61bd344/tasks/a1c23d79-15c4-43d1-a386-d72f621374c7
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: DELETE
+    URL: /boards/ae89aaf0-152a-4a67-9631-2d6095f1777a
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: POST
+    URL: /boards/b347dbde-718b-4844-a75d-34d1c61bd344/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TYPE: DELETE
+    URL: /boards/b347dbde-718b-4844-a75d-34d1c61bd344/tasks/261eb94f-b84c-424c-a834-fa4711ea4843
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /users/e9ee6400-dfee-4cde-a634-5a6e866b23bd
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: PUT
+    URL: /boards/e4f43245-b96c-4c57-b1f3-afcc19f0e9fc
+    QUERY PARAMS: {}
+    BODY: {"id":"e4f43245-b96c-4c57-b1f3-afcc19f0e9fc","title":"Autotest updated board","columns":[{"_id":"5f971b839f7f3836c40e315d","title":"Backlog","order":1},{"_id":"5f971b839f7f3836c40e315e","title":"Sprint","order":2}]}
+
+info: 
+    TYPE: POST
+    URL: /boards/b347dbde-718b-4844-a75d-34d1c61bd344/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: GET
+    URL: /boards/e4f43245-b96c-4c57-b1f3-afcc19f0e9fc
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: PUT
+    URL: /users/6ef1b691-59bb-4ca2-ab3c-be09ada44c48
+    QUERY PARAMS: {}
+    BODY: {"name":"Autotest updated TEST_USER","login":"test_user","id":"6ef1b691-59bb-4ca2-ab3c-be09ada44c48"}
+
+info: 
+    TYPE: PUT
+    URL: /boards/b347dbde-718b-4844-a75d-34d1c61bd344/tasks/3a6bd1db-0d8b-403f-9f62-51cb44fb93ae
+    QUERY PARAMS: {}
+    BODY: {"id":"3a6bd1db-0d8b-403f-9f62-51cb44fb93ae","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"b347dbde-718b-4844-a75d-34d1c61bd344","columnId":null}
+
+info: 
+    TYPE: DELETE
+    URL: /boards/e4f43245-b96c-4c57-b1f3-afcc19f0e9fc
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/b347dbde-718b-4844-a75d-34d1c61bd344/tasks/3a6bd1db-0d8b-403f-9f62-51cb44fb93ae
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /users/6ef1b691-59bb-4ca2-ab3c-be09ada44c48
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/b347dbde-718b-4844-a75d-34d1c61bd344/tasks/a1c23d79-15c4-43d1-a386-d72f621374c7
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /users/6ef1b691-59bb-4ca2-ab3c-be09ada44c48
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: DELETE
+    URL: /boards/b347dbde-718b-4844-a75d-34d1c61bd344/tasks/a1c23d79-15c4-43d1-a386-d72f621374c7
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: DELETE
+    URL: /boards/a24ed918-e09d-4fc1-9de9-4e7c9f1c4c2e
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/b347dbde-718b-4844-a75d-34d1c61bd344/tasks/a1c23d79-15c4-43d1-a386-d72f621374c7
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /users/9df82beb-cf50-490a-b6f0-46a4fff92f0e
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+error: 
+    TYPE: GET
+    URL: /boards/b347dbde-718b-4844-a75d-34d1c61bd344/tasks/a1c23d79-15c4-43d1-a386-d72f621374c7
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+info: 
+    TYPE: GET
+    URL: /boards/a24ed918-e09d-4fc1-9de9-4e7c9f1c4c2e
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /boards/b347dbde-718b-4844-a75d-34d1c61bd344
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+error: 
+    TYPE: GET
+    URL: /boards/a24ed918-e09d-4fc1-9de9-4e7c9f1c4c2e
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\boards\board.router.js:22:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: POST
+    URL: /boards/03ee7436-6abd-4b7f-bb0f-f8153ed32098/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"03ee7436-6abd-4b7f-bb0f-f8153ed32098","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards/03ee7436-6abd-4b7f-bb0f-f8153ed32098/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"03ee7436-6abd-4b7f-bb0f-f8153ed32098","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards/03ee7436-6abd-4b7f-bb0f-f8153ed32098/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"03ee7436-6abd-4b7f-bb0f-f8153ed32098","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards/03ee7436-6abd-4b7f-bb0f-f8153ed32098/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"03ee7436-6abd-4b7f-bb0f-f8153ed32098","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards/03ee7436-6abd-4b7f-bb0f-f8153ed32098/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"03ee7436-6abd-4b7f-bb0f-f8153ed32098","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards/00f99298-3fed-4d28-814c-cc1893f2ae4b/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"a3d12683-95b0-4cf2-981e-a087b57034e3","boardId":"00f99298-3fed-4d28-814c-cc1893f2ae4b"}
+
+info: 
+    TYPE: POST
+    URL: /boards/00f99298-3fed-4d28-814c-cc1893f2ae4b/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"a3d12683-95b0-4cf2-981e-a087b57034e3","boardId":"00f99298-3fed-4d28-814c-cc1893f2ae4b"}
+
+info: 
+    TYPE: GET
+    URL: /boards/03ee7436-6abd-4b7f-bb0f-f8153ed32098/tasks/a8c4c8bd-f6c5-43b8-923d-788035d53208
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/03ee7436-6abd-4b7f-bb0f-f8153ed32098/tasks/192b5bd4-81c6-4a7c-b390-1193040b344f
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/03ee7436-6abd-4b7f-bb0f-f8153ed32098/tasks/e27e844b-2b43-4890-838b-11e48f4ef2ff
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/03ee7436-6abd-4b7f-bb0f-f8153ed32098/tasks/ad10bd17-e7d3-4df2-83ca-994e6332da57
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/03ee7436-6abd-4b7f-bb0f-f8153ed32098/tasks/8b7f0d01-977b-4a48-bcc1-20bcdfd12004
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /users/a3d12683-95b0-4cf2-981e-a087b57034e3
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/03ee7436-6abd-4b7f-bb0f-f8153ed32098
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/00f99298-3fed-4d28-814c-cc1893f2ae4b/tasks/ada4fbb3-88f3-4080-9fc6-fdda4f97b10c
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/03ee7436-6abd-4b7f-bb0f-f8153ed32098/tasks/a8c4c8bd-f6c5-43b8-923d-788035d53208
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/03ee7436-6abd-4b7f-bb0f-f8153ed32098/tasks/192b5bd4-81c6-4a7c-b390-1193040b344f
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/03ee7436-6abd-4b7f-bb0f-f8153ed32098/tasks/e27e844b-2b43-4890-838b-11e48f4ef2ff
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/03ee7436-6abd-4b7f-bb0f-f8153ed32098/tasks/ad10bd17-e7d3-4df2-83ca-994e6332da57
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/03ee7436-6abd-4b7f-bb0f-f8153ed32098/tasks/8b7f0d01-977b-4a48-bcc1-20bcdfd12004
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/00f99298-3fed-4d28-814c-cc1893f2ae4b/tasks/6a7097ff-a2a5-42d8-a24f-65a50cb5e2cc
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+error: 
+    TYPE: GET
+    URL: /boards/03ee7436-6abd-4b7f-bb0f-f8153ed32098/tasks/a8c4c8bd-f6c5-43b8-923d-788035d53208
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/03ee7436-6abd-4b7f-bb0f-f8153ed32098/tasks/192b5bd4-81c6-4a7c-b390-1193040b344f
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/03ee7436-6abd-4b7f-bb0f-f8153ed32098/tasks/e27e844b-2b43-4890-838b-11e48f4ef2ff
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/03ee7436-6abd-4b7f-bb0f-f8153ed32098/tasks/ad10bd17-e7d3-4df2-83ca-994e6332da57
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/03ee7436-6abd-4b7f-bb0f-f8153ed32098/tasks/8b7f0d01-977b-4a48-bcc1-20bcdfd12004
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+info: 
+    TYPE: DELETE
+    URL: /boards/afc3b892-ad45-4b9d-b99d-c13750403c52
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/00f99298-3fed-4d28-814c-cc1893f2ae4b/tasks/ada4fbb3-88f3-4080-9fc6-fdda4f97b10c
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/00f99298-3fed-4d28-814c-cc1893f2ae4b/tasks/6a7097ff-a2a5-42d8-a24f-65a50cb5e2cc
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/00f99298-3fed-4d28-814c-cc1893f2ae4b
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: GET
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /boards/c7213700-7bf2-4062-ba95-5436d81577a7/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: GET
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/c7213700-7bf2-4062-ba95-5436d81577a7/tasks
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /users/b3e35553-7ce1-4656-a7d8-125dd32962c8
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/f0681bd2-a97a-4c5b-8cf5-f49837cd54ae
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /users/b3e35553-7ce1-4656-a7d8-125dd32962c8
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/c7213700-7bf2-4062-ba95-5436d81577a7/tasks
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: GET
+    URL: /boards/c7213700-7bf2-4062-ba95-5436d81577a7/tasks/b698dee5-415a-41da-96e5-5cb002a713de
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /boards/7413d2ee-901f-4b2a-a2a6-ff1152c1a139
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: POST
+    URL: /boards/c7213700-7bf2-4062-ba95-5436d81577a7/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: DELETE
+    URL: /users/3faa99d0-d8be-49e0-a51a-bf6c07f24940
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/c7213700-7bf2-4062-ba95-5436d81577a7/tasks/98e546f3-3a1e-4cb4-a437-f39a793ff548
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: PUT
+    URL: /boards/7570f976-1396-43b0-b8af-2eda5ff12544
+    QUERY PARAMS: {}
+    BODY: {"id":"7570f976-1396-43b0-b8af-2eda5ff12544","title":"Autotest updated board","columns":[{"_id":"5f971e7167390d3e0ca4d5ee","title":"Backlog","order":1},{"_id":"5f971e7167390d3e0ca4d5ef","title":"Sprint","order":2}]}
+
+info: 
+    TYPE: POST
+    URL: /boards/c7213700-7bf2-4062-ba95-5436d81577a7/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: GET
+    URL: /boards/7570f976-1396-43b0-b8af-2eda5ff12544
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: PUT
+    URL: /boards/c7213700-7bf2-4062-ba95-5436d81577a7/tasks/1ff29fcd-8feb-4f98-b44f-2aca4070b381
+    QUERY PARAMS: {}
+    BODY: {"id":"1ff29fcd-8feb-4f98-b44f-2aca4070b381","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"c7213700-7bf2-4062-ba95-5436d81577a7","columnId":null}
+
+info: 
+    TYPE: PUT
+    URL: /users/0a4dee52-a077-4ea1-95b4-7a81fff2f1d2
+    QUERY PARAMS: {}
+    BODY: {"name":"Autotest updated TEST_USER","login":"test_user","id":"0a4dee52-a077-4ea1-95b4-7a81fff2f1d2"}
+
+info: 
+    TYPE: DELETE
+    URL: /boards/7570f976-1396-43b0-b8af-2eda5ff12544
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/c7213700-7bf2-4062-ba95-5436d81577a7/tasks/1ff29fcd-8feb-4f98-b44f-2aca4070b381
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /users/0a4dee52-a077-4ea1-95b4-7a81fff2f1d2
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/c7213700-7bf2-4062-ba95-5436d81577a7/tasks/b698dee5-415a-41da-96e5-5cb002a713de
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /users/0a4dee52-a077-4ea1-95b4-7a81fff2f1d2
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: DELETE
+    URL: /boards/0aeb399d-02a5-4e67-be92-6575191c65e2
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: GET
+    URL: /boards/0aeb399d-02a5-4e67-be92-6575191c65e2
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /users/31229898-e73f-4741-9bae-d1f19bc47c15
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/c7213700-7bf2-4062-ba95-5436d81577a7/tasks/b698dee5-415a-41da-96e5-5cb002a713de
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+error: 
+    TYPE: GET
+    URL: /boards/0aeb399d-02a5-4e67-be92-6575191c65e2
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\boards\board.router.js:22:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: GET
+    URL: /boards/c7213700-7bf2-4062-ba95-5436d81577a7/tasks/b698dee5-415a-41da-96e5-5cb002a713de
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+error: 
+    TYPE: GET
+    URL: /boards/c7213700-7bf2-4062-ba95-5436d81577a7/tasks/b698dee5-415a-41da-96e5-5cb002a713de
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: 
+    TYPE: DELETE
+    URL: /boards/c7213700-7bf2-4062-ba95-5436d81577a7
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: POST
+    URL: /boards/e5acb234-0f9b-49d8-962c-6f70ed6b889a/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"e5acb234-0f9b-49d8-962c-6f70ed6b889a","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards/e5acb234-0f9b-49d8-962c-6f70ed6b889a/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"e5acb234-0f9b-49d8-962c-6f70ed6b889a","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards/e5acb234-0f9b-49d8-962c-6f70ed6b889a/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"e5acb234-0f9b-49d8-962c-6f70ed6b889a","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards/e5acb234-0f9b-49d8-962c-6f70ed6b889a/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"e5acb234-0f9b-49d8-962c-6f70ed6b889a","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards/e5acb234-0f9b-49d8-962c-6f70ed6b889a/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"e5acb234-0f9b-49d8-962c-6f70ed6b889a","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: GET
+    URL: /boards/e5acb234-0f9b-49d8-962c-6f70ed6b889a/tasks/d1c612f2-4991-4d60-933a-bd64f15bbed4
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/e5acb234-0f9b-49d8-962c-6f70ed6b889a/tasks/01e85c66-05a0-4379-8e46-780b209d1781
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/e5acb234-0f9b-49d8-962c-6f70ed6b889a/tasks/2ad2eb38-9db6-4e4b-862c-f2de5c74c335
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/e5acb234-0f9b-49d8-962c-6f70ed6b889a/tasks/aac7f977-0a2a-455c-ac6e-9d35a62b074b
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/e5acb234-0f9b-49d8-962c-6f70ed6b889a/tasks/babdd7f7-d625-43a6-b1e9-eb007d408597
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /boards/d2e04e30-053f-4f93-bed5-d5c57661d21c/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"e199ce47-ad88-4303-b6aa-e4cf6ab94248","boardId":"d2e04e30-053f-4f93-bed5-d5c57661d21c"}
+
+info: 
+    TYPE: POST
+    URL: /boards/d2e04e30-053f-4f93-bed5-d5c57661d21c/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"e199ce47-ad88-4303-b6aa-e4cf6ab94248","boardId":"d2e04e30-053f-4f93-bed5-d5c57661d21c"}
+
+info: 
+    TYPE: DELETE
+    URL: /boards/e5acb234-0f9b-49d8-962c-6f70ed6b889a
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /users/e199ce47-ad88-4303-b6aa-e4cf6ab94248
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/e5acb234-0f9b-49d8-962c-6f70ed6b889a/tasks/d1c612f2-4991-4d60-933a-bd64f15bbed4
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/e5acb234-0f9b-49d8-962c-6f70ed6b889a/tasks/01e85c66-05a0-4379-8e46-780b209d1781
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/e5acb234-0f9b-49d8-962c-6f70ed6b889a/tasks/2ad2eb38-9db6-4e4b-862c-f2de5c74c335
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/e5acb234-0f9b-49d8-962c-6f70ed6b889a/tasks/aac7f977-0a2a-455c-ac6e-9d35a62b074b
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/e5acb234-0f9b-49d8-962c-6f70ed6b889a/tasks/babdd7f7-d625-43a6-b1e9-eb007d408597
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/d2e04e30-053f-4f93-bed5-d5c57661d21c/tasks/f166c8c7-2720-41bd-be63-f645704afa95
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+error: 
+    TYPE: GET
+    URL: /boards/e5acb234-0f9b-49d8-962c-6f70ed6b889a/tasks/d1c612f2-4991-4d60-933a-bd64f15bbed4
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/e5acb234-0f9b-49d8-962c-6f70ed6b889a/tasks/aac7f977-0a2a-455c-ac6e-9d35a62b074b
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/e5acb234-0f9b-49d8-962c-6f70ed6b889a/tasks/2ad2eb38-9db6-4e4b-862c-f2de5c74c335
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/e5acb234-0f9b-49d8-962c-6f70ed6b889a/tasks/01e85c66-05a0-4379-8e46-780b209d1781
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/e5acb234-0f9b-49d8-962c-6f70ed6b889a/tasks/babdd7f7-d625-43a6-b1e9-eb007d408597
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: 
+    TYPE: GET
+    URL: /boards/d2e04e30-053f-4f93-bed5-d5c57661d21c/tasks/411f3687-7e44-4e32-9dda-174a383b6bea
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /boards/b3e217c3-b86e-4584-a490-6b93720440b7
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/d2e04e30-053f-4f93-bed5-d5c57661d21c/tasks/f166c8c7-2720-41bd-be63-f645704afa95
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/d2e04e30-053f-4f93-bed5-d5c57661d21c/tasks/411f3687-7e44-4e32-9dda-174a383b6bea
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/d2e04e30-053f-4f93-bed5-d5c57661d21c
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: GET
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: GET
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: POST
+    URL: /boards/ff8d3e01-0b3a-4fd6-8f39-d1e5d88ce284/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TYPE: GET
+    URL: /boards/ff8d3e01-0b3a-4fd6-8f39-d1e5d88ce284/tasks
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /users/8a9474ac-4a06-4bc8-9e5c-58e132f0d1be
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /users/8a9474ac-4a06-4bc8-9e5c-58e132f0d1be
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/ff8d3e01-0b3a-4fd6-8f39-d1e5d88ce284/tasks
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/f0681bd2-a97a-4c5b-8cf5-f49837cd54ae
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/ff8d3e01-0b3a-4fd6-8f39-d1e5d88ce284/tasks/6ab35289-6b81-401d-acec-10534cb130d0
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: POST
+    URL: /boards/ff8d3e01-0b3a-4fd6-8f39-d1e5d88ce284/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: DELETE
+    URL: /boards/2d8139ef-4676-49de-b54e-ca7f59f1b38a
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /users/f0c6dd97-3f3f-4115-9182-99553a5b6ebf
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/ff8d3e01-0b3a-4fd6-8f39-d1e5d88ce284/tasks/3069daa3-505f-4840-a37f-56d6957723eb
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: POST
+    URL: /boards/ff8d3e01-0b3a-4fd6-8f39-d1e5d88ce284/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TYPE: PUT
+    URL: /boards/3c05f3ba-992e-45c1-aa3d-89c8d91014b3
+    QUERY PARAMS: {}
+    BODY: {"id":"3c05f3ba-992e-45c1-aa3d-89c8d91014b3","title":"Autotest updated board","columns":[{"_id":"5f971e7e67390d3e0ca4d600","title":"Backlog","order":1},{"_id":"5f971e7e67390d3e0ca4d601","title":"Sprint","order":2}]}
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: PUT
+    URL: /boards/ff8d3e01-0b3a-4fd6-8f39-d1e5d88ce284/tasks/88b92174-fb30-45ce-9ad1-fd37ee8ae61c
+    QUERY PARAMS: {}
+    BODY: {"id":"88b92174-fb30-45ce-9ad1-fd37ee8ae61c","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"ff8d3e01-0b3a-4fd6-8f39-d1e5d88ce284","columnId":null}
+
+info: 
+    TYPE: PUT
+    URL: /users/d080ff94-3c45-4bec-9d14-6bfe79556cd6
+    QUERY PARAMS: {}
+    BODY: {"name":"Autotest updated TEST_USER","login":"test_user","id":"d080ff94-3c45-4bec-9d14-6bfe79556cd6"}
+
+info: 
+    TYPE: GET
+    URL: /boards/ff8d3e01-0b3a-4fd6-8f39-d1e5d88ce284/tasks/88b92174-fb30-45ce-9ad1-fd37ee8ae61c
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/3c05f3ba-992e-45c1-aa3d-89c8d91014b3
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /users/d080ff94-3c45-4bec-9d14-6bfe79556cd6
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/ff8d3e01-0b3a-4fd6-8f39-d1e5d88ce284/tasks/6ab35289-6b81-401d-acec-10534cb130d0
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /boards/3c05f3ba-992e-45c1-aa3d-89c8d91014b3
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/ff8d3e01-0b3a-4fd6-8f39-d1e5d88ce284/tasks/6ab35289-6b81-401d-acec-10534cb130d0
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /users/d080ff94-3c45-4bec-9d14-6bfe79556cd6
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: GET
+    URL: /boards/ff8d3e01-0b3a-4fd6-8f39-d1e5d88ce284/tasks/6ab35289-6b81-401d-acec-10534cb130d0
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+error: 
+    TYPE: GET
+    URL: /boards/ff8d3e01-0b3a-4fd6-8f39-d1e5d88ce284/tasks/6ab35289-6b81-401d-acec-10534cb130d0
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: DELETE
+    URL: /boards/37c21c8a-7d45-45f1-bce9-a1b57258b0cd
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/ff8d3e01-0b3a-4fd6-8f39-d1e5d88ce284
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /users/bf6f9aaa-9976-4e57-8bc8-f67f85e12d07
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/37c21c8a-7d45-45f1-bce9-a1b57258b0cd
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+error: 
+    TYPE: GET
+    URL: /boards/37c21c8a-7d45-45f1-bce9-a1b57258b0cd
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\boards\board.router.js:22:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: POST
+    URL: /boards/2e87c393-bb49-4c4c-94b2-a162e38e5399/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"2e87c393-bb49-4c4c-94b2-a162e38e5399","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards/2e87c393-bb49-4c4c-94b2-a162e38e5399/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"2e87c393-bb49-4c4c-94b2-a162e38e5399","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards/2e87c393-bb49-4c4c-94b2-a162e38e5399/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"2e87c393-bb49-4c4c-94b2-a162e38e5399","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards/2e87c393-bb49-4c4c-94b2-a162e38e5399/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"2e87c393-bb49-4c4c-94b2-a162e38e5399","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards/2e87c393-bb49-4c4c-94b2-a162e38e5399/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"2e87c393-bb49-4c4c-94b2-a162e38e5399","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: GET
+    URL: /boards/2e87c393-bb49-4c4c-94b2-a162e38e5399/tasks/93b00704-50ec-4f46-a450-88810dfc9c4c
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/2e87c393-bb49-4c4c-94b2-a162e38e5399/tasks/72a6f790-f5db-4ae9-9b62-b99683c57504
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/2e87c393-bb49-4c4c-94b2-a162e38e5399/tasks/e5181885-4746-4ec9-96e1-a9b315b38fa3
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/2e87c393-bb49-4c4c-94b2-a162e38e5399/tasks/50e39fec-4d6e-4bf3-bc86-e6070876250b
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/2e87c393-bb49-4c4c-94b2-a162e38e5399/tasks/6dcc89cb-c0cb-4665-a686-641bbb6d9401
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /boards/4e0b8a9d-5184-47ad-baf0-cad3aa85d1bc/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"aa72006c-742b-4e00-ae24-baa7d060cc19","boardId":"4e0b8a9d-5184-47ad-baf0-cad3aa85d1bc"}
+
+info: 
+    TYPE: POST
+    URL: /boards/4e0b8a9d-5184-47ad-baf0-cad3aa85d1bc/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"aa72006c-742b-4e00-ae24-baa7d060cc19","boardId":"4e0b8a9d-5184-47ad-baf0-cad3aa85d1bc"}
+
+info: 
+    TYPE: DELETE
+    URL: /boards/2e87c393-bb49-4c4c-94b2-a162e38e5399
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /users/aa72006c-742b-4e00-ae24-baa7d060cc19
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/2e87c393-bb49-4c4c-94b2-a162e38e5399/tasks/93b00704-50ec-4f46-a450-88810dfc9c4c
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/2e87c393-bb49-4c4c-94b2-a162e38e5399/tasks/72a6f790-f5db-4ae9-9b62-b99683c57504
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/2e87c393-bb49-4c4c-94b2-a162e38e5399/tasks/e5181885-4746-4ec9-96e1-a9b315b38fa3
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/2e87c393-bb49-4c4c-94b2-a162e38e5399/tasks/50e39fec-4d6e-4bf3-bc86-e6070876250b
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/2e87c393-bb49-4c4c-94b2-a162e38e5399/tasks/6dcc89cb-c0cb-4665-a686-641bbb6d9401
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/4e0b8a9d-5184-47ad-baf0-cad3aa85d1bc/tasks/02431851-35f8-4389-9aed-1ce2820f67db
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+error: 
+    TYPE: GET
+    URL: /boards/2e87c393-bb49-4c4c-94b2-a162e38e5399/tasks/72a6f790-f5db-4ae9-9b62-b99683c57504
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/2e87c393-bb49-4c4c-94b2-a162e38e5399/tasks/e5181885-4746-4ec9-96e1-a9b315b38fa3
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/2e87c393-bb49-4c4c-94b2-a162e38e5399/tasks/93b00704-50ec-4f46-a450-88810dfc9c4c
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/2e87c393-bb49-4c4c-94b2-a162e38e5399/tasks/6dcc89cb-c0cb-4665-a686-641bbb6d9401
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/2e87c393-bb49-4c4c-94b2-a162e38e5399/tasks/50e39fec-4d6e-4bf3-bc86-e6070876250b
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: 
+    TYPE: DELETE
+    URL: /boards/2557b3ec-36e1-4e56-a66e-22044a37c063
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/4e0b8a9d-5184-47ad-baf0-cad3aa85d1bc/tasks/a1a7fd51-8b73-4022-b45b-67f13e90b1df
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /boards/4e0b8a9d-5184-47ad-baf0-cad3aa85d1bc/tasks/02431851-35f8-4389-9aed-1ce2820f67db
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/4e0b8a9d-5184-47ad-baf0-cad3aa85d1bc/tasks/a1a7fd51-8b73-4022-b45b-67f13e90b1df
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/4e0b8a9d-5184-47ad-baf0-cad3aa85d1bc
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: GET
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /boards/b455cb2d-c676-422d-a678-26a2288dd7ed/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TYPE: GET
+    URL: /boards/b455cb2d-c676-422d-a678-26a2288dd7ed/tasks
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: GET
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /users/d70d92d7-82a8-4b2e-8ce6-48193150f596
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/b455cb2d-c676-422d-a678-26a2288dd7ed/tasks
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /users/d70d92d7-82a8-4b2e-8ce6-48193150f596
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/f0681bd2-a97a-4c5b-8cf5-f49837cd54ae
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/b455cb2d-c676-422d-a678-26a2288dd7ed/tasks/a5425ace-a06e-4cf1-85b7-8b37da256bd4
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: POST
+    URL: /boards/b455cb2d-c676-422d-a678-26a2288dd7ed/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: DELETE
+    URL: /users/2cc3df7f-993a-4e17-9bd2-4c1eceab2940
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/b455cb2d-c676-422d-a678-26a2288dd7ed/tasks/b73a1dd6-72c9-4571-86dc-d097fc832216
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/78848df4-58d1-43c3-9032-9ec91605aaa8
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: POST
+    URL: /boards/b455cb2d-c676-422d-a678-26a2288dd7ed/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: PUT
+    URL: /boards/b455cb2d-c676-422d-a678-26a2288dd7ed/tasks/f0051690-9209-4060-8984-eedb7771703c
+    QUERY PARAMS: {}
+    BODY: {"id":"f0051690-9209-4060-8984-eedb7771703c","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"b455cb2d-c676-422d-a678-26a2288dd7ed","columnId":null}
+
+info: 
+    TYPE: PUT
+    URL: /boards/52b5446b-96ed-4a7b-8743-c2a93977c49d
+    QUERY PARAMS: {}
+    BODY: {"id":"52b5446b-96ed-4a7b-8743-c2a93977c49d","title":"Autotest updated board","columns":[{"_id":"5f971e8e67390d3e0ca4d612","title":"Backlog","order":1},{"_id":"5f971e8e67390d3e0ca4d613","title":"Sprint","order":2}]}
+
+info: 
+    TYPE: PUT
+    URL: /users/47b508ca-eab1-486f-961e-8df8cf657d11
+    QUERY PARAMS: {}
+    BODY: {"name":"Autotest updated TEST_USER","login":"test_user","id":"47b508ca-eab1-486f-961e-8df8cf657d11"}
+
+info: 
+    TYPE: GET
+    URL: /boards/b455cb2d-c676-422d-a678-26a2288dd7ed/tasks/f0051690-9209-4060-8984-eedb7771703c
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /users/47b508ca-eab1-486f-961e-8df8cf657d11
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/52b5446b-96ed-4a7b-8743-c2a93977c49d
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/b455cb2d-c676-422d-a678-26a2288dd7ed/tasks/a5425ace-a06e-4cf1-85b7-8b37da256bd4
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /users/47b508ca-eab1-486f-961e-8df8cf657d11
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/52b5446b-96ed-4a7b-8743-c2a93977c49d
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/b455cb2d-c676-422d-a678-26a2288dd7ed/tasks/a5425ace-a06e-4cf1-85b7-8b37da256bd4
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/b455cb2d-c676-422d-a678-26a2288dd7ed/tasks/a5425ace-a06e-4cf1-85b7-8b37da256bd4
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+error: 
+    TYPE: GET
+    URL: /boards/b455cb2d-c676-422d-a678-26a2288dd7ed/tasks/a5425ace-a06e-4cf1-85b7-8b37da256bd4
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: DELETE
+    URL: /boards/b455cb2d-c676-422d-a678-26a2288dd7ed
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /users/1a174fd4-01ed-47ef-a65c-282084edaa8c
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/c9118102-9c5b-45be-b1eb-bb52cc8e4a8b
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/c9118102-9c5b-45be-b1eb-bb52cc8e4a8b
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+error: 
+    TYPE: GET
+    URL: /boards/c9118102-9c5b-45be-b1eb-bb52cc8e4a8b
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\boards\board.router.js:22:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: POST
+    URL: /boards/4a019bb9-0c67-42bf-8b79-df176b7398af/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"4a019bb9-0c67-42bf-8b79-df176b7398af","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards/4a019bb9-0c67-42bf-8b79-df176b7398af/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"4a019bb9-0c67-42bf-8b79-df176b7398af","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards/4a019bb9-0c67-42bf-8b79-df176b7398af/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"4a019bb9-0c67-42bf-8b79-df176b7398af","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards/4a019bb9-0c67-42bf-8b79-df176b7398af/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"4a019bb9-0c67-42bf-8b79-df176b7398af","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards/4a019bb9-0c67-42bf-8b79-df176b7398af/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"4a019bb9-0c67-42bf-8b79-df176b7398af","userId":null,"columnId":null}
+
+info: 
+    TYPE: POST
+    URL: /boards/56e25ffc-e16a-4696-81d6-24c4d03ab614/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"49452e27-e775-4e5e-8737-dcc7ba9d2b3f","boardId":"56e25ffc-e16a-4696-81d6-24c4d03ab614"}
+
+info: 
+    TYPE: POST
+    URL: /boards/56e25ffc-e16a-4696-81d6-24c4d03ab614/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"49452e27-e775-4e5e-8737-dcc7ba9d2b3f","boardId":"56e25ffc-e16a-4696-81d6-24c4d03ab614"}
+
+info: 
+    TYPE: GET
+    URL: /boards/4a019bb9-0c67-42bf-8b79-df176b7398af/tasks/2d371596-164f-4c60-b187-d3eec95b1459
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/4a019bb9-0c67-42bf-8b79-df176b7398af/tasks/bc258025-c4e7-40b5-a5e5-baa053768178
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/4a019bb9-0c67-42bf-8b79-df176b7398af/tasks/f286af5f-fd90-4db7-8ce7-4fbb5729ec99
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/4a019bb9-0c67-42bf-8b79-df176b7398af/tasks/2d223245-fd0b-4e89-b60f-d044d6d2e25f
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/4a019bb9-0c67-42bf-8b79-df176b7398af/tasks/a1bb3366-5776-49ef-8037-326982a965aa
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /users/49452e27-e775-4e5e-8737-dcc7ba9d2b3f
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/4a019bb9-0c67-42bf-8b79-df176b7398af
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/56e25ffc-e16a-4696-81d6-24c4d03ab614/tasks/d08d0a33-4926-4ea1-8bcf-dc25d7a1c9ad
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/4a019bb9-0c67-42bf-8b79-df176b7398af/tasks/2d371596-164f-4c60-b187-d3eec95b1459
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/4a019bb9-0c67-42bf-8b79-df176b7398af/tasks/bc258025-c4e7-40b5-a5e5-baa053768178
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/4a019bb9-0c67-42bf-8b79-df176b7398af/tasks/f286af5f-fd90-4db7-8ce7-4fbb5729ec99
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/4a019bb9-0c67-42bf-8b79-df176b7398af/tasks/2d223245-fd0b-4e89-b60f-d044d6d2e25f
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/4a019bb9-0c67-42bf-8b79-df176b7398af/tasks/a1bb3366-5776-49ef-8037-326982a965aa
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/56e25ffc-e16a-4696-81d6-24c4d03ab614/tasks/a4ef0914-59aa-418f-93f3-5b3b99784b93
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+error: 
+    TYPE: GET
+    URL: /boards/4a019bb9-0c67-42bf-8b79-df176b7398af/tasks/2d371596-164f-4c60-b187-d3eec95b1459
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/4a019bb9-0c67-42bf-8b79-df176b7398af/tasks/bc258025-c4e7-40b5-a5e5-baa053768178
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/4a019bb9-0c67-42bf-8b79-df176b7398af/tasks/f286af5f-fd90-4db7-8ce7-4fbb5729ec99
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/4a019bb9-0c67-42bf-8b79-df176b7398af/tasks/2d223245-fd0b-4e89-b60f-d044d6d2e25f
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/4a019bb9-0c67-42bf-8b79-df176b7398af/tasks/a1bb3366-5776-49ef-8037-326982a965aa
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: 
+    TYPE: DELETE
+    URL: /boards/c1c5bcab-318f-48d7-bb57-7c87a74d94d9
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/56e25ffc-e16a-4696-81d6-24c4d03ab614/tasks/d08d0a33-4926-4ea1-8bcf-dc25d7a1c9ad
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/56e25ffc-e16a-4696-81d6-24c4d03ab614/tasks/a4ef0914-59aa-418f-93f3-5b3b99784b93
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/56e25ffc-e16a-4696-81d6-24c4d03ab614
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+

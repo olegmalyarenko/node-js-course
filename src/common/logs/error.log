@@ -1626,3 +1626,1107 @@ error:
     at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
     at processImmediate (internal/timers.js:460:21)
     
+error: 
+    TYPE: GET
+    URL: /users
+    BODY: no body for GET
+    ERROR STATUS: 500
+    ERROR MESSAGE: user is not defined
+    ERROR DETAILS:
+    ReferenceError: user is not defined
+    at D:\js\node-js-course\src\resources\users\user.router.js:12:40
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    
+error: 
+    TYPE: GET
+    URL: /boards
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15
+    at next (D:\js\node-js-course\node_modules\express\lib\router\index.js:260:14)
+    at next (D:\js\node-js-course\node_modules\express\lib\router\route.js:127:14)
+    at D:\js\node-js-course\src\resources\boards\board.router.js:12:12
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    
+error: 
+    TYPE: GET
+    URL: /boards
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15
+    at next (D:\js\node-js-course\node_modules\express\lib\router\index.js:260:14)
+    at next (D:\js\node-js-course\node_modules\express\lib\router\route.js:127:14)
+    at D:\js\node-js-course\src\resources\boards\board.router.js:12:12
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    
+error: 
+    TYPE: GET
+    URL: /boards/fa25df37-10d7-4b65-963f-adc6163f54d8/tasks/799b12a6-d561-466d-a92e-2c55772dd0c9
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/47beac81-028d-482d-9608-ff0c113813f5
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\boards\board.router.js:22:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/441274de-15b9-46ff-b2e4-e766d7b06ebf/tasks/2ceaceda-8c61-4696-9a92-1c78bd353d3b
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/441274de-15b9-46ff-b2e4-e766d7b06ebf/tasks/2496cdf2-c09d-4718-b516-609429475cd9
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/441274de-15b9-46ff-b2e4-e766d7b06ebf/tasks/ffa561eb-be9d-4631-a937-4280bb60c759
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/441274de-15b9-46ff-b2e4-e766d7b06ebf/tasks/a9e2b205-310a-4cb1-9526-9f2bdb2ff908
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/441274de-15b9-46ff-b2e4-e766d7b06ebf/tasks/9120fd7d-9216-434f-be45-233db9000148
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/a4c0f2cd-3276-41f0-93ba-65f13ff3d62d
+    BODY: no body for GET
+    ERROR STATUS: 500
+    ERROR MESSAGE: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received type function ([Function (anonymous)])
+    ERROR DETAILS:
+    TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received type function ([Function (anonymous)])
+    at Function.from (buffer.js:329:9)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:189:22)
+    at D:\js\node-js-course\src\resources\boards\board.router.js:20:32
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/654be06d-4080-45c1-a042-69978bee479d
+    BODY: no body for GET
+    ERROR STATUS: 500
+    ERROR MESSAGE: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received type function ([Function (anonymous)])
+    ERROR DETAILS:
+    TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be of type string or an instance of Buffer, ArrayBuffer, or Array or an Array-like Object. Received type function ([Function (anonymous)])
+    at Function.from (buffer.js:329:9)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:189:22)
+    at D:\js\node-js-course\src\resources\boards\board.router.js:20:32
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/854e5f12-be13-4481-8f10-dc060f2a029c
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\boards\board.router.js:22:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/a7cf4182-3f1e-4c2d-ad24-a2968fd2d408/tasks/a1167fcb-cfe0-4730-99b7-4b7ead38b392
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/c97cd811-3b2c-4fef-845c-2d6f80bbc06e/tasks/99f58c35-6374-43da-b5ee-aac4098d05a1
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/c97cd811-3b2c-4fef-845c-2d6f80bbc06e/tasks/aba5a6ba-5c04-470b-a4d0-a68ea811583b
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/c97cd811-3b2c-4fef-845c-2d6f80bbc06e/tasks/4cbaeddf-35e2-4501-a210-ac8ffcc28b60
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/c97cd811-3b2c-4fef-845c-2d6f80bbc06e/tasks/5072e3e1-63b9-44fe-988a-20507ecceb6b
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/c97cd811-3b2c-4fef-845c-2d6f80bbc06e/tasks/627ce433-c3b5-4eff-91ef-3fc900871013
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/42baa5ae-502b-4ca6-9005-e4b7d14fa6d2/tasks/35883481-0f7f-4509-bc4b-3cc9bdd3e6ea
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/31c95d41-fb6c-4faf-b2d9-61b206e42f68
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\boards\board.router.js:22:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/be26da6f-c3e6-411e-bcbd-e2821f812aef/tasks/bd2fd08f-7a8d-4fd1-b270-58a513cd954a
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/be26da6f-c3e6-411e-bcbd-e2821f812aef/tasks/6bb9616b-6025-4baa-951e-556dd7137b32
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/be26da6f-c3e6-411e-bcbd-e2821f812aef/tasks/cdc3a429-84a1-4d85-9c0a-7de0671db6c4
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/be26da6f-c3e6-411e-bcbd-e2821f812aef/tasks/70370bff-174d-4c3a-b6d2-b5cc4224847b
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/be26da6f-c3e6-411e-bcbd-e2821f812aef/tasks/1b3b1011-702a-488e-b202-5ac83abc80c6
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/863288c3-2f86-4908-894a-cec42a3167aa/tasks/1ddd0f70-3d0a-4261-8aa5-83a4f729438b
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/b3f47966-5650-4089-bb0f-dfa8da8e7ba8
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\boards\board.router.js:22:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/a7ac9abf-5398-4bab-af4a-167324789230/tasks/3dcfc035-793f-4851-a0d4-1687eb38ae03
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/a7ac9abf-5398-4bab-af4a-167324789230/tasks/50fd4a1b-2cc1-484f-9e76-40b49abefc97
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/a7ac9abf-5398-4bab-af4a-167324789230/tasks/e3f701ce-04f9-4a6a-9ce0-537b796d50d3
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/a7ac9abf-5398-4bab-af4a-167324789230/tasks/441e132f-8c1e-4151-915d-229ca5574431
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/a7ac9abf-5398-4bab-af4a-167324789230/tasks/3ca217ab-b2da-421c-aa6c-a91009aa0237
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/b347dbde-718b-4844-a75d-34d1c61bd344/tasks/a1c23d79-15c4-43d1-a386-d72f621374c7
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/a24ed918-e09d-4fc1-9de9-4e7c9f1c4c2e
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\boards\board.router.js:22:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/03ee7436-6abd-4b7f-bb0f-f8153ed32098/tasks/a8c4c8bd-f6c5-43b8-923d-788035d53208
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/03ee7436-6abd-4b7f-bb0f-f8153ed32098/tasks/192b5bd4-81c6-4a7c-b390-1193040b344f
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/03ee7436-6abd-4b7f-bb0f-f8153ed32098/tasks/e27e844b-2b43-4890-838b-11e48f4ef2ff
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/03ee7436-6abd-4b7f-bb0f-f8153ed32098/tasks/ad10bd17-e7d3-4df2-83ca-994e6332da57
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/03ee7436-6abd-4b7f-bb0f-f8153ed32098/tasks/8b7f0d01-977b-4a48-bcc1-20bcdfd12004
+    BODY: no body for GET
+    ERROR STATUS: undefined
+    ERROR MESSAGE: Cannot set headers after they are sent to the client
+    ERROR DETAILS:
+    Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:536:11)
+    at ServerResponse.header (D:\js\node-js-course\node_modules\express\lib\response.js:771:10)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\js\node-js-course\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (D:\js\node-js-course\node_modules\express\lib\response.js:158:21)
+    at handleErrors (D:\js\node-js-course\src\common\error-handler.js:6:26)
+    at Layer.handle_error (D:\js\node-js-course\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\js\node-js-course\node_modules\express\lib\router\index.js:315:13)
+    at D:\js\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\js\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at Immediate.next (D:\js\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\js\node-js-course\node_modules\express\lib\router\index.js:635:15)
+    at processImmediate (internal/timers.js:460:21)
+    
+error: 
+    TYPE: GET
+    URL: /boards/0aeb399d-02a5-4e67-be92-6575191c65e2
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\boards\board.router.js:22:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/c7213700-7bf2-4062-ba95-5436d81577a7/tasks/b698dee5-415a-41da-96e5-5cb002a713de
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/e5acb234-0f9b-49d8-962c-6f70ed6b889a/tasks/d1c612f2-4991-4d60-933a-bd64f15bbed4
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/e5acb234-0f9b-49d8-962c-6f70ed6b889a/tasks/aac7f977-0a2a-455c-ac6e-9d35a62b074b
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/e5acb234-0f9b-49d8-962c-6f70ed6b889a/tasks/2ad2eb38-9db6-4e4b-862c-f2de5c74c335
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/e5acb234-0f9b-49d8-962c-6f70ed6b889a/tasks/01e85c66-05a0-4379-8e46-780b209d1781
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/e5acb234-0f9b-49d8-962c-6f70ed6b889a/tasks/babdd7f7-d625-43a6-b1e9-eb007d408597
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/ff8d3e01-0b3a-4fd6-8f39-d1e5d88ce284/tasks/6ab35289-6b81-401d-acec-10534cb130d0
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/37c21c8a-7d45-45f1-bce9-a1b57258b0cd
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\boards\board.router.js:22:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/2e87c393-bb49-4c4c-94b2-a162e38e5399/tasks/72a6f790-f5db-4ae9-9b62-b99683c57504
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/2e87c393-bb49-4c4c-94b2-a162e38e5399/tasks/e5181885-4746-4ec9-96e1-a9b315b38fa3
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/2e87c393-bb49-4c4c-94b2-a162e38e5399/tasks/93b00704-50ec-4f46-a450-88810dfc9c4c
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/2e87c393-bb49-4c4c-94b2-a162e38e5399/tasks/6dcc89cb-c0cb-4665-a686-641bbb6d9401
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/2e87c393-bb49-4c4c-94b2-a162e38e5399/tasks/50e39fec-4d6e-4bf3-bc86-e6070876250b
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/b455cb2d-c676-422d-a678-26a2288dd7ed/tasks/a5425ace-a06e-4cf1-85b7-8b37da256bd4
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/c9118102-9c5b-45be-b1eb-bb52cc8e4a8b
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\boards\board.router.js:22:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/4a019bb9-0c67-42bf-8b79-df176b7398af/tasks/2d371596-164f-4c60-b187-d3eec95b1459
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/4a019bb9-0c67-42bf-8b79-df176b7398af/tasks/bc258025-c4e7-40b5-a5e5-baa053768178
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/4a019bb9-0c67-42bf-8b79-df176b7398af/tasks/f286af5f-fd90-4db7-8ce7-4fbb5729ec99
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/4a019bb9-0c67-42bf-8b79-df176b7398af/tasks/2d223245-fd0b-4e89-b60f-d044d6d2e25f
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/4a019bb9-0c67-42bf-8b79-df176b7398af/tasks/a1bb3366-5776-49ef-8037-326982a965aa
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\js\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    

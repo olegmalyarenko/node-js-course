@@ -7,9 +7,13 @@ router.route('/').get(async (req, res, next) => {
   try {
     // schemaId.validateAsync(req.params.id);
     const tasks = await tasksService.getAll(req.params.id);
-    res.json(tasks.map(Task.toResponse));
+    if (tasks) res.json(tasks.map(Task.toResponse));
+    else {
+      const err = new Error('Not Found');
+      err.status = 404;
+      return next(err);
+    }
   } catch (err) {
-    res.status(404).send(err.message);
     return next(err);
   }
 });
@@ -19,9 +23,13 @@ router.route('/:taskId').get(async (req, res, next) => {
     // schemaId.validateAsync(req.params.id);
     // schemaId.validateAsync(req.params.taskId);
     const task = await tasksService.get(req.params.id, req.params.taskId);
-    res.status(200).json(Task.toResponse(task));
+    if (task) res.status(200).send(Task.toResponse(task));
+    else {
+      const err = new Error('Not Found');
+      err.status = 404;
+      return next(err);
+    }
   } catch (err) {
-    res.status(404).send(err.message);
     return next(err);
   }
 });
@@ -54,9 +62,13 @@ router.route('/:taskId').put(async (req, res, next) => {
       req.params.taskId,
       req.params.id
     );
-    res.status(200).json(Task.toResponse(task));
+    if (task) res.status(200).send(Task.toResponse(task));
+    else {
+      const err = new Error('Not Found');
+      err.status = 404;
+      return next(err);
+    }
   } catch (err) {
-    res.status(404).send(err.message);
     return next(err);
   }
 });
@@ -64,10 +76,14 @@ router.route('/:taskId').put(async (req, res, next) => {
 router.route('/:taskId').delete(async (req, res, next) => {
   try {
     // schemaId.validateAsync(req.params.taskId);
-    const tasks = await tasksService.remove(req.params.taskId, req.params.id);
-    res.status(200).json(tasks.map(Task.toResponse));
+    const result = await tasksService.remove(req.params.taskId, req.params.id);
+    if (result) res.status(204).send(result);
+    else {
+      const err = new Error('Not Found');
+      err.status = 404;
+      return next(err);
+    }
   } catch (err) {
-    res.status(404).send(err.message);
     return next(err);
   }
 });

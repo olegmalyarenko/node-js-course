@@ -19,7 +19,6 @@ const schemaUser = Joi.object({
     .required(),
   password: Joi.string()
     .min(3)
-    .max(20)
     .required()
 });
 

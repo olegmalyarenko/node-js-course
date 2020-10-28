@@ -7,6 +7,8 @@ const boardRouter = require('./resources/boards/board.router.js');
 const taskRouter = require('./resources/tasks/task.router.js');
 const app = express();
 const swaggerDocument = YAML.load(path.join(__dirname, '../doc/api.yaml'));
+const helmet = require('helmet');
+const cors = require('cors');
 const {
   handleErrors,
   handleUncaughtException,
@@ -15,6 +17,9 @@ const {
 const { logRequest, logError } = require('./common/logger');
 
 app.use(express.json());
+
+app.use(helmet());
+app.use(cors());
 
 app.use('/doc', swaggerUI.serve, swaggerUI.setup(swaggerDocument));
 

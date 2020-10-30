@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const { MONGO_CONNECTION_STRING } = require('./config.js');
+const { winstonLogger } = require('./logger.js');
 
 const User = require('../resources/users/user.model.js');
 const Board = require('../resources/boards/board.model.js');
@@ -72,7 +73,7 @@ const connectToDB = cb => {
   const db = mongoose.connection;
   db.on('error', console.error.bind(console, 'connection error:'));
   db.once('open', () => {
-    console.log("we're connected!");
+    winstonLogger.info("we're connected!");
     db.dropDatabase();
     users.forEach(user => user.save());
     boards.forEach(board => board.save());

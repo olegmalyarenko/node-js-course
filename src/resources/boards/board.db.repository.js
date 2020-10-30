@@ -1,5 +1,5 @@
 const Board = require('./board.model.js');
-const Task = require('../tasks/task.model.js');
+const taskService = require('../tasks/task.service.js');
 
 const getAll = async () => {
   return await Board.find({});
@@ -18,8 +18,8 @@ const update = async item => {
 };
 
 const remove = async id => {
-  await Task.deleteMany({ boardId: id });
   await Board.findByIdAndDelete(id);
+  await taskService.removeTasks(id);
 
   return 'Board has been successfully deleted';
 };

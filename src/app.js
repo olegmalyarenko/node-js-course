@@ -35,20 +35,6 @@ app.use('/users', userRouter);
 app.use('/boards', boardRouter);
 boardRouter.use('/:id/tasks', taskRouter);
 
-/* app.post('/login', async (req, res) => {
-  try {
-    User.findOne({ login: req.body.login }, (err, user) => {
-      console.log('user', user);
-      bcrypt.compare(req.body.password, user.password, (err, isMatch) => {
-        if (err) throw new Error('Not allowed');
-        res.status(200).send('Success', isMatch);
-      });
-    });
-  } catch {
-    res.status(500).send();
-  }
-});*/
-
 app.use(handleErrors, logError);
 
 process

@@ -9815,3 +9815,1440 @@ info:
     QUERY PARAMS: {}
     BODY: no body for DELETE
 
+info: we're connected!
+error: 
+  ERROR: Error: Invalid salt. Salt must be in the form of: $Vers$log2(NumRounds)$saltvalue
+  ERROR TYPE: uncaughtException
+  ERROR DETAILS:
+  Error: Invalid salt. Salt must be in the form of: $Vers$log2(NumRounds)$saltvalue
+    at Object.hashSync (D:\Program Files\task4 clone\node-js-course\node_modules\bcrypt\bcrypt.js:102:21)
+    at D:\Program Files\task4 clone\node-js-course\src\common\db.js:69:25
+    at Array.forEach (<anonymous>)
+    at hashPass (D:\Program Files\task4 clone\node-js-course\src\common\db.js:67:9)
+    at NativeConnection.<anonymous> (D:\Program Files\task4 clone\node-js-course\src\common\db.js:90:5)
+    at Object.onceWrapper (events.js:420:28)
+    at NativeConnection.emit (events.js:314:20)
+    at _setClient (D:\Program Files\task4 clone\node-js-course\node_modules\mongoose\lib\connection.js:947:8)
+    at D:\Program Files\task4 clone\node-js-course\node_modules\mongoose\lib\connection.js:794:7
+    at D:\Program Files\task4 clone\node-js-course\node_modules\mongodb\lib\utils.js:674:5
+    at D:\Program Files\task4 clone\node-js-course\node_modules\mongodb\lib\mongo_client.js:225:7
+    at connectCallback (D:\Program Files\task4 clone\node-js-course\node_modules\mongodb\lib\operations\connect.js:366:5)
+    at D:\Program Files\task4 clone\node-js-course\node_modules\mongodb\lib\operations\connect.js:602:5
+    at connectHandler (D:\Program Files\task4 clone\node-js-course\node_modules\mongodb\lib\core\sdam\topology.js:297:43)
+    at cb (D:\Program Files\task4 clone\node-js-course\node_modules\mongodb\lib\core\sdam\topology.js:681:26)
+    at D:\Program Files\task4 clone\node-js-course\node_modules\mongodb\lib\cmap\connection_pool.js:350:13
+  
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+error: 
+  ERROR: Error: Invalid salt. Salt must be in the form of: $Vers$log2(NumRounds)$saltvalue
+  ERROR TYPE: uncaughtException
+  ERROR DETAILS:
+  Error: Invalid salt. Salt must be in the form of: $Vers$log2(NumRounds)$saltvalue
+    at Object.hashSync (D:\Program Files\task4 clone\node-js-course\node_modules\bcrypt\bcrypt.js:102:21)
+    at D:\Program Files\task4 clone\node-js-course\src\common\db.js:70:25
+    at Array.forEach (<anonymous>)
+    at hashPass (D:\Program Files\task4 clone\node-js-course\src\common\db.js:68:9)
+    at NativeConnection.<anonymous> (D:\Program Files\task4 clone\node-js-course\src\common\db.js:91:5)
+    at Object.onceWrapper (events.js:420:28)
+    at NativeConnection.emit (events.js:314:20)
+    at _setClient (D:\Program Files\task4 clone\node-js-course\node_modules\mongoose\lib\connection.js:947:8)
+    at D:\Program Files\task4 clone\node-js-course\node_modules\mongoose\lib\connection.js:794:7
+    at D:\Program Files\task4 clone\node-js-course\node_modules\mongodb\lib\utils.js:674:5
+    at D:\Program Files\task4 clone\node-js-course\node_modules\mongodb\lib\mongo_client.js:225:7
+    at connectCallback (D:\Program Files\task4 clone\node-js-course\node_modules\mongodb\lib\operations\connect.js:366:5)
+    at D:\Program Files\task4 clone\node-js-course\node_modules\mongodb\lib\operations\connect.js:602:5
+    at connectHandler (D:\Program Files\task4 clone\node-js-course\node_modules\mongodb\lib\core\sdam\topology.js:297:43)
+    at cb (D:\Program Files\task4 clone\node-js-course\node_modules\mongodb\lib\core\sdam\topology.js:681:26)
+    at D:\Program Files\task4 clone\node-js-course\node_modules\mongodb\lib\cmap\connection_pool.js:350:13
+  
+error: 
+  ERROR: MongoError: Cannot create collection restapi.users - database is in the process of being dropped.
+  ERROR PROMISE REJECTION DETAILS: MongoError: Cannot create collection restapi.users - database is in the process of being dropped.
+    at Function.create (D:\Program Files\task4 clone\node-js-course\node_modules\mongodb\lib\core\error.js:57:12)
+    at toError (D:\Program Files\task4 clone\node-js-course\node_modules\mongodb\lib\utils.js:123:22)
+    at D:\Program Files\task4 clone\node-js-course\node_modules\mongodb\lib\operations\common_functions.js:265:39
+    at handler (D:\Program Files\task4 clone\node-js-course\node_modules\mongodb\lib\core\sdam\topology.js:942:24)
+    at D:\Program Files\task4 clone\node-js-course\node_modules\mongodb\lib\cmap\connection_pool.js:350:13
+    at handleOperationResult (D:\Program Files\task4 clone\node-js-course\node_modules\mongodb\lib\core\sdam\server.js:558:5)
+    at MessageStream.messageHandler (D:\Program Files\task4 clone\node-js-course\node_modules\mongodb\lib\cmap\connection.js:277:5)
+    at MessageStream.emit (events.js:314:20)
+    at processIncomingData (D:\Program Files\task4 clone\node-js-course\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (D:\Program Files\task4 clone\node-js-course\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (_stream_writable.js:352:12)
+    at MessageStream.Writable.write (_stream_writable.js:303:10)
+    at TLSSocket.ondata (_stream_readable.js:713:22)
+    at TLSSocket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:303:12)
+    at readableAddChunk (_stream_readable.js:279:9)
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: GET
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/12345/tasks
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/12345
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: GET
+    URL: /users/123
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/12345/tasks/12345
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: PUT
+    URL: /boards/12345
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+info: 
+    TYPE: POST
+    URL: /boards/12345/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TYPE: DELETE
+    URL: /boards/12345
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: PUT
+    URL: /users/12345
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+info: 
+    TYPE: PUT
+    URL: /boards/12345/tasks/12345
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TYPE: DELETE
+    URL: /users/12345
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/12345/tasks/12345
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: GET
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+info: 
+    TYPE: GET
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /boards/c5da35e3-940f-47ff-944a-1a032d860a2b/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: GET
+    URL: /users/57d1199b-bc4b-4952-b2f0-4fe5532878fe
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/c5da35e3-940f-47ff-944a-1a032d860a2b/tasks
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /users/57d1199b-bc4b-4952-b2f0-4fe5532878fe
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/422cd24e-f5de-4efe-b04c-80669ab38daf
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/c5da35e3-940f-47ff-944a-1a032d860a2b/tasks
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: GET
+    URL: /boards/c5da35e3-940f-47ff-944a-1a032d860a2b/tasks/11d000bd-c5c4-47e3-93fc-264e89de2f81
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+info: 
+    TYPE: DELETE
+    URL: /boards/18c7ee61-77da-4f9a-ab0a-78db1741cffc
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: POST
+    URL: /boards/c5da35e3-940f-47ff-944a-1a032d860a2b/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: DELETE
+    URL: /users/773014ee-ada2-4522-9cd5-a103dd7a52fc
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/c5da35e3-940f-47ff-944a-1a032d860a2b/tasks/5d3bc210-e4cf-43e1-bfc7-53f24f3532c9
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+info: 
+    TYPE: PUT
+    URL: /boards/37d64318-2fdb-40b1-b03d-3ae6db4886fd
+    QUERY PARAMS: {}
+    BODY: {"id":"37d64318-2fdb-40b1-b03d-3ae6db4886fd","title":"Autotest updated board","columns":[{"_id":"5f9df3f68f965f18e0ccd0c8","title":"Backlog","order":1},{"_id":"5f9df3f68f965f18e0ccd0c9","title":"Sprint","order":2}]}
+
+error: 
+  ERROR: ValidationError: "title" length must be less than or equal to 20 characters long
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" length must be less than or equal to 20 characters long
+info: 
+    TYPE: PUT
+    URL: /users/577f0e28-6ece-40ef-861c-c778e3157c3e
+    QUERY PARAMS: {}
+    BODY: {"name":"Autotest updated TEST_USER","login":"test_user","id":"577f0e28-6ece-40ef-861c-c778e3157c3e"}
+
+error: 
+  ERROR: ValidationError: "name" length must be less than or equal to 20 characters long
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" length must be less than or equal to 20 characters long
+info: 
+    TYPE: POST
+    URL: /boards/c5da35e3-940f-47ff-944a-1a032d860a2b/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: GET
+    URL: /boards/37d64318-2fdb-40b1-b03d-3ae6db4886fd
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /users/577f0e28-6ece-40ef-861c-c778e3157c3e
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: PUT
+    URL: /boards/c5da35e3-940f-47ff-944a-1a032d860a2b/tasks/810fd44a-b4f7-4beb-ae13-0bd1ecd1e938
+    QUERY PARAMS: {}
+    BODY: {"id":"810fd44a-b4f7-4beb-ae13-0bd1ecd1e938","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"c5da35e3-940f-47ff-944a-1a032d860a2b","columnId":null}
+
+error: 
+  ERROR: ValidationError: "title" length must be less than or equal to 20 characters long
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" length must be less than or equal to 20 characters long
+info: 
+    TYPE: DELETE
+    URL: /boards/37d64318-2fdb-40b1-b03d-3ae6db4886fd
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /users/577f0e28-6ece-40ef-861c-c778e3157c3e
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/c5da35e3-940f-47ff-944a-1a032d860a2b/tasks/810fd44a-b4f7-4beb-ae13-0bd1ecd1e938
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: GET
+    URL: /boards/c5da35e3-940f-47ff-944a-1a032d860a2b/tasks/11d000bd-c5c4-47e3-93fc-264e89de2f81
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+info: 
+    TYPE: DELETE
+    URL: /boards/37fab185-081f-4625-9e08-87d4937345e7
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/c5da35e3-940f-47ff-944a-1a032d860a2b/tasks/11d000bd-c5c4-47e3-93fc-264e89de2f81
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /users/c1a9f0c6-92c7-4f32-a034-6cf2ed4c1a75
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/c5da35e3-940f-47ff-944a-1a032d860a2b/tasks/11d000bd-c5c4-47e3-93fc-264e89de2f81
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/37fab185-081f-4625-9e08-87d4937345e7
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+error: 
+    TYPE: GET
+    URL: /boards/c5da35e3-940f-47ff-944a-1a032d860a2b/tasks/11d000bd-c5c4-47e3-93fc-264e89de2f81
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: 
+    TYPE: DELETE
+    URL: /boards/c5da35e3-940f-47ff-944a-1a032d860a2b
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+error: 
+    TYPE: GET
+    URL: /boards/37fab185-081f-4625-9e08-87d4937345e7
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\boards\board.router.js:22:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+info: 
+    TYPE: POST
+    URL: /boards/10a0afb2-7aed-4601-b1ec-97fefec01da3/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"10a0afb2-7aed-4601-b1ec-97fefec01da3","userId":null,"columnId":null}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: POST
+    URL: /boards/10a0afb2-7aed-4601-b1ec-97fefec01da3/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"10a0afb2-7aed-4601-b1ec-97fefec01da3","userId":null,"columnId":null}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: POST
+    URL: /boards/10a0afb2-7aed-4601-b1ec-97fefec01da3/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"10a0afb2-7aed-4601-b1ec-97fefec01da3","userId":null,"columnId":null}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: POST
+    URL: /boards/10a0afb2-7aed-4601-b1ec-97fefec01da3/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"10a0afb2-7aed-4601-b1ec-97fefec01da3","userId":null,"columnId":null}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: POST
+    URL: /boards/10a0afb2-7aed-4601-b1ec-97fefec01da3/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"10a0afb2-7aed-4601-b1ec-97fefec01da3","userId":null,"columnId":null}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: GET
+    URL: /boards/10a0afb2-7aed-4601-b1ec-97fefec01da3/tasks/7367d1a1-67ea-4be0-9acb-8320709186d0
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/10a0afb2-7aed-4601-b1ec-97fefec01da3/tasks/1e1c2c36-c7b9-456d-8ebf-936010931189
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/10a0afb2-7aed-4601-b1ec-97fefec01da3/tasks/db01911a-bfd1-4370-90e0-5c9f9a2b8e36
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/10a0afb2-7aed-4601-b1ec-97fefec01da3/tasks/c055a530-61e3-4bbc-ac32-856d5afd9ef5
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/10a0afb2-7aed-4601-b1ec-97fefec01da3/tasks/5580be7e-9422-4b9e-a50c-221d0be995fd
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /boards/ed3d100c-1aee-4ca6-b40d-e23158886286/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"2d61e824-2c9d-4705-a09f-b01438a75125","boardId":"ed3d100c-1aee-4ca6-b40d-e23158886286"}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: POST
+    URL: /boards/ed3d100c-1aee-4ca6-b40d-e23158886286/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"2d61e824-2c9d-4705-a09f-b01438a75125","boardId":"ed3d100c-1aee-4ca6-b40d-e23158886286"}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: DELETE
+    URL: /users/2d61e824-2c9d-4705-a09f-b01438a75125
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/10a0afb2-7aed-4601-b1ec-97fefec01da3
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/10a0afb2-7aed-4601-b1ec-97fefec01da3/tasks/1e1c2c36-c7b9-456d-8ebf-936010931189
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/10a0afb2-7aed-4601-b1ec-97fefec01da3/tasks/db01911a-bfd1-4370-90e0-5c9f9a2b8e36
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/10a0afb2-7aed-4601-b1ec-97fefec01da3/tasks/c055a530-61e3-4bbc-ac32-856d5afd9ef5
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/10a0afb2-7aed-4601-b1ec-97fefec01da3/tasks/7367d1a1-67ea-4be0-9acb-8320709186d0
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/10a0afb2-7aed-4601-b1ec-97fefec01da3/tasks/5580be7e-9422-4b9e-a50c-221d0be995fd
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/ed3d100c-1aee-4ca6-b40d-e23158886286/tasks/a981fff6-3995-49aa-97ba-b0bb60929a94
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+error: 
+    TYPE: GET
+    URL: /boards/10a0afb2-7aed-4601-b1ec-97fefec01da3/tasks/1e1c2c36-c7b9-456d-8ebf-936010931189
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/10a0afb2-7aed-4601-b1ec-97fefec01da3/tasks/c055a530-61e3-4bbc-ac32-856d5afd9ef5
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/10a0afb2-7aed-4601-b1ec-97fefec01da3/tasks/db01911a-bfd1-4370-90e0-5c9f9a2b8e36
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/10a0afb2-7aed-4601-b1ec-97fefec01da3/tasks/7367d1a1-67ea-4be0-9acb-8320709186d0
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/10a0afb2-7aed-4601-b1ec-97fefec01da3/tasks/5580be7e-9422-4b9e-a50c-221d0be995fd
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: 
+    TYPE: GET
+    URL: /boards/ed3d100c-1aee-4ca6-b40d-e23158886286/tasks/5d3c9ace-b6cb-48df-8b6b-d796861b3c61
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /boards/fdffa881-8a87-4015-aa7d-f9f64b1476af
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/ed3d100c-1aee-4ca6-b40d-e23158886286/tasks/5d3c9ace-b6cb-48df-8b6b-d796861b3c61
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/ed3d100c-1aee-4ca6-b40d-e23158886286/tasks/a981fff6-3995-49aa-97ba-b0bb60929a94
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/ed3d100c-1aee-4ca6-b40d-e23158886286
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/12345/tasks
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/12345
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+info: 
+    TYPE: GET
+    URL: /users/123
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/12345/tasks/12345
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+info: 
+    TYPE: POST
+    URL: /boards/12345/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TYPE: PUT
+    URL: /boards/12345
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+info: 
+    TYPE: PUT
+    URL: /users/12345
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+info: 
+    TYPE: PUT
+    URL: /boards/12345/tasks/12345
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+info: 
+    TYPE: DELETE
+    URL: /boards/12345
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /users/12345
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/12345/tasks/12345
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+info: 
+    TYPE: POST
+    URL: /boards/e28e54ad-c2b3-4c82-bb8f-a8fb102702fd/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: GET
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /users/df7222ab-24d6-4ccb-a05b-78cd1ba70be2
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/e28e54ad-c2b3-4c82-bb8f-a8fb102702fd/tasks
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /users/df7222ab-24d6-4ccb-a05b-78cd1ba70be2
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/422cd24e-f5de-4efe-b04c-80669ab38daf
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/e28e54ad-c2b3-4c82-bb8f-a8fb102702fd/tasks
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: GET
+    URL: /boards/e28e54ad-c2b3-4c82-bb8f-a8fb102702fd/tasks/80ec6966-258d-44a4-b3d6-c5dbd4794330
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /users/5170fc18-26cb-414f-9bfd-9aa9c37e6c72
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/080bfc84-adc1-4273-b56a-72700cdc1bcb
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: POST
+    URL: /boards/e28e54ad-c2b3-4c82-bb8f-a8fb102702fd/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: DELETE
+    URL: /boards/e28e54ad-c2b3-4c82-bb8f-a8fb102702fd/tasks/9b875118-fe3a-43a2-8549-ffd939f75c5b
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: PUT
+    URL: /users/68d639d8-728d-4115-8102-3760a93a292b
+    QUERY PARAMS: {}
+    BODY: {"name":"Autotest updated TEST_USER","login":"test_user","id":"68d639d8-728d-4115-8102-3760a93a292b"}
+
+error: 
+  ERROR: ValidationError: "name" length must be less than or equal to 20 characters long
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" length must be less than or equal to 20 characters long
+info: 
+    TYPE: POST
+    URL: /boards/e28e54ad-c2b3-4c82-bb8f-a8fb102702fd/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: PUT
+    URL: /boards/4495f976-78c0-437d-8317-da6d98a6d213
+    QUERY PARAMS: {}
+    BODY: {"id":"4495f976-78c0-437d-8317-da6d98a6d213","title":"Autotest updated board","columns":[{"_id":"5f9df4038f965f18e0ccd0da","title":"Backlog","order":1},{"_id":"5f9df4038f965f18e0ccd0db","title":"Sprint","order":2}]}
+
+error: 
+  ERROR: ValidationError: "title" length must be less than or equal to 20 characters long
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" length must be less than or equal to 20 characters long
+info: 
+    TYPE: GET
+    URL: /users/68d639d8-728d-4115-8102-3760a93a292b
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: PUT
+    URL: /boards/e28e54ad-c2b3-4c82-bb8f-a8fb102702fd/tasks/e255be47-c50f-41e8-9b98-13b53b83cd20
+    QUERY PARAMS: {}
+    BODY: {"id":"e255be47-c50f-41e8-9b98-13b53b83cd20","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"e28e54ad-c2b3-4c82-bb8f-a8fb102702fd","columnId":null}
+
+error: 
+  ERROR: ValidationError: "title" length must be less than or equal to 20 characters long
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" length must be less than or equal to 20 characters long
+info: 
+    TYPE: GET
+    URL: /boards/4495f976-78c0-437d-8317-da6d98a6d213
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/e28e54ad-c2b3-4c82-bb8f-a8fb102702fd/tasks/e255be47-c50f-41e8-9b98-13b53b83cd20
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /users/68d639d8-728d-4115-8102-3760a93a292b
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/4495f976-78c0-437d-8317-da6d98a6d213
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/e28e54ad-c2b3-4c82-bb8f-a8fb102702fd/tasks/80ec6966-258d-44a4-b3d6-c5dbd4794330
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+info: 
+    TYPE: DELETE
+    URL: /boards/e28e54ad-c2b3-4c82-bb8f-a8fb102702fd/tasks/80ec6966-258d-44a4-b3d6-c5dbd4794330
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/408ba57f-a276-4b4a-a554-f3f1dc173609
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /users/3b9e5b36-b813-44ff-a09b-d26d524fce0c
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/e28e54ad-c2b3-4c82-bb8f-a8fb102702fd/tasks/80ec6966-258d-44a4-b3d6-c5dbd4794330
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/408ba57f-a276-4b4a-a554-f3f1dc173609
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+error: 
+    TYPE: GET
+    URL: /boards/408ba57f-a276-4b4a-a554-f3f1dc173609
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\boards\board.router.js:22:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+    TYPE: GET
+    URL: /boards/e28e54ad-c2b3-4c82-bb8f-a8fb102702fd/tasks/80ec6966-258d-44a4-b3d6-c5dbd4794330
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: 
+    TYPE: DELETE
+    URL: /boards/e28e54ad-c2b3-4c82-bb8f-a8fb102702fd
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: POST
+    URL: /boards/5a802615-9445-4210-8ee5-5ba9901db7a4/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"5a802615-9445-4210-8ee5-5ba9901db7a4","userId":null,"columnId":null}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: POST
+    URL: /boards/5a802615-9445-4210-8ee5-5ba9901db7a4/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"5a802615-9445-4210-8ee5-5ba9901db7a4","userId":null,"columnId":null}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: POST
+    URL: /boards/5a802615-9445-4210-8ee5-5ba9901db7a4/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"5a802615-9445-4210-8ee5-5ba9901db7a4","userId":null,"columnId":null}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: POST
+    URL: /boards/5a802615-9445-4210-8ee5-5ba9901db7a4/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"5a802615-9445-4210-8ee5-5ba9901db7a4","userId":null,"columnId":null}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: POST
+    URL: /boards/5a802615-9445-4210-8ee5-5ba9901db7a4/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"5a802615-9445-4210-8ee5-5ba9901db7a4","userId":null,"columnId":null}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: POST
+    URL: /boards/f117373e-238a-46fe-91b6-6d51ac02bd18/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"b19ae106-9e84-4117-b4f0-c29ab36ca426","boardId":"f117373e-238a-46fe-91b6-6d51ac02bd18"}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: POST
+    URL: /boards/f117373e-238a-46fe-91b6-6d51ac02bd18/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"b19ae106-9e84-4117-b4f0-c29ab36ca426","boardId":"f117373e-238a-46fe-91b6-6d51ac02bd18"}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: GET
+    URL: /boards/5a802615-9445-4210-8ee5-5ba9901db7a4/tasks/3287d4ed-bd4d-447a-bbe6-cb87ebbeada4
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/5a802615-9445-4210-8ee5-5ba9901db7a4/tasks/a0ca5ce3-e5ba-452e-aa38-dbc3698668fd
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/5a802615-9445-4210-8ee5-5ba9901db7a4/tasks/35f6d2f5-a240-409e-8e27-7645b3c672f0
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/5a802615-9445-4210-8ee5-5ba9901db7a4/tasks/2dd3db4d-2805-41e2-9c54-56242a3737d5
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/5a802615-9445-4210-8ee5-5ba9901db7a4/tasks/02c01729-a66f-404a-8d34-0d1996b96dbc
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /users/b19ae106-9e84-4117-b4f0-c29ab36ca426
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/5a802615-9445-4210-8ee5-5ba9901db7a4
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/f117373e-238a-46fe-91b6-6d51ac02bd18/tasks/4de42bbc-b246-41bb-9e8a-6cf778b4d2f6
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/5a802615-9445-4210-8ee5-5ba9901db7a4/tasks/3287d4ed-bd4d-447a-bbe6-cb87ebbeada4
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/5a802615-9445-4210-8ee5-5ba9901db7a4/tasks/a0ca5ce3-e5ba-452e-aa38-dbc3698668fd
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/5a802615-9445-4210-8ee5-5ba9901db7a4/tasks/35f6d2f5-a240-409e-8e27-7645b3c672f0
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/5a802615-9445-4210-8ee5-5ba9901db7a4/tasks/2dd3db4d-2805-41e2-9c54-56242a3737d5
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/5a802615-9445-4210-8ee5-5ba9901db7a4/tasks/02c01729-a66f-404a-8d34-0d1996b96dbc
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/f117373e-238a-46fe-91b6-6d51ac02bd18/tasks/55c8a858-9ed9-4046-8e36-423b9dc71be2
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+error: 
+    TYPE: GET
+    URL: /boards/5a802615-9445-4210-8ee5-5ba9901db7a4/tasks/3287d4ed-bd4d-447a-bbe6-cb87ebbeada4
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/5a802615-9445-4210-8ee5-5ba9901db7a4/tasks/a0ca5ce3-e5ba-452e-aa38-dbc3698668fd
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/5a802615-9445-4210-8ee5-5ba9901db7a4/tasks/2dd3db4d-2805-41e2-9c54-56242a3737d5
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/5a802615-9445-4210-8ee5-5ba9901db7a4/tasks/02c01729-a66f-404a-8d34-0d1996b96dbc
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/5a802615-9445-4210-8ee5-5ba9901db7a4/tasks/35f6d2f5-a240-409e-8e27-7645b3c672f0
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: 
+    TYPE: DELETE
+    URL: /boards/987f3658-094d-4c80-9a75-0fa1b9a8d5c8
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/f117373e-238a-46fe-91b6-6d51ac02bd18/tasks/4de42bbc-b246-41bb-9e8a-6cf778b4d2f6
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/f117373e-238a-46fe-91b6-6d51ac02bd18/tasks/55c8a858-9ed9-4046-8e36-423b9dc71be2
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/f117373e-238a-46fe-91b6-6d51ac02bd18
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+

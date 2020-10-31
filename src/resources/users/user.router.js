@@ -2,6 +2,8 @@ const router = require('express').Router();
 const User = require('./user.model');
 const usersService = require('./user.service');
 const { schemaId, schemaUser } = require('./user.validation');
+const bcrypt = require('bcrypt');
+const saltRounds = 10;
 
 router.route('/').get(async (req, res, next) => {
   try {
@@ -29,8 +31,11 @@ router.route('/:id').get(async (req, res, next) => {
 
 router.route('/').post(async (req, res, next) => {
   try {
-    const item = new User({ ...req.body });
-    schemaUser.validateAsync(item);
+    schemaUser.validateAsync(req.body);
+    // eslint-disable-next-line no-sync
+    const hash = bcrypt.hashSync(req.body.password, saltRounds);
+    const item = new User({ ...req.body, password: hash });
+
     const user = await usersService.create(item);
     res.json(User.toResponse(user));
   } catch (err) {

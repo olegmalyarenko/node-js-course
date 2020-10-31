@@ -21,4 +21,20 @@ const remove = (taskId, boardId) => {
   return tasksDBRepo.remove(taskId, boardId);
 };
 
-module.exports = { getAll, get, create, update, remove };
+const removeUsers = id => {
+  return tasksDBRepo.removeUsers(id);
+};
+
+const removeTasks = id => {
+  return tasksDBRepo.removeTasks(id);
+};
+
+module.exports = {
+  getAll,
+  get,
+  create,
+  update,
+  remove,
+  removeUsers,
+  removeTasks
+};

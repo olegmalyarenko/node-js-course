@@ -21,4 +21,20 @@ const remove = async (taskId, boardId) => {
   return 'Task has been successfully deleted';
 };
 
-module.exports = { getAll, get, create, update, remove };
+const removeUsers = async id => {
+  return await Task.updateMany({ userId: id }, { $set: { userId: null } });
+};
+
+const removeTasks = async id => {
+  return await Task.deleteMany({ boardId: id });
+};
+
+module.exports = {
+  getAll,
+  get,
+  create,
+  update,
+  remove,
+  removeUsers,
+  removeTasks
+};

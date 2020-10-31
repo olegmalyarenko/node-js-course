@@ -1,5 +1,5 @@
 const User = require('./user.model.js');
-const Task = require('../tasks/task.model.js');
+const tasksService = require('../tasks/task.service.js');
 
 const getAll = async () => {
   return await User.find({});
@@ -19,8 +19,8 @@ const update = async item => {
 };
 
 const remove = async id => {
-  await Task.updateMany({ userId: id }, { $set: { userId: null } });
   await User.findByIdAndDelete(id);
+  await tasksService.removeUsers(id);
 
   return 'User has been successfully deleted';
 };

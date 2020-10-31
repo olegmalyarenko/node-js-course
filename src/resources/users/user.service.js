@@ -1,4 +1,3 @@
-// const usersRepo = require('./user.memory.repository');
 const usersDBRepo = require('./user.db.repository.js');
 
 const getAll = () => {

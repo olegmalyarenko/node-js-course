@@ -10,7 +10,7 @@ const check = async (login, password) => {
     if (result) {
       const token = jwt.sign(
         { login: user.login, userId: user.id },
-        'verySecretValue',
+        process.env.JWT_SECRET_KEY,
         { expiresIn: '1h' }
       );
       return token;

@@ -2637,3 +2637,522 @@ error:
     at runNextTicks (internal/process/task_queues.js:62:3)
     at processImmediate (internal/timers.js:431:9)
     
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" length must be less than or equal to 20 characters long
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" length must be less than or equal to 20 characters long
+error: 
+  ERROR: ValidationError: "title" length must be less than or equal to 20 characters long
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" length must be less than or equal to 20 characters long
+error: 
+  ERROR: ValidationError: "name" length must be less than or equal to 20 characters long
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" length must be less than or equal to 20 characters long
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+    TYPE: GET
+    URL: /boards/9d2fdea8-a7ad-4732-bc21-6a89d18cd018/tasks/6bf379b9-f435-4b82-93ca-239240677ebb
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+    TYPE: GET
+    URL: /boards/29350352-202e-447f-894f-8dbbd8ec01b2
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\boards\board.router.js:22:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+    TYPE: GET
+    URL: /boards/0e12cb20-1bf5-41c5-8a0c-74b538a1debc/tasks/ebeb3238-24c1-45da-aa94-39b33bec6a71
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/0e12cb20-1bf5-41c5-8a0c-74b538a1debc/tasks/d4e3e38d-41bf-497d-b8d2-bd2a928b88cc
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/0e12cb20-1bf5-41c5-8a0c-74b538a1debc/tasks/5585ad98-a791-4232-82e9-218ccba8737b
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/0e12cb20-1bf5-41c5-8a0c-74b538a1debc/tasks/fa440c6e-c7da-418a-8ab6-b624bbd37544
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/0e12cb20-1bf5-41c5-8a0c-74b538a1debc/tasks/03d56602-be6d-4210-8565-66aa0af5baa8
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" length must be less than or equal to 20 characters long
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" length must be less than or equal to 20 characters long
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" length must be less than or equal to 20 characters long
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" length must be less than or equal to 20 characters long
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" length must be less than or equal to 20 characters long
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" length must be less than or equal to 20 characters long
+error: 
+    TYPE: GET
+    URL: /boards/4fb490f5-8b79-467f-9e2b-2ca00b1d9906/tasks/64bd1bc6-9873-40e4-8ebf-980558b99241
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+    TYPE: GET
+    URL: /boards/4c495e39-0d86-40e1-91a1-ba276fb5161e
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\boards\board.router.js:22:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+    TYPE: GET
+    URL: /boards/a7898602-2c51-48d0-a1d6-c5f6900fcc55/tasks/7e8d9ebf-6e1c-45cc-b8ff-ddd23bfb44ef
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/a7898602-2c51-48d0-a1d6-c5f6900fcc55/tasks/71f285c9-ed51-4edf-b15f-e70abe0ca25d
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/a7898602-2c51-48d0-a1d6-c5f6900fcc55/tasks/b76ee301-fb49-4290-86f1-4a5a2861eb5d
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/a7898602-2c51-48d0-a1d6-c5f6900fcc55/tasks/48bab030-f4ff-4aec-82e6-391ab686b453
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/a7898602-2c51-48d0-a1d6-c5f6900fcc55/tasks/9007afc4-769a-4c2c-b901-dcb0a179c3b3
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "name" length must be less than or equal to 20 characters long
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" length must be less than or equal to 20 characters long
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" length must be less than or equal to 20 characters long
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" length must be less than or equal to 20 characters long
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+    TYPE: GET
+    URL: /boards/73d4f97a-b1a6-4b3e-a364-ba0715b7ffb5/tasks/2ee071fa-89f0-45dc-95f7-f8c0da60aac4
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" length must be less than or equal to 20 characters long
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" length must be less than or equal to 20 characters long
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+    TYPE: GET
+    URL: /boards/96799910-4bdc-4792-9b5b-2e56ad6c004e
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\boards\board.router.js:22:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+    TYPE: GET
+    URL: /boards/4a9d4967-0e4e-4536-814d-154eb3e24ba8/tasks/dbd0dbde-95bd-4b53-b4a8-8c0ae9ee04c5
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/4a9d4967-0e4e-4536-814d-154eb3e24ba8/tasks/f3ee8257-8ad9-4703-9cce-9b81115d585f
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/4a9d4967-0e4e-4536-814d-154eb3e24ba8/tasks/6ad643f3-8ec6-4692-bd27-e9f115222ee5
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/4a9d4967-0e4e-4536-814d-154eb3e24ba8/tasks/3db65bf6-7478-450d-93c6-8081a7de3c28
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/4a9d4967-0e4e-4536-814d-154eb3e24ba8/tasks/5343708e-69b9-46bc-b9cf-847c78a4a7d1
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    

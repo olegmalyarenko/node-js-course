@@ -5,9 +5,11 @@ const { winstonLogger } = require('./logger.js');
 const User = require('../resources/users/user.model.js');
 const Board = require('../resources/boards/board.model.js');
 const Task = require('../resources/tasks/task.model.js');
+const bcrypt = require('bcrypt');
+const saltRounds = 10;
 
 const users = [
-  new User({ name: 'admin', login: 'user', password: 'admin' }),
+  new User({ name: 'user', login: 'admin', password: 'admin' }),
   new User({ name: 'user2', login: 'user', password: 'P@55w0rd' }),
   new User({ name: 'user3', login: 'user', password: 'P@55w0rd' })
 ];
@@ -62,6 +64,14 @@ const tasksId = () => {
   }
 };
 
+const hashPass = () => {
+  users.forEach(user => {
+    // eslint-disable-next-line no-sync
+    const hash = bcrypt.hashSync(user.password, saltRounds);
+    return (user.password = hash);
+  });
+};
+
 const connectToDB = cb => {
   mongoose.connect(MONGO_CONNECTION_STRING, {
     useNewUrlParser: true,
@@ -78,6 +88,7 @@ const connectToDB = cb => {
     users.forEach(user => user.save());
     boards.forEach(board => board.save());
     tasksId();
+    hashPass();
     tasks.forEach(task => task.save());
     cb();
   });

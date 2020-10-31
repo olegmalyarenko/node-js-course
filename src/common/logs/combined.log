@@ -4782,3 +4782,2095 @@ info:
     QUERY PARAMS: {}
     BODY: no body for DELETE
 
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin"}
+    ERROR STATUS: 500
+    ERROR MESSAGE: loginService.check is not a function
+    ERROR DETAILS:
+    TypeError: loginService.check is not a function
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:9:25
+    at Layer.handle [as handle_request] (D:\Program Files\task4 clone\node-js-course\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Program Files\task4 clone\node-js-course\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\Program Files\task4 clone\node-js-course\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\Program Files\task4 clone\node-js-course\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Program Files\task4 clone\node-js-course\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\Program Files\task4 clone\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Program Files\task4 clone\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\Program Files\task4 clone\node-js-course\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\Program Files\task4 clone\node-js-course\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Program Files\task4 clone\node-js-course\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Program Files\task4 clone\node-js-course\node_modules\express\lib\router\index.js:317:13)
+    at D:\Program Files\task4 clone\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Program Files\task4 clone\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Program Files\task4 clone\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at logRequest (D:\Program Files\task4 clone\node-js-course\src\common\logger.js:54:3)
+    
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin"}
+    ERROR STATUS: 500
+    ERROR MESSAGE: loginService.check is not a function
+    ERROR DETAILS:
+    TypeError: loginService.check is not a function
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:9:25
+    at Layer.handle [as handle_request] (D:\Program Files\task4 clone\node-js-course\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Program Files\task4 clone\node-js-course\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\Program Files\task4 clone\node-js-course\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\Program Files\task4 clone\node-js-course\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Program Files\task4 clone\node-js-course\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\Program Files\task4 clone\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Program Files\task4 clone\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\Program Files\task4 clone\node-js-course\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\Program Files\task4 clone\node-js-course\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Program Files\task4 clone\node-js-course\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Program Files\task4 clone\node-js-course\node_modules\express\lib\router\index.js:317:13)
+    at D:\Program Files\task4 clone\node-js-course\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\Program Files\task4 clone\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Program Files\task4 clone\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at logRequest (D:\Program Files\task4 clone\node-js-course\src\common\logger.js:54:3)
+    
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin1"}
+
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"adewdwed"}
+
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"string"}
+
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"string"}
+
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"string"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"string","password":"string"}
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:12:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"string"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"string","password":"string"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:12:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:12:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:12:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:14:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+  ERROR: Error: 403
+  ERROR PROMISE REJECTION DETAILS: Error: 403
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.service.js:22:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+  ERROR: Error: Incorrect login
+  ERROR PROMISE REJECTION DETAILS: Error: Incorrect login
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.service.js:23:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"string"}
+
+error: 
+  ERROR: TypeError: Cannot read property 'password' of null
+  ERROR PROMISE REJECTION DETAILS: TypeError: Cannot read property 'password' of null
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.service.js:9:39
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"string"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"string","password":"string"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:13:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    
+error: 
+  ERROR: TypeError: Cannot read property 'password' of null
+  ERROR PROMISE REJECTION DETAILS: TypeError: Cannot read property 'password' of null
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.service.js:9:39
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"string"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:13:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    
+error: 
+  ERROR: TypeError: Cannot read property 'password' of null
+  ERROR PROMISE REJECTION DETAILS: TypeError: Cannot read property 'password' of null
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.service.js:9:39
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:13:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    
+error: 
+  ERROR: TypeError: Cannot read property 'password' of null
+  ERROR PROMISE REJECTION DETAILS: TypeError: Cannot read property 'password' of null
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.service.js:9:39
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:13:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    
+error: 
+  ERROR: TypeError: Cannot read property 'password' of null
+  ERROR PROMISE REJECTION DETAILS: TypeError: Cannot read property 'password' of null
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.service.js:9:39
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:13:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    
+error: 
+  ERROR: TypeError: Cannot read property 'password' of null
+  ERROR PROMISE REJECTION DETAILS: TypeError: Cannot read property 'password' of null
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.service.js:9:39
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:13:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:13:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    
+error: 
+  ERROR: TypeError: Cannot read property 'password' of null
+  ERROR PROMISE REJECTION DETAILS: TypeError: Cannot read property 'password' of null
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.service.js:9:39
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:13:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    
+error: 
+  ERROR: TypeError: Cannot read property 'password' of null
+  ERROR PROMISE REJECTION DETAILS: TypeError: Cannot read property 'password' of null
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.service.js:9:39
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+error: 
+  ERROR: TypeError: Cannot read property 'password' of null
+  ERROR PROMISE REJECTION DETAILS: TypeError: Cannot read property 'password' of null
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.service.js:9:39
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:13:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"string"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"string","password":"string"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:13:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"string"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:13:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:13:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:13:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:13:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:13:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:13:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:13:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:14:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:17:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:17:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:17:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:17:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:16:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:16:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:16:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:16:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:16:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:16:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:16:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:16:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:16:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:16:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:16:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin"}
+    ERROR STATUS: 500
+    ERROR MESSAGE: data and hash arguments required
+    ERROR DETAILS:
+    Error: data and hash arguments required
+    at Object.compare (D:\Program Files\task4 clone\node-js-course\node_modules\bcrypt\bcrypt.js:208:17)
+    at D:\Program Files\task4 clone\node-js-course\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (D:\Program Files\task4 clone\node-js-course\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (D:\Program Files\task4 clone\node-js-course\node_modules\bcrypt\bcrypt.js:204:25)
+    at Object.check (D:\Program Files\task4 clone\node-js-course\src\resources\login\login.db.repository.js:9:32)
+    at Object.check (D:\Program Files\task4 clone\node-js-course\src\resources\login\login.service.js:3:24)
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:11:40
+    at Layer.handle [as handle_request] (D:\Program Files\task4 clone\node-js-course\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Program Files\task4 clone\node-js-course\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\Program Files\task4 clone\node-js-course\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\Program Files\task4 clone\node-js-course\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Program Files\task4 clone\node-js-course\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\Program Files\task4 clone\node-js-course\node_modules\express\lib\router\index.js:335:12)
+    at next (D:\Program Files\task4 clone\node-js-course\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\Program Files\task4 clone\node-js-course\node_modules\express\lib\router\index.js:174:3)
+    
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:16:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: we're connected!
+info: App is running on http://localhost:4000
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:16:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin"}
+    ERROR STATUS: 403
+    ERROR MESSAGE: Incorrect login or password
+    ERROR DETAILS:
+    Error: Incorrect login or password
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:16:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin2"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin2","password":"admin"}
+    ERROR STATUS: 500
+    ERROR MESSAGE: Cannot read property 'password' of null
+    ERROR DETAILS:
+    TypeError: Cannot read property 'password' of null
+    at Object.check (D:\Program Files\task4 clone\node-js-course\src\resources\login\login.db.repository.js:9:55)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    at async D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:11:21
+    
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admi22n"}
+    ERROR STATUS: 500
+    ERROR MESSAGE: err is not defined
+    ERROR DETAILS:
+    ReferenceError: err is not defined
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.db.repository.js:15:17
+    at async D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:11:21
+    
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admi22n"}
+    ERROR STATUS: 500
+    ERROR MESSAGE: err is not defined
+    ERROR DETAILS:
+    ReferenceError: err is not defined
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.db.repository.js:15:17
+    at async D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:11:21
+    
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin22"}
+    ERROR STATUS: 500
+    ERROR MESSAGE: DB error
+    ERROR DETAILS:
+    Error: DB error
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.db.repository.js:15:23
+    at async D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:11:21
+    
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin22"}
+    ERROR STATUS: 500
+    ERROR MESSAGE: res.status(...).message is not a function
+    ERROR DETAILS:
+    TypeError: res.status(...).message is not a function
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:18:25
+    
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+error: 
+    TYPE: POST
+    URL: /login
+    BODY: {"login":"admin","password":"admin22"}
+    ERROR STATUS: 500
+    ERROR MESSAGE: err is not defined
+    ERROR DETAILS:
+    ReferenceError: err is not defined
+    at D:\Program Files\task4 clone\node-js-course\src\resources\login\login.router.js:18:30
+    
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+info: we're connected!
+info: App is running on http://localhost:4000
+info: 
+    TYPE: GET
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/12345/tasks
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+info: 
+    TYPE: POST
+    URL: /login
+    QUERY PARAMS: {}
+    BODY: {"login":"admin"}
+
+info: 
+    TYPE: GET
+    URL: /boards/12345/tasks/12345
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/12345
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /users/123
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+error: 
+    TYPE: GET
+    URL: /boards/12345
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\boards\board.router.js:22:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/12345/tasks/12345
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: POST
+    URL: /boards/12345/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: POST
+    URL: /boards/243470cc-868c-4f32-8e44-35e63e8a6d05/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: GET
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: PUT
+    URL: /boards/12345
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: PUT
+    URL: /boards/12345/tasks/12345
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: GET
+    URL: /boards/243470cc-868c-4f32-8e44-35e63e8a6d05/tasks
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+error: 
+    TYPE: PUT
+    URL: /boards/12345
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+    ERROR STATUS: 500
+    ERROR MESSAGE: Cannot destructure property 'id' of 'board' as it is null.
+    ERROR DETAILS:
+    TypeError: Cannot destructure property 'id' of 'board' as it is null.
+    at Function.boardsSchema.statics.toResponse (D:\Program Files\task4 clone\node-js-course\src\resources\boards\board.model.js:23:11)
+    at D:\Program Files\task4 clone\node-js-course\src\resources\boards\board.router.js:51:39
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    
+error: 
+    TYPE: GET
+    URL: /users/123
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\users\user.router.js:23:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: 
+    TYPE: DELETE
+    URL: /boards/12345
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+    TYPE: PUT
+    URL: /boards/12345/tasks/12345
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\tasks\task.router.js:67:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    
+info: 
+    TYPE: GET
+    URL: /boards/243470cc-868c-4f32-8e44-35e63e8a6d05/tasks
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /boards/12345/tasks/12345
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+info: 
+    TYPE: GET
+    URL: /boards/cd245ec5-1419-4692-b342-53de60ce5b3d
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: PUT
+    URL: /users/12345
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+info: 
+    TYPE: GET
+    URL: /users/f33d7979-595e-42da-a114-a507e6308645
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/243470cc-868c-4f32-8e44-35e63e8a6d05/tasks/0bab0a36-c27e-45f3-93a8-4c585e0aab21
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+error: 
+    TYPE: PUT
+    URL: /users/12345
+    BODY: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\users\user.router.js:58:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    
+info: 
+    TYPE: DELETE
+    URL: /users/12345
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: POST
+    URL: /boards/243470cc-868c-4f32-8e44-35e63e8a6d05/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: DELETE
+    URL: /users/f33d7979-595e-42da-a114-a507e6308645
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/1f78d251-260b-4322-b0d1-9d29a93ce5af
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/243470cc-868c-4f32-8e44-35e63e8a6d05/tasks/d24a6238-9502-4813-a57b-5ac4aa479f76
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+info: 
+    TYPE: POST
+    URL: /boards/243470cc-868c-4f32-8e44-35e63e8a6d05/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: PUT
+    URL: /boards/243470cc-868c-4f32-8e44-35e63e8a6d05/tasks/cb16c6ae-f838-477c-af03-225e1be77b6e
+    QUERY PARAMS: {}
+    BODY: {"id":"cb16c6ae-f838-477c-af03-225e1be77b6e","title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"243470cc-868c-4f32-8e44-35e63e8a6d05","columnId":null}
+
+error: 
+  ERROR: ValidationError: "title" length must be less than or equal to 20 characters long
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" length must be less than or equal to 20 characters long
+info: 
+    TYPE: DELETE
+    URL: /users/9465d904-417c-41bb-851b-559502115831
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: PUT
+    URL: /boards/d93a5026-cca0-42e5-9561-0d22baf410e3
+    QUERY PARAMS: {}
+    BODY: {"id":"d93a5026-cca0-42e5-9561-0d22baf410e3","title":"Autotest updated board","columns":[{"_id":"5f9d877441c4c61f3cb1c760","title":"Backlog","order":1},{"_id":"5f9d877441c4c61f3cb1c761","title":"Sprint","order":2}]}
+
+error: 
+  ERROR: ValidationError: "title" length must be less than or equal to 20 characters long
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" length must be less than or equal to 20 characters long
+info: 
+    TYPE: GET
+    URL: /boards/243470cc-868c-4f32-8e44-35e63e8a6d05/tasks/cb16c6ae-f838-477c-af03-225e1be77b6e
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/d93a5026-cca0-42e5-9561-0d22baf410e3
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/243470cc-868c-4f32-8e44-35e63e8a6d05/tasks/0bab0a36-c27e-45f3-93a8-4c585e0aab21
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /boards/d93a5026-cca0-42e5-9561-0d22baf410e3
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/243470cc-868c-4f32-8e44-35e63e8a6d05/tasks/0bab0a36-c27e-45f3-93a8-4c585e0aab21
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/243470cc-868c-4f32-8e44-35e63e8a6d05/tasks/0bab0a36-c27e-45f3-93a8-4c585e0aab21
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+error: 
+    TYPE: GET
+    URL: /boards/243470cc-868c-4f32-8e44-35e63e8a6d05/tasks/0bab0a36-c27e-45f3-93a8-4c585e0aab21
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\tasks\task.router.js:28:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: DELETE
+    URL: /boards/243470cc-868c-4f32-8e44-35e63e8a6d05
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: PUT
+    URL: /users/b5c143d3-4365-42f0-a33b-809173654ddf
+    QUERY PARAMS: {}
+    BODY: {"name":"Autotest updated TEST_USER","login":"test_user","id":"b5c143d3-4365-42f0-a33b-809173654ddf"}
+
+error: 
+  ERROR: ValidationError: "name" length must be less than or equal to 20 characters long
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" length must be less than or equal to 20 characters long
+info: 
+    TYPE: DELETE
+    URL: /boards/4d93a120-c551-4a58-864e-dd3b381cf4c8
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/4d93a120-c551-4a58-864e-dd3b381cf4c8
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+error: 
+    TYPE: GET
+    URL: /boards/4d93a120-c551-4a58-864e-dd3b381cf4c8
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\boards\board.router.js:22:19
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: GET
+    URL: /users/b5c143d3-4365-42f0-a33b-809173654ddf
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /users/b5c143d3-4365-42f0-a33b-809173654ddf
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: POST
+    URL: /boards/75ed026b-468b-4f89-b327-1db58d280b16/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"75ed026b-468b-4f89-b327-1db58d280b16","userId":null,"columnId":null}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: POST
+    URL: /boards/75ed026b-468b-4f89-b327-1db58d280b16/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"75ed026b-468b-4f89-b327-1db58d280b16","userId":null,"columnId":null}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: POST
+    URL: /boards/75ed026b-468b-4f89-b327-1db58d280b16/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"75ed026b-468b-4f89-b327-1db58d280b16","userId":null,"columnId":null}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: POST
+    URL: /boards/75ed026b-468b-4f89-b327-1db58d280b16/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"75ed026b-468b-4f89-b327-1db58d280b16","userId":null,"columnId":null}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: POST
+    URL: /boards/75ed026b-468b-4f89-b327-1db58d280b16/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"75ed026b-468b-4f89-b327-1db58d280b16","userId":null,"columnId":null}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: GET
+    URL: /boards/75ed026b-468b-4f89-b327-1db58d280b16/tasks/24d1f498-d172-4964-b7dd-983fa3a93281
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/75ed026b-468b-4f89-b327-1db58d280b16/tasks/c623e203-fa9a-4b6d-9a05-597fff08a2da
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/75ed026b-468b-4f89-b327-1db58d280b16/tasks/00db7c22-79bf-492b-a668-cc3d95ac217c
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/75ed026b-468b-4f89-b327-1db58d280b16/tasks/f7c801f1-be00-4e8d-9882-b0e156e5cd08
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/75ed026b-468b-4f89-b327-1db58d280b16/tasks/85c4696d-7f89-4a95-8cfb-61653f600873
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+info: 
+    TYPE: DELETE
+    URL: /users/4bd5c0b9-1818-4fb0-8e2e-004dd0f200d2
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: POST
+    URL: /users
+    QUERY PARAMS: {}
+    BODY: {"name":"TEST_USER","login":"test_user"}
+
+error: 
+  ERROR: ValidationError: "name" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "name" must only contain alpha-numeric characters
+info: 
+    TYPE: DELETE
+    URL: /boards/75ed026b-468b-4f89-b327-1db58d280b16
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: POST
+    URL: /boards
+    QUERY PARAMS: {}
+    BODY: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: POST
+    URL: /boards/3fd4cede-f1eb-4b92-a356-af86f3912300/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"0be55502-bb12-4a4b-96c1-c785e04fa5d7","boardId":"3fd4cede-f1eb-4b92-a356-af86f3912300"}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: POST
+    URL: /boards/3fd4cede-f1eb-4b92-a356-af86f3912300/tasks
+    QUERY PARAMS: {}
+    BODY: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"0be55502-bb12-4a4b-96c1-c785e04fa5d7","boardId":"3fd4cede-f1eb-4b92-a356-af86f3912300"}
+
+error: 
+  ERROR: ValidationError: "title" must only contain alpha-numeric characters
+  ERROR PROMISE REJECTION DETAILS: ValidationError: "title" must only contain alpha-numeric characters
+info: 
+    TYPE: DELETE
+    URL: /users/0be55502-bb12-4a4b-96c1-c785e04fa5d7
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/75ed026b-468b-4f89-b327-1db58d280b16/tasks/24d1f498-d172-4964-b7dd-983fa3a93281
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/75ed026b-468b-4f89-b327-1db58d280b16/tasks/c623e203-fa9a-4b6d-9a05-597fff08a2da
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/75ed026b-468b-4f89-b327-1db58d280b16/tasks/00db7c22-79bf-492b-a668-cc3d95ac217c
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/75ed026b-468b-4f89-b327-1db58d280b16/tasks/f7c801f1-be00-4e8d-9882-b0e156e5cd08
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/75ed026b-468b-4f89-b327-1db58d280b16/tasks/85c4696d-7f89-4a95-8cfb-61653f600873
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+error: 
+    TYPE: GET
+    URL: /boards/75ed026b-468b-4f89-b327-1db58d280b16/tasks/24d1f498-d172-4964-b7dd-983fa3a93281
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/75ed026b-468b-4f89-b327-1db58d280b16/tasks/85c4696d-7f89-4a95-8cfb-61653f600873
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/75ed026b-468b-4f89-b327-1db58d280b16/tasks/f7c801f1-be00-4e8d-9882-b0e156e5cd08
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/75ed026b-468b-4f89-b327-1db58d280b16/tasks/c623e203-fa9a-4b6d-9a05-597fff08a2da
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+error: 
+    TYPE: GET
+    URL: /boards/75ed026b-468b-4f89-b327-1db58d280b16/tasks/00db7c22-79bf-492b-a668-cc3d95ac217c
+    BODY: no body for GET
+    ERROR STATUS: 404
+    ERROR MESSAGE: Not Found
+    ERROR DETAILS:
+    Error: Not Found
+    at D:\Program Files\task4 clone\node-js-course\src\resources\tasks\task.router.js:28:19
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at runNextTicks (internal/process/task_queues.js:62:3)
+    at processImmediate (internal/timers.js:431:9)
+    
+info: 
+    TYPE: DELETE
+    URL: /boards/e048b6d6-1c71-4ab9-9a6f-c665e47a048f
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: GET
+    URL: /boards/3fd4cede-f1eb-4b92-a356-af86f3912300/tasks/0aaf7bec-a89a-472a-93d8-203548875466
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: GET
+    URL: /boards/3fd4cede-f1eb-4b92-a356-af86f3912300/tasks/cd286966-02bf-46fa-93f5-ee00eb6e9591
+    QUERY PARAMS: {}
+    BODY: no body for GET
+
+info: 
+    TYPE: DELETE
+    URL: /boards/3fd4cede-f1eb-4b92-a356-af86f3912300/tasks/0aaf7bec-a89a-472a-93d8-203548875466
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/3fd4cede-f1eb-4b92-a356-af86f3912300/tasks/cd286966-02bf-46fa-93f5-ee00eb6e9591
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+
+info: 
+    TYPE: DELETE
+    URL: /boards/3fd4cede-f1eb-4b92-a356-af86f3912300
+    QUERY PARAMS: {}
+    BODY: no body for DELETE
+

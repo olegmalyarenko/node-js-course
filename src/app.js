@@ -5,6 +5,7 @@ const YAML = require('yamljs');
 const userRouter = require('./resources/users/user.router.js');
 const boardRouter = require('./resources/boards/board.router.js');
 const taskRouter = require('./resources/tasks/task.router.js');
+const loginRouter = require('./resources/login/login.router.js');
 const app = express();
 const swaggerDocument = YAML.load(path.join(__dirname, '../doc/api.yaml'));
 const helmet = require('helmet');
@@ -27,7 +28,7 @@ app.use('/doc', swaggerUI.serve, swaggerUI.setup(swaggerDocument));
 
 app.use(logRequest);
 
-// app.use('/login', loginRouter);
+app.use('/login', loginRouter);
 // app.use(checkAuth);
 
 app.use('/users', userRouter);
